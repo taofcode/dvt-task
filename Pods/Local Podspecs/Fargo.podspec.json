@@ -1,0 +1,26 @@
+{
+  "name": "Fargo",
+  "version": "1.0.0",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "summary": "Extra easy, clean & fast JSON deserializing library written in Swift",
+  "homepage": "https://github.com/ivasic/Fargo",
+  "social_media_url": "http://twitter.com/ivasic",
+  "authors": {
+    "Ivan Vasic": null
+  },
+  "source": {
+    "git": "https://github.com/ivasic/Fargo.git",
+    "tag": "v1.0.0"
+  },
+  "platforms": {
+    "ios": "8.0",
+    "osx": "10.9",
+    "tvos": "9.0",
+    "watchos": "2.0"
+  },
+  "source_files": "Fargo/**/*.swift",
+  "requires_arc": true
+}
