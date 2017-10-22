@@ -1,0 +1,29 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Decodable"
+provides-nominal:
+- "P5Fargo9Decodable"
+provides-member:
+- ["P5Fargo9Decodable", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Decodable"
+- "JSON"
+depends-member:
+- ["P5Fargo9Decodable", "JSON"]
+- ["P5Fargo9Decodable", "decode"]
+depends-nominal:
+- "P5Fargo9Decodable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/shelton/Desktop/WeatherApplication/Pods/Target Support Files/Fargo/Fargo-umbrella.h"
+- "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Intermediates/Pods.build/Debug-iphoneos/Fargo.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+interface-hash: "8b5b4dbce376a0d11cdd3f6cce88e48c"

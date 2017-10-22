@@ -1,0 +1,328 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["C9Alamofire7Request", ""]
+- ["C9Alamofire7Request", "APIJSONResponseSerializer"]
+- ["C9Alamofire7Request", "responseAPIJSON"]
+provides-dynamic-lookup:
+depends-top-level:
+- "Void"
+- !private "??"
+- !private "!="
+- "ResponseSerializer"
+- !private "JSON"
+- "NSError"
+- !private "Int"
+- !private "=="
+- "AnyObject"
+- !private "String"
+- "Dictionary"
+- !private "ErrorResponse"
+- "Request"
+- "Response"
+- !private "Networking"
+- !private "NSLocalizedDescriptionKey"
+depends-member:
+- !private ["Ps9AnyObject", "APIJSONResponseSerializer"]
+- !private ["Ps9AnyObject", "Int"]
+- !private ["Ps9AnyObject", "JSON"]
+- !private ["Ps9AnyObject", "JSONResponseSerializer"]
+- !private ["Ps9AnyObject", "NSError"]
+- !private ["Ps9AnyObject", "NSLocalizedDescriptionKey"]
+- !private ["Ps9AnyObject", "Networking"]
+- !private ["Ps9AnyObject", "Request"]
+- !private ["Ps9AnyObject", "ResponseSerializer"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "response"]
+- !private ["Ps9AnyObject", "statusCode"]
+- !private ["Ps22BidirectionalIndexType", "init"]
+- !private ["Ps21BitwiseOperationsType", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "statusCode"]
+- !private ["OVV18WeatherApplication10Networking5Error4Code", "GeneralError"]
+- !private ["OVV18WeatherApplication10Networking5Error4Code", "ParsingError"]
+- !private ["OVV18WeatherApplication10Networking5Error4Code", "Unauthorized"]
+- !private ["OVV18WeatherApplication10Networking5Error4Code", "deinit"]
+- !private ["OVV18WeatherApplication10Networking5Error4Code", "rawValue"]
+- !private ["Ps14CollectionType", "Generator"]
+- !private ["Ps14CollectionType", "Index"]
+- !private ["Ps14CollectionType", "Key"]
+- !private ["Ps14CollectionType", "SubSequence"]
+- !private ["Ps14CollectionType", "Value"]
+- !private ["Ps14CollectionType", "_Element"]
+- !private ["Ps14CollectionType", "subscript"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "APIJSONResponseSerializer"]
+- !private ["Ps28CustomDebugStringConvertible", "Failure"]
+- !private ["Ps28CustomDebugStringConvertible", "Index"]
+- !private ["Ps28CustomDebugStringConvertible", "Int"]
+- !private ["Ps28CustomDebugStringConvertible", "JSON"]
+- !private ["Ps28CustomDebugStringConvertible", "JSONResponseSerializer"]
+- !private ["Ps28CustomDebugStringConvertible", "Key"]
+- !private ["Ps28CustomDebugStringConvertible", "NSError"]
+- !private ["Ps28CustomDebugStringConvertible", "NSLocalizedDescriptionKey"]
+- !private ["Ps28CustomDebugStringConvertible", "Networking"]
+- !private ["Ps28CustomDebugStringConvertible", "Request"]
+- !private ["Ps28CustomDebugStringConvertible", "ResponseSerializer"]
+- !private ["Ps28CustomDebugStringConvertible", "Some"]
+- !private ["Ps28CustomDebugStringConvertible", "Value"]
+- !private ["Ps28CustomDebugStringConvertible", "error"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "response"]
+- !private ["Ps28CustomDebugStringConvertible", "statusCode"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "value"]
+- !private ["Ps23CustomStringConvertible", "APIJSONResponseSerializer"]
+- !private ["Ps23CustomStringConvertible", "Failure"]
+- !private ["Ps23CustomStringConvertible", "Index"]
+- !private ["Ps23CustomStringConvertible", "Int"]
+- !private ["Ps23CustomStringConvertible", "JSON"]
+- !private ["Ps23CustomStringConvertible", "JSONResponseSerializer"]
+- !private ["Ps23CustomStringConvertible", "Key"]
+- !private ["Ps23CustomStringConvertible", "NSError"]
+- !private ["Ps23CustomStringConvertible", "NSLocalizedDescriptionKey"]
+- !private ["Ps23CustomStringConvertible", "Networking"]
+- !private ["Ps23CustomStringConvertible", "Request"]
+- !private ["Ps23CustomStringConvertible", "ResponseSerializer"]
+- !private ["Ps23CustomStringConvertible", "Value"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "convert"]
+- !private ["Ps23CustomStringConvertible", "decode"]
+- !private ["Ps23CustomStringConvertible", "error"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "response"]
+- !private ["Ps23CustomStringConvertible", "statusCode"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "value"]
+- !private ["P5Fargo9Decodable", "_getBuiltinLogicValue"]
+- !private ["P5Fargo9Decodable", "description"]
+- !private ["P5Fargo9Decodable", "errorCode"]
+- !private ["P5Fargo9Decodable", "init"]
+- !private ["Vs10Dictionary", "Index"]
+- !private ["Vs10Dictionary", "Key"]
+- !private ["Vs10Dictionary", "Value"]
+- !private ["Vs10Dictionary", "deinit"]
+- !private ["Vs10Dictionary", "subscript"]
+- !private ["Ps28DictionaryLiteralConvertible", "Index"]
+- !private ["Ps28DictionaryLiteralConvertible", "Key"]
+- !private ["Ps28DictionaryLiteralConvertible", "Value"]
+- !private ["Ps28DictionaryLiteralConvertible", "subscript"]
+- !private ["Ps9Equatable", "GeneralError"]
+- !private ["Ps9Equatable", "ParsingError"]
+- !private ["Ps9Equatable", "Unauthorized"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "rawValue"]
+- !private ["Ps9Equatable", "statusCode"]
+- !private ["VV18WeatherApplication10Networking5Error", "Code"]
+- !private ["VV18WeatherApplication10Networking5Error", "Domain"]
+- !private ["VV18WeatherApplication10Networking5Error", "ThundrCraftDomain"]
+- !private ["V18WeatherApplication13ErrorResponse", "deinit"]
+- !private ["V18WeatherApplication13ErrorResponse", "description"]
+- !private ["V18WeatherApplication13ErrorResponse", "errorCode"]
+- !private ["Ps9ErrorType", "init"]
+- !private ["Ps16ForwardIndexType", "init"]
+- !private ["Ps13GeneratorType", "Element"]
+- !private ["Ps8Hashable", "GeneralError"]
+- !private ["Ps8Hashable", "ParsingError"]
+- !private ["Ps8Hashable", "Unauthorized"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "rawValue"]
+- !private ["Ps8Hashable", "statusCode"]
+- !private ["Ps9Indexable", "Generator"]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "Key"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "Value"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "subscript"]
+- !private ["Vs17IndexingGenerator", "Element"]
+- !private ["Si", "init"]
+- !private ["Ps21IntegerArithmeticType", "init"]
+- !private ["Ps25IntegerLiteralConvertible", "init"]
+- !private ["Ps11IntegerType", "init"]
+- !private ["O5Fargo4JSON", "convert"]
+- !private ["O5Fargo4JSON", "decode"]
+- !private ["Ps14MirrorPathType", "init"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "statusCode"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "statusCode"]
+- !private ["CSo7NSError", "init"]
+- !private ["CSo17NSHTTPURLResponse", "statusCode"]
+- !private ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "statusCode"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "statusCode"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "statusCode"]
+- !private ["CSo13NSURLResponse", "statusCode"]
+- !private ["V18WeatherApplication10Networking", "Error"]
+- !private ["Ps21NilLiteralConvertible", "Some"]
+- !private ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- !private ["Ps21RandomAccessIndexType", "init"]
+- !private ["Ps16RawRepresentable", "GeneralError"]
+- !private ["Ps16RawRepresentable", "ParsingError"]
+- !private ["Ps16RawRepresentable", "Unauthorized"]
+- !private ["Ps16RawRepresentable", "rawValue"]
+- ["C9Alamofire7Request", "APIJSONResponseSerializer"]
+- ["C9Alamofire7Request", "AnyObject"]
+- !private ["C9Alamofire7Request", "ErrorResponse"]
+- !private ["C9Alamofire7Request", "Int"]
+- !private ["C9Alamofire7Request", "JSON"]
+- !private ["C9Alamofire7Request", "JSONResponseSerializer"]
+- ["C9Alamofire7Request", "NSError"]
+- !private ["C9Alamofire7Request", "NSLocalizedDescriptionKey"]
+- !private ["C9Alamofire7Request", "Networking"]
+- !private ["C9Alamofire7Request", "Request"]
+- ["C9Alamofire7Request", "Response"]
+- ["C9Alamofire7Request", "ResponseSerializer"]
+- !private ["C9Alamofire7Request", "String"]
+- ["C9Alamofire7Request", "Void"]
+- !private ["C9Alamofire7Request", "response"]
+- ["C9Alamofire7Request", "responseAPIJSON"]
+- !private ["V9Alamofire18ResponseSerializer", "ErrorObject"]
+- !private ["V9Alamofire18ResponseSerializer", "SerializedObject"]
+- !private ["V9Alamofire18ResponseSerializer", "init"]
+- !private ["V9Alamofire18ResponseSerializer", "serializeResponse"]
+- !private ["P9Alamofire22ResponseSerializerType", "ErrorObject"]
+- !private ["P9Alamofire22ResponseSerializerType", "SerializedObject"]
+- !private ["P9Alamofire22ResponseSerializerType", "init"]
+- !private ["P9Alamofire22ResponseSerializerType", "serializeResponse"]
+- !private ["O9Alamofire6Result", "Failure"]
+- !private ["O9Alamofire6Result", "error"]
+- !private ["O9Alamofire6Result", "value"]
+- !private ["Ps12SequenceType", "Element"]
+- !private ["Ps12SequenceType", "Generator"]
+- !private ["Ps12SequenceType", "Index"]
+- !private ["Ps12SequenceType", "Key"]
+- !private ["Ps12SequenceType", "SubSequence"]
+- !private ["Ps12SequenceType", "Value"]
+- !private ["Ps12SequenceType", "_Element"]
+- !private ["Ps12SequenceType", "subscript"]
+- !private ["Ps17SignedIntegerType", "init"]
+- !private ["Ps16SignedNumberType", "init"]
+- !private ["Vs5Slice", "Generator"]
+- !private ["Vs5Slice", "Index"]
+- !private ["Vs5Slice", "SubSequence"]
+- !private ["Vs5Slice", "_Element"]
+- !private ["Ps10Strideable", "init"]
+- !private ["SS", "deinit"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "init"]
+- !private ["Ps14_Incrementable", "init"]
+- !private ["Ps22_IntegerArithmeticType", "init"]
+- !private ["Ps12_IntegerType", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "Index"]
+- !private ["Ps21_ObjectiveCBridgeable", "Key"]
+- !private ["Ps21_ObjectiveCBridgeable", "Value"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- !private ["Ps22_RandomAccessAmbiguity", "init"]
+- !private ["Ps12_Reflectable", "Index"]
+- !private ["Ps12_Reflectable", "Key"]
+- !private ["Ps12_Reflectable", "Some"]
+- !private ["Ps12_Reflectable", "Value"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "init"]
+- !private ["Ps12_Reflectable", "subscript"]
+- !private ["Ps18_SignedIntegerType", "init"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- !private "Ps22BidirectionalIndexType"
+- !private "Ps21BitwiseOperationsType"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- !private "Ps11CVarArgType"
+- !private "OVV18WeatherApplication10Networking5Error4Code"
+- !private "Ps14CollectionType"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps23CustomStringConvertible"
+- !private "P5Fargo9Decodable"
+- !private "Vs10Dictionary"
+- !private "Ps28DictionaryLiteralConvertible"
+- !private "Ps9Equatable"
+- !private "VV18WeatherApplication10Networking5Error"
+- !private "V18WeatherApplication13ErrorResponse"
+- !private "Ps9ErrorType"
+- !private "Ps16ForwardIndexType"
+- !private "Ps13GeneratorType"
+- !private "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Vs17IndexingGenerator"
+- !private "Si"
+- !private "Ps21IntegerArithmeticType"
+- !private "Ps25IntegerLiteralConvertible"
+- !private "Ps11IntegerType"
+- !private "O5Fargo4JSON"
+- !private "Ps14MirrorPathType"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo7NSError"
+- !private "CSo17NSHTTPURLResponse"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo13NSURLResponse"
+- !private "V18WeatherApplication10Networking"
+- !private "Ps21NilLiteralConvertible"
+- !private "Sq"
+- !private "Ps21RandomAccessIndexType"
+- !private "Ps16RawRepresentable"
+- "C9Alamofire7Request"
+- !private "V9Alamofire18ResponseSerializer"
+- !private "P9Alamofire22ResponseSerializerType"
+- !private "O9Alamofire6Result"
+- !private "Ps12SequenceType"
+- !private "Ps17SignedIntegerType"
+- !private "Ps16SignedNumberType"
+- !private "Vs5Slice"
+- !private "Ps10Strideable"
+- !private "SS"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps33_BuiltinIntegerLiteralConvertible"
+- !private "Ps14_Incrementable"
+- !private "Ps22_IntegerArithmeticType"
+- !private "Ps12_IntegerType"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- !private "Ps22_RandomAccessAmbiguity"
+- !private "Ps12_Reflectable"
+- !private "Ps18_SignedIntegerType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64.swiftmodule"
+- "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/Fargo/Fargo.framework/Modules/Fargo.swiftmodule/arm64.swiftmodule"
+- "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/Fargo/Fargo.framework/Headers/Fargo-Swift.h"
+- "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/Fargo/Fargo.framework/Headers/Fargo-umbrella.h"
+- "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/Fargo/Fargo.framework/Modules/module.modulemap"
+- "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/MBProgressHUD/MBProgressHUD.framework/Headers/MBProgressHUD.h"
+- "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/MBProgressHUD/MBProgressHUD.framework/Headers/MBProgressHUD-umbrella.h"
+- "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/MBProgressHUD/MBProgressHUD.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/SnapKit/SnapKit.framework/Modules/SnapKit.swiftmodule/arm64.swiftmodule"
+- "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/SnapKit/SnapKit.framework/Headers/SnapKit-Swift.h"
+- "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/SnapKit/SnapKit.framework/Headers/SnapKit-umbrella.h"
+- "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/SnapKit/SnapKit.framework/Modules/module.modulemap"
+interface-hash: "6112a6546bbf9253bf83f741fd7db17f"

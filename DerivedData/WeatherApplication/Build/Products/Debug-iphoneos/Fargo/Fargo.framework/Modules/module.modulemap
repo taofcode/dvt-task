@@ -1,0 +1,10 @@
+framework module Fargo {
+  umbrella header "Fargo-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module Fargo.Swift {
+    header "Fargo-Swift.h"
+}

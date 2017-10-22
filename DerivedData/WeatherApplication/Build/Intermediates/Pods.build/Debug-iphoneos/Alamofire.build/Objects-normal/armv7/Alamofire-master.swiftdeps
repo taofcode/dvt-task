@@ -1,0 +1,21 @@
+version: "Apple Swift version 2.3 (swiftlang-800.10.13 clang-800.0.42.1)"
+options: "c0552831137c57f76441ad7c02c870f8"
+build_time: [561986771, 135335000]
+inputs:
+  "/Users/shelton/Desktop/WeatherApplication/Pods/Alamofire/Source/Alamofire.swift": [561896510, 0]
+  "/Users/shelton/Desktop/WeatherApplication/Pods/Alamofire/Source/Download.swift": [561896510, 0]
+  "/Users/shelton/Desktop/WeatherApplication/Pods/Alamofire/Source/Error.swift": [561896510, 0]
+  "/Users/shelton/Desktop/WeatherApplication/Pods/Alamofire/Source/Manager.swift": [561896510, 0]
+  "/Users/shelton/Desktop/WeatherApplication/Pods/Alamofire/Source/MultipartFormData.swift": [561896510, 0]
+  "/Users/shelton/Desktop/WeatherApplication/Pods/Alamofire/Source/NetworkReachabilityManager.swift": [561896510, 0]
+  "/Users/shelton/Desktop/WeatherApplication/Pods/Alamofire/Source/Notifications.swift": [561896510, 0]
+  "/Users/shelton/Desktop/WeatherApplication/Pods/Alamofire/Source/ParameterEncoding.swift": [561896510, 0]
+  "/Users/shelton/Desktop/WeatherApplication/Pods/Alamofire/Source/Request.swift": [561896510, 0]
+  "/Users/shelton/Desktop/WeatherApplication/Pods/Alamofire/Source/Response.swift": [561896510, 0]
+  "/Users/shelton/Desktop/WeatherApplication/Pods/Alamofire/Source/ResponseSerialization.swift": [561896510, 0]
+  "/Users/shelton/Desktop/WeatherApplication/Pods/Alamofire/Source/Result.swift": [561896510, 0]
+  "/Users/shelton/Desktop/WeatherApplication/Pods/Alamofire/Source/ServerTrustPolicy.swift": [561896510, 0]
+  "/Users/shelton/Desktop/WeatherApplication/Pods/Alamofire/Source/Stream.swift": [561896510, 0]
+  "/Users/shelton/Desktop/WeatherApplication/Pods/Alamofire/Source/Timeline.swift": [561896510, 0]
+  "/Users/shelton/Desktop/WeatherApplication/Pods/Alamofire/Source/Upload.swift": [561896510, 0]
+  "/Users/shelton/Desktop/WeatherApplication/Pods/Alamofire/Source/Validation.swift": [561896510, 0]

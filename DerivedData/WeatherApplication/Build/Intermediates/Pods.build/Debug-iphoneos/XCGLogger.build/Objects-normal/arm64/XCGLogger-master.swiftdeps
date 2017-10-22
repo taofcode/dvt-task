@@ -1,0 +1,5 @@
+version: "Apple Swift version 2.3 (swiftlang-800.10.13 clang-800.0.42.1)"
+options: "61ee3bb470eb320864e5a94551fc9e50"
+build_time: [561986773, 199320000]
+inputs:
+  "/Users/shelton/Desktop/WeatherApplication/Pods/XCGLogger/XCGLogger/Library/XCGLogger/XCGLogger.swift": [561757498, 0]

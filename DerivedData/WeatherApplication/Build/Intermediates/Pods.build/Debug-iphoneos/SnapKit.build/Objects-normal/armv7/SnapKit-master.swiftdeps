@@ -1,0 +1,16 @@
+version: "Apple Swift version 2.3 (swiftlang-800.10.13 clang-800.0.42.1)"
+options: "56595e8ecc028f82156278e39624e44b"
+build_time: [561986772, 939777000]
+inputs:
+  "/Users/shelton/Desktop/WeatherApplication/Pods/SnapKit/Source/Constraint.swift": [561757491, 0]
+  "/Users/shelton/Desktop/WeatherApplication/Pods/SnapKit/Source/ConstraintAttributes.swift": [561757491, 0]
+  "/Users/shelton/Desktop/WeatherApplication/Pods/SnapKit/Source/ConstraintDescription.swift": [561757491, 0]
+  "/Users/shelton/Desktop/WeatherApplication/Pods/SnapKit/Source/ConstraintItem.swift": [561757491, 0]
+  "/Users/shelton/Desktop/WeatherApplication/Pods/SnapKit/Source/ConstraintMaker.swift": [561757491, 0]
+  "/Users/shelton/Desktop/WeatherApplication/Pods/SnapKit/Source/ConstraintRelation.swift": [561757491, 0]
+  "/Users/shelton/Desktop/WeatherApplication/Pods/SnapKit/Source/Debugging.swift": [561757491, 0]
+  "/Users/shelton/Desktop/WeatherApplication/Pods/SnapKit/Source/EdgeInsets.swift": [561757491, 0]
+  "/Users/shelton/Desktop/WeatherApplication/Pods/SnapKit/Source/LayoutConstraint.swift": [561757491, 0]
+  "/Users/shelton/Desktop/WeatherApplication/Pods/SnapKit/Source/SnapKit.swift": [561757491, 0]
+  "/Users/shelton/Desktop/WeatherApplication/Pods/SnapKit/Source/View+SnapKit.swift": [561757491, 0]
+  "/Users/shelton/Desktop/WeatherApplication/Pods/SnapKit/Source/ViewController+SnapKit.swift": [561757491, 0]

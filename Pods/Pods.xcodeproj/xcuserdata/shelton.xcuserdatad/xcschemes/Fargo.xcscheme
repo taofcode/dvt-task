@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'C45BC28746033FB67AC76CD2C81156F0'
+               BlueprintIdentifier = '843D1B3BC43256CEFF1028BBFFBB2082'
                BlueprintName = 'Fargo'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Fargo.framework'>

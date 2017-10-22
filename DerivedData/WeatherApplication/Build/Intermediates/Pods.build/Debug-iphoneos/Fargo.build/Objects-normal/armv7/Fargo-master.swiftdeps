@@ -1,0 +1,9 @@
+version: "Apple Swift version 2.3 (swiftlang-800.10.13 clang-800.0.42.1)"
+options: "5e5c43f1b219c796a20fcc8412682844"
+build_time: [561986772, 504708000]
+inputs:
+  "/Users/shelton/Desktop/WeatherApplication/Pods/Fargo/Fargo/Source/Extensions/Array.swift": [556656030, 0]
+  "/Users/shelton/Desktop/WeatherApplication/Pods/Fargo/Fargo/Source/Types/Decodable.swift": [556656030, 0]
+  "/Users/shelton/Desktop/WeatherApplication/Pods/Fargo/Fargo/Source/Types/DecodeError.swift": [556656030, 0]
+  "/Users/shelton/Desktop/WeatherApplication/Pods/Fargo/Fargo/Source/Types/FoundationTypes.swift": [556656030, 0]
+  "/Users/shelton/Desktop/WeatherApplication/Pods/Fargo/Fargo/Source/Types/JSON.swift": [556656030, 0]

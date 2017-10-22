@@ -1,0 +1,43 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "InterfaceLayoutDirection"
+- "LayoutSupport"
+- "Config"
+provides-nominal:
+- "V7SnapKit6Config"
+provides-member:
+- ["V7SnapKit6Config", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "InterfaceLayoutDirection"
+- "LayoutSupport"
+- "UILayoutSupport"
+- "Config"
+- "UIUserInterfaceLayoutDirection"
+depends-member:
+- ["V7SnapKit6Config", "InterfaceLayoutDirection"]
+- ["V7SnapKit6Config", "init"]
+- ["V7SnapKit6Config", "interfaceLayoutDirection"]
+- ["Ps9Equatable", "LeftToRight"]
+- ["Ps8Hashable", "LeftToRight"]
+- ["Ps16RawRepresentable", "LeftToRight"]
+- ["OSC30UIUserInterfaceLayoutDirection", "LeftToRight"]
+depends-nominal:
+- "V7SnapKit6Config"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "Ps16RawRepresentable"
+- "OSC30UIUserInterfaceLayoutDirection"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Users/shelton/Desktop/WeatherApplication/Pods/Target Support Files/SnapKit/SnapKit-umbrella.h"
+- "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Intermediates/Pods.build/Debug-iphoneos/SnapKit.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+interface-hash: "a1e93cb84460324a923d349d2813683f"

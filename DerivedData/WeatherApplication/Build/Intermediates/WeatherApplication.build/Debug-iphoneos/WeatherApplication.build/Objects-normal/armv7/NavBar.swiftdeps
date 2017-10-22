@@ -1,0 +1,382 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "NavBar"
+provides-nominal:
+- "C18WeatherApplication6NavBar"
+provides-member:
+- ["C18WeatherApplication6NavBar", ""]
+provides-dynamic-lookup:
+- "accountButton"
+- "imageView"
+- "sizeThatFits"
+depends-top-level:
+- "UIImageView"
+- "UIButton"
+- "CGSize"
+- "UINavigationBar"
+- "NavBar"
+depends-member:
+- !private ["Ps9AnyObject", "CGSize"]
+- ["Ps9AnyObject", "UIButton"]
+- ["Ps9AnyObject", "UIImageView"]
+- ["Ps9AnyObject", "accountButton"]
+- ["Ps9AnyObject", "accountButton.storage"]
+- !private ["Ps9AnyObject", "frame"]
+- ["Ps9AnyObject", "imageView"]
+- ["Ps9AnyObject", "imageView.storage"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "sizeThatFits"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["PSo15CALayerDelegate", "CGSize"]
+- ["PSo15CALayerDelegate", "UIButton"]
+- ["PSo15CALayerDelegate", "UIImageView"]
+- ["PSo15CALayerDelegate", "accountButton"]
+- ["PSo15CALayerDelegate", "accountButton.storage"]
+- !private ["PSo15CALayerDelegate", "frame"]
+- ["PSo15CALayerDelegate", "imageView"]
+- ["PSo15CALayerDelegate", "imageView.storage"]
+- ["PSo15CALayerDelegate", "init"]
+- ["PSo15CALayerDelegate", "sizeThatFits"]
+- ["PSo15CALayerDelegate", ""]
+- !private ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["VSC6CGRect", "size"]
+- !private ["VSC6CGSize", "init"]
+- !private ["VSC6CGSize", "width"]
+- !private ["Ps11CVarArgType", "CGSize"]
+- ["Ps11CVarArgType", "UIButton"]
+- ["Ps11CVarArgType", "UIImageView"]
+- ["Ps11CVarArgType", "accountButton"]
+- ["Ps11CVarArgType", "accountButton.storage"]
+- !private ["Ps11CVarArgType", "frame"]
+- ["Ps11CVarArgType", "imageView"]
+- ["Ps11CVarArgType", "imageView.storage"]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "sizeThatFits"]
+- ["Ps11CVarArgType", ""]
+- !private ["Ps28CustomDebugStringConvertible", "CGSize"]
+- ["Ps28CustomDebugStringConvertible", "UIButton"]
+- ["Ps28CustomDebugStringConvertible", "UIImageView"]
+- ["Ps28CustomDebugStringConvertible", "accountButton"]
+- ["Ps28CustomDebugStringConvertible", "accountButton.storage"]
+- !private ["Ps28CustomDebugStringConvertible", "frame"]
+- ["Ps28CustomDebugStringConvertible", "imageView"]
+- ["Ps28CustomDebugStringConvertible", "imageView.storage"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "sizeThatFits"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "CGSize"]
+- ["Ps23CustomStringConvertible", "UIButton"]
+- ["Ps23CustomStringConvertible", "UIImageView"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "accountButton"]
+- ["Ps23CustomStringConvertible", "accountButton.storage"]
+- !private ["Ps23CustomStringConvertible", "frame"]
+- ["Ps23CustomStringConvertible", "imageView"]
+- ["Ps23CustomStringConvertible", "imageView.storage"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "sizeThatFits"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["P5Fargo9Decodable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "CGSize"]
+- ["Ps9Equatable", "Custom"]
+- ["Ps9Equatable", "UIButton"]
+- ["Ps9Equatable", "UIImageView"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "accountButton"]
+- ["Ps9Equatable", "accountButton.storage"]
+- !private ["Ps9Equatable", "frame"]
+- ["Ps9Equatable", "imageView"]
+- ["Ps9Equatable", "imageView.storage"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "size"]
+- ["Ps9Equatable", "sizeThatFits"]
+- !private ["Ps9Equatable", "width"]
+- ["Ps9Equatable", ""]
+- !private ["Ps8Hashable", "CGSize"]
+- ["Ps8Hashable", "Custom"]
+- ["Ps8Hashable", "UIButton"]
+- ["Ps8Hashable", "UIImageView"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "accountButton"]
+- ["Ps8Hashable", "accountButton.storage"]
+- !private ["Ps8Hashable", "frame"]
+- ["Ps8Hashable", "imageView"]
+- ["Ps8Hashable", "imageView.storage"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "sizeThatFits"]
+- ["Ps8Hashable", ""]
+- !private ["PSo8NSCoding", "CGSize"]
+- ["PSo8NSCoding", "UIButton"]
+- ["PSo8NSCoding", "UIImageView"]
+- ["PSo8NSCoding", "accountButton"]
+- ["PSo8NSCoding", "accountButton.storage"]
+- !private ["PSo8NSCoding", "frame"]
+- ["PSo8NSCoding", "imageView"]
+- ["PSo8NSCoding", "imageView.storage"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "sizeThatFits"]
+- ["PSo8NSCoding", ""]
+- ["CSo8NSObject", "CGSize"]
+- ["CSo8NSObject", "UIButton"]
+- ["CSo8NSObject", "UIImageView"]
+- ["CSo8NSObject", "accountButton"]
+- ["CSo8NSObject", "accountButton.storage"]
+- !private ["CSo8NSObject", "frame"]
+- ["CSo8NSObject", "imageView"]
+- ["CSo8NSObject", "imageView.storage"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "sizeThatFits"]
+- !private ["PSo16NSObjectProtocol", "CGSize"]
+- ["PSo16NSObjectProtocol", "UIButton"]
+- ["PSo16NSObjectProtocol", "UIImageView"]
+- ["PSo16NSObjectProtocol", "accountButton"]
+- ["PSo16NSObjectProtocol", "accountButton.storage"]
+- !private ["PSo16NSObjectProtocol", "frame"]
+- ["PSo16NSObjectProtocol", "imageView"]
+- ["PSo16NSObjectProtocol", "imageView.storage"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "sizeThatFits"]
+- ["PSo16NSObjectProtocol", ""]
+- ["C18WeatherApplication6NavBar", "CGSize"]
+- ["C18WeatherApplication6NavBar", "UIButton"]
+- ["C18WeatherApplication6NavBar", "UIImageView"]
+- ["C18WeatherApplication6NavBar", "accountButton"]
+- !private ["C18WeatherApplication6NavBar", "accountButton.storage"]
+- ["C18WeatherApplication6NavBar", "deinit"]
+- !private ["C18WeatherApplication6NavBar", "frame"]
+- ["C18WeatherApplication6NavBar", "imageView"]
+- !private ["C18WeatherApplication6NavBar", "imageView.storage"]
+- ["C18WeatherApplication6NavBar", "init"]
+- ["C18WeatherApplication6NavBar", "sizeThatFits"]
+- ["Ps16RawRepresentable", "Custom"]
+- !private ["PSo29UIAccessibilityIdentification", "CGSize"]
+- ["PSo29UIAccessibilityIdentification", "UIButton"]
+- ["PSo29UIAccessibilityIdentification", "UIImageView"]
+- ["PSo29UIAccessibilityIdentification", "accountButton"]
+- ["PSo29UIAccessibilityIdentification", "accountButton.storage"]
+- !private ["PSo29UIAccessibilityIdentification", "frame"]
+- ["PSo29UIAccessibilityIdentification", "imageView"]
+- ["PSo29UIAccessibilityIdentification", "imageView.storage"]
+- ["PSo29UIAccessibilityIdentification", "init"]
+- ["PSo29UIAccessibilityIdentification", "sizeThatFits"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- !private ["PSo12UIAppearance", "CGSize"]
+- ["PSo12UIAppearance", "UIButton"]
+- ["PSo12UIAppearance", "UIImageView"]
+- ["PSo12UIAppearance", "accountButton"]
+- ["PSo12UIAppearance", "accountButton.storage"]
+- !private ["PSo12UIAppearance", "frame"]
+- ["PSo12UIAppearance", "imageView"]
+- ["PSo12UIAppearance", "imageView.storage"]
+- ["PSo12UIAppearance", "init"]
+- ["PSo12UIAppearance", "sizeThatFits"]
+- ["PSo12UIAppearance", ""]
+- !private ["PSo21UIAppearanceContainer", "CGSize"]
+- ["PSo21UIAppearanceContainer", "UIButton"]
+- ["PSo21UIAppearanceContainer", "UIImageView"]
+- ["PSo21UIAppearanceContainer", "accountButton"]
+- ["PSo21UIAppearanceContainer", "accountButton.storage"]
+- !private ["PSo21UIAppearanceContainer", "frame"]
+- ["PSo21UIAppearanceContainer", "imageView"]
+- ["PSo21UIAppearanceContainer", "imageView.storage"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "sizeThatFits"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo16UIBarPositioning", "CGSize"]
+- ["PSo16UIBarPositioning", "UIButton"]
+- ["PSo16UIBarPositioning", "UIImageView"]
+- ["PSo16UIBarPositioning", "accountButton"]
+- ["PSo16UIBarPositioning", "accountButton.storage"]
+- !private ["PSo16UIBarPositioning", "frame"]
+- ["PSo16UIBarPositioning", "imageView"]
+- ["PSo16UIBarPositioning", "imageView.storage"]
+- ["PSo16UIBarPositioning", "init"]
+- ["PSo16UIBarPositioning", "sizeThatFits"]
+- ["PSo16UIBarPositioning", ""]
+- ["CSo8UIButton", "init"]
+- ["OSC12UIButtonType", "Custom"]
+- ["CSo9UIControl", "init"]
+- !private ["PSo17UICoordinateSpace", "CGSize"]
+- ["PSo17UICoordinateSpace", "UIButton"]
+- ["PSo17UICoordinateSpace", "UIImageView"]
+- ["PSo17UICoordinateSpace", "accountButton"]
+- ["PSo17UICoordinateSpace", "accountButton.storage"]
+- !private ["PSo17UICoordinateSpace", "frame"]
+- ["PSo17UICoordinateSpace", "imageView"]
+- ["PSo17UICoordinateSpace", "imageView.storage"]
+- ["PSo17UICoordinateSpace", "init"]
+- ["PSo17UICoordinateSpace", "sizeThatFits"]
+- ["PSo17UICoordinateSpace", ""]
+- !private ["PSo13UIDynamicItem", "CGSize"]
+- ["PSo13UIDynamicItem", "UIButton"]
+- ["PSo13UIDynamicItem", "UIImageView"]
+- ["PSo13UIDynamicItem", "accountButton"]
+- ["PSo13UIDynamicItem", "accountButton.storage"]
+- !private ["PSo13UIDynamicItem", "frame"]
+- ["PSo13UIDynamicItem", "imageView"]
+- ["PSo13UIDynamicItem", "imageView.storage"]
+- ["PSo13UIDynamicItem", "init"]
+- ["PSo13UIDynamicItem", "sizeThatFits"]
+- ["PSo13UIDynamicItem", ""]
+- !private ["PSo18UIFocusEnvironment", "CGSize"]
+- ["PSo18UIFocusEnvironment", "UIButton"]
+- ["PSo18UIFocusEnvironment", "UIImageView"]
+- ["PSo18UIFocusEnvironment", "accountButton"]
+- ["PSo18UIFocusEnvironment", "accountButton.storage"]
+- !private ["PSo18UIFocusEnvironment", "frame"]
+- ["PSo18UIFocusEnvironment", "imageView"]
+- ["PSo18UIFocusEnvironment", "imageView.storage"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "sizeThatFits"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "CGSize"]
+- ["PSo11UIFocusItem", "UIButton"]
+- ["PSo11UIFocusItem", "UIImageView"]
+- ["PSo11UIFocusItem", "accountButton"]
+- ["PSo11UIFocusItem", "accountButton.storage"]
+- !private ["PSo11UIFocusItem", "frame"]
+- ["PSo11UIFocusItem", "imageView"]
+- ["PSo11UIFocusItem", "imageView.storage"]
+- ["PSo11UIFocusItem", "init"]
+- ["PSo11UIFocusItem", "sizeThatFits"]
+- ["PSo11UIFocusItem", ""]
+- ["CSo11UIImageView", "init"]
+- ["CSo15UINavigationBar", "CGSize"]
+- ["CSo15UINavigationBar", "UIButton"]
+- ["CSo15UINavigationBar", "UIImageView"]
+- ["CSo15UINavigationBar", "accountButton"]
+- ["CSo15UINavigationBar", "accountButton.storage"]
+- !private ["CSo15UINavigationBar", "frame"]
+- ["CSo15UINavigationBar", "imageView"]
+- ["CSo15UINavigationBar", "imageView.storage"]
+- ["CSo15UINavigationBar", "init"]
+- ["CSo15UINavigationBar", "sizeThatFits"]
+- ["CSo15UINavigationBar", ""]
+- ["CSo11UIResponder", "CGSize"]
+- ["CSo11UIResponder", "UIButton"]
+- ["CSo11UIResponder", "UIImageView"]
+- ["CSo11UIResponder", "accountButton"]
+- ["CSo11UIResponder", "accountButton.storage"]
+- !private ["CSo11UIResponder", "frame"]
+- ["CSo11UIResponder", "imageView"]
+- ["CSo11UIResponder", "imageView.storage"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "sizeThatFits"]
+- !private ["PSo30UIResponderStandardEditActions", "CGSize"]
+- ["PSo30UIResponderStandardEditActions", "UIButton"]
+- ["PSo30UIResponderStandardEditActions", "UIImageView"]
+- ["PSo30UIResponderStandardEditActions", "accountButton"]
+- ["PSo30UIResponderStandardEditActions", "accountButton.storage"]
+- !private ["PSo30UIResponderStandardEditActions", "frame"]
+- ["PSo30UIResponderStandardEditActions", "imageView"]
+- ["PSo30UIResponderStandardEditActions", "imageView.storage"]
+- ["PSo30UIResponderStandardEditActions", "init"]
+- ["PSo30UIResponderStandardEditActions", "sizeThatFits"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["PSo18UITraitEnvironment", "CGSize"]
+- ["PSo18UITraitEnvironment", "UIButton"]
+- ["PSo18UITraitEnvironment", "UIImageView"]
+- ["PSo18UITraitEnvironment", "accountButton"]
+- ["PSo18UITraitEnvironment", "accountButton.storage"]
+- !private ["PSo18UITraitEnvironment", "frame"]
+- ["PSo18UITraitEnvironment", "imageView"]
+- ["PSo18UITraitEnvironment", "imageView.storage"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "sizeThatFits"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "CGSize"]
+- ["CSo6UIView", "UIButton"]
+- ["CSo6UIView", "UIImageView"]
+- ["CSo6UIView", "accountButton"]
+- ["CSo6UIView", "accountButton.storage"]
+- !private ["CSo6UIView", "frame"]
+- ["CSo6UIView", "imageView"]
+- ["CSo6UIView", "imageView.storage"]
+- ["CSo6UIView", "init"]
+- ["CSo6UIView", "sizeThatFits"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "CGSize"]
+- ["Ps12_Reflectable", "UIButton"]
+- ["Ps12_Reflectable", "UIImageView"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- ["Ps12_Reflectable", "accountButton"]
+- ["Ps12_Reflectable", "accountButton.storage"]
+- !private ["Ps12_Reflectable", "frame"]
+- ["Ps12_Reflectable", "imageView"]
+- ["Ps12_Reflectable", "imageView.storage"]
+- ["Ps12_Reflectable", "init"]
+- !private ["Ps12_Reflectable", "size"]
+- ["Ps12_Reflectable", "sizeThatFits"]
+- !private ["Ps12_Reflectable", "width"]
+- ["Ps12_Reflectable", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- "PSo15CALayerDelegate"
+- !private "V12CoreGraphics7CGFloat"
+- !private "VSC6CGRect"
+- !private "VSC6CGSize"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- !private "P5Fargo9Decodable"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "C18WeatherApplication6NavBar"
+- "Ps16RawRepresentable"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo16UIBarPositioning"
+- "CSo8UIButton"
+- "OSC12UIButtonType"
+- "CSo9UIControl"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo11UIFocusItem"
+- "CSo11UIImageView"
+- "CSo15UINavigationBar"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps21_ObjectiveCBridgeable"
+- "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm.swiftmodule"
+- "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/Fargo/Fargo.framework/Modules/Fargo.swiftmodule/arm.swiftmodule"
+- "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/Fargo/Fargo.framework/Headers/Fargo-Swift.h"
+- "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/Fargo/Fargo.framework/Headers/Fargo-umbrella.h"
+- "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/Fargo/Fargo.framework/Modules/module.modulemap"
+- "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/MBProgressHUD/MBProgressHUD.framework/Headers/MBProgressHUD.h"
+- "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/MBProgressHUD/MBProgressHUD.framework/Headers/MBProgressHUD-umbrella.h"
+- "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/MBProgressHUD/MBProgressHUD.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreLocation.swiftmodule"
+- "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/SnapKit/SnapKit.framework/Modules/SnapKit.swiftmodule/arm.swiftmodule"
+- "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/SnapKit/SnapKit.framework/Headers/SnapKit-Swift.h"
+- "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/SnapKit/SnapKit.framework/Headers/SnapKit-umbrella.h"
+- "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/SnapKit/SnapKit.framework/Modules/module.modulemap"
+interface-hash: "ebccdf5dfa2a2e188b3ddad227c61f45"

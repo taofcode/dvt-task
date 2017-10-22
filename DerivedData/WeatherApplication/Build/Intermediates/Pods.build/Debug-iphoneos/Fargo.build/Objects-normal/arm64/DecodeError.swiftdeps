@@ -1,0 +1,40 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DecodeError"
+provides-nominal:
+- "O5Fargo11DecodeError"
+provides-member:
+- ["O5Fargo11DecodeError", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "IntegerLiteralType"
+- !private "FloatLiteralType"
+- "DecodeError"
+- "String"
+- "ErrorType"
+depends-member:
+- ["O5Fargo11DecodeError", "MissingKey"]
+- ["O5Fargo11DecodeError", "String"]
+- ["O5Fargo11DecodeError", "TypeMismatch"]
+- ["O5Fargo11DecodeError", "_code"]
+- ["O5Fargo11DecodeError", "_domain"]
+- ["O5Fargo11DecodeError", "deinit"]
+- ["Ps9ErrorType", "_code"]
+- ["Ps9ErrorType", "_domain"]
+- ["Ps9ErrorType", ""]
+depends-nominal:
+- "O5Fargo11DecodeError"
+- "Ps9ErrorType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/shelton/Desktop/WeatherApplication/Pods/Target Support Files/Fargo/Fargo-umbrella.h"
+- "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Intermediates/Pods.build/Debug-iphoneos/Fargo.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+interface-hash: "1bbfb6ac62f99f1b763cce3ba47954f4"

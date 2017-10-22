@@ -24,7 +24,7 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-WeatherApplication.xcscheme</key>
+		<key>Pods-BasePods-WeatherApplication.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -52,7 +52,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>567D38DCBFD16D6A434707370149E15D</key>
+		<key>528597C37BCCBFBF000520002D07E3D8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5D4B92F2CE51D6554DEB03EC9E5D9D3E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>843D1B3BC43256CEFF1028BBFFBB2082</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -62,17 +72,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A5060D841FF680E94A99654641C6823C</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>B1A1E552674F8A276B13C906AD3F1737</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>C45BC28746033FB67AC76CD2C81156F0</key>
+		<key>C3EC4645D57F5C3413644BE9D62EFA38</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -1,0 +1,290 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "SS"
+- "Sb"
+- "Sf"
+- "Sd"
+- "Si"
+- "Su"
+provides-member:
+- ["SS", ""]
+- ["Sb", ""]
+- ["Sf", ""]
+- ["Sd", ""]
+- ["Si", ""]
+- ["Su", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Bool"
+- "Decodable"
+- !private "StringLiteralType"
+- "UInt"
+- !private "DecodeError"
+- "Double"
+- "Int"
+- "JSON"
+- "String"
+- "Float"
+depends-member:
+- !private ["Ps16AbsoluteValuable", "DecodeError"]
+- ["Ps16AbsoluteValuable", "decode"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps22BidirectionalIndexType", "DecodeError"]
+- ["Ps22BidirectionalIndexType", "decode"]
+- !private ["Ps21BitwiseOperationsType", "DecodeError"]
+- ["Ps21BitwiseOperationsType", "decode"]
+- ["Sb", "Bool"]
+- !private ["Sb", "DecodeError"]
+- ["Sb", "JSON"]
+- ["Sb", "decode"]
+- ["Sb", "deinit"]
+- !private ["Ps25BooleanLiteralConvertible", "DecodeError"]
+- ["Ps25BooleanLiteralConvertible", "decode"]
+- !private ["Ps11BooleanType", "DecodeError"]
+- ["Ps11BooleanType", "decode"]
+- !private ["Ps11CVarArgType", "DecodeError"]
+- ["Ps11CVarArgType", "decode"]
+- !private ["Ps11CVarArgType", "init"]
+- !private ["Vs9Character", "deinit"]
+- !private ["Ps10Comparable", "DecodeError"]
+- ["Ps10Comparable", "decode"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "DecodeError"]
+- ["Ps28CustomDebugStringConvertible", "decode"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "DecodeError"]
+- ["Ps23CustomStringConvertible", "Number"]
+- ["Ps23CustomStringConvertible", "String"]
+- ["Ps23CustomStringConvertible", "decode"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["P5Fargo9Decodable", "DecodeError"]
+- ["P5Fargo9Decodable", "decode"]
+- !private ["P5Fargo9Decodable", "init"]
+- ["P5Fargo9Decodable", ""]
+- !private ["O5Fargo11DecodeError", "TypeMismatch"]
+- !private ["O5Fargo11DecodeError", "deinit"]
+- !private ["Sd", "DecodeError"]
+- ["Sd", "Double"]
+- ["Sd", "JSON"]
+- ["Sd", "decode"]
+- ["Sd", "deinit"]
+- !private ["Ps9Equatable", "DecodeError"]
+- ["Ps9Equatable", "decode"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9ErrorType", "TypeMismatch"]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "DecodeError"]
+- ["Ps41ExtendedGraphemeClusterLiteralConvertible", "decode"]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Sf", "DecodeError"]
+- ["Sf", "Float"]
+- ["Sf", "JSON"]
+- ["Sf", "decode"]
+- ["Sf", "deinit"]
+- !private ["Ps23FloatLiteralConvertible", "DecodeError"]
+- ["Ps23FloatLiteralConvertible", "decode"]
+- !private ["Ps17FloatingPointType", "DecodeError"]
+- ["Ps17FloatingPointType", "decode"]
+- !private ["Ps16ForwardIndexType", "DecodeError"]
+- ["Ps16ForwardIndexType", "decode"]
+- !private ["Ps8Hashable", "DecodeError"]
+- ["Ps8Hashable", "decode"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Si", "DecodeError"]
+- ["Si", "Int"]
+- ["Si", "JSON"]
+- ["Si", "decode"]
+- ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps21IntegerArithmeticType", "DecodeError"]
+- ["Ps21IntegerArithmeticType", "decode"]
+- !private ["Ps25IntegerLiteralConvertible", "DecodeError"]
+- ["Ps25IntegerLiteralConvertible", "decode"]
+- !private ["Ps11IntegerType", "DecodeError"]
+- ["Ps11IntegerType", "decode"]
+- ["O5Fargo4JSON", "Number"]
+- ["O5Fargo4JSON", "String"]
+- !private ["Ps14MirrorPathType", "DecodeError"]
+- ["Ps14MirrorPathType", "decode"]
+- !private ["Ps14MirrorPathType", "init"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSNumber", "deinit"]
+- !private ["CSo8NSObject", "init"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["Ps16OutputStreamType", "DecodeError"]
+- ["Ps16OutputStreamType", "decode"]
+- !private ["Ps16OutputStreamType", "init"]
+- !private ["Ps21RandomAccessIndexType", "DecodeError"]
+- ["Ps21RandomAccessIndexType", "decode"]
+- !private ["Ps17SignedIntegerType", "DecodeError"]
+- ["Ps17SignedIntegerType", "decode"]
+- !private ["Ps16SignedNumberType", "DecodeError"]
+- ["Ps16SignedNumberType", "decode"]
+- !private ["Ps10Streamable", "DecodeError"]
+- ["Ps10Streamable", "decode"]
+- !private ["Ps10Streamable", "init"]
+- !private ["Ps10Strideable", "DecodeError"]
+- ["Ps10Strideable", "decode"]
+- !private ["SS", "DecodeError"]
+- ["SS", "JSON"]
+- ["SS", "String"]
+- ["SS", "decode"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps30StringInterpolationConvertible", "DecodeError"]
+- ["Ps30StringInterpolationConvertible", "decode"]
+- !private ["Ps30StringInterpolationConvertible", "init"]
+- !private ["Ps24StringLiteralConvertible", "DecodeError"]
+- ["Ps24StringLiteralConvertible", "decode"]
+- !private ["Ps24StringLiteralConvertible", "init"]
+- !private ["Su", "DecodeError"]
+- ["Su", "JSON"]
+- ["Su", "UInt"]
+- ["Su", "decode"]
+- ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "DecodeError"]
+- ["Ps31UnicodeScalarLiteralConvertible", "decode"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps19UnsignedIntegerType", "DecodeError"]
+- ["Ps19UnsignedIntegerType", "decode"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "DecodeError"]
+- ["Ps33_BuiltinBooleanLiteralConvertible", "decode"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "DecodeError"]
+- ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "decode"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Ps31_BuiltinFloatLiteralConvertible", "DecodeError"]
+- ["Ps31_BuiltinFloatLiteralConvertible", "decode"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "DecodeError"]
+- ["Ps33_BuiltinIntegerLiteralConvertible", "decode"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "DecodeError"]
+- ["Ps32_BuiltinStringLiteralConvertible", "decode"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "init"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "DecodeError"]
+- ["Ps37_BuiltinUTF16StringLiteralConvertible", "decode"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "DecodeError"]
+- ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "decode"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps19_CVarArgAlignedType", "DecodeError"]
+- ["Ps19_CVarArgAlignedType", "decode"]
+- !private ["Ps22_CVarArgPassedAsDouble", "DecodeError"]
+- ["Ps22_CVarArgPassedAsDouble", "decode"]
+- !private ["Ps28_DisallowMixedSignArithmetic", "DecodeError"]
+- ["Ps28_DisallowMixedSignArithmetic", "decode"]
+- !private ["Ps14_Incrementable", "DecodeError"]
+- ["Ps14_Incrementable", "decode"]
+- !private ["Ps22_IntegerArithmeticType", "DecodeError"]
+- ["Ps22_IntegerArithmeticType", "decode"]
+- !private ["Ps12_IntegerType", "DecodeError"]
+- ["Ps12_IntegerType", "decode"]
+- !private ["Ps21_ObjectiveCBridgeable", "DecodeError"]
+- ["Ps21_ObjectiveCBridgeable", "decode"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps22_RandomAccessAmbiguity", "DecodeError"]
+- ["Ps22_RandomAccessAmbiguity", "decode"]
+- !private ["Ps12_Reflectable", "DecodeError"]
+- ["Ps12_Reflectable", "decode"]
+- !private ["Ps12_Reflectable", "init"]
+- !private ["Ps18_SignedIntegerType", "DecodeError"]
+- ["Ps18_SignedIntegerType", "decode"]
+depends-nominal:
+- "Ps16AbsoluteValuable"
+- !private "Ps9AnyObject"
+- "Ps22BidirectionalIndexType"
+- "Ps21BitwiseOperationsType"
+- "Sb"
+- "Ps25BooleanLiteralConvertible"
+- "Ps11BooleanType"
+- "Ps11CVarArgType"
+- !private "Vs9Character"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "P5Fargo9Decodable"
+- !private "O5Fargo11DecodeError"
+- "Sd"
+- "Ps9Equatable"
+- !private "Ps9ErrorType"
+- "Ps41ExtendedGraphemeClusterLiteralConvertible"
+- "Sf"
+- "Ps23FloatLiteralConvertible"
+- "Ps17FloatingPointType"
+- "Ps16ForwardIndexType"
+- "Ps8Hashable"
+- "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- "Ps21IntegerArithmeticType"
+- "Ps25IntegerLiteralConvertible"
+- "Ps11IntegerType"
+- "O5Fargo4JSON"
+- "Ps14MirrorPathType"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- !private "CSo8NSNumber"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "Ps16OutputStreamType"
+- "Ps21RandomAccessIndexType"
+- "Ps17SignedIntegerType"
+- "Ps16SignedNumberType"
+- "Ps10Streamable"
+- "Ps10Strideable"
+- "SS"
+- "Ps30StringInterpolationConvertible"
+- "Ps24StringLiteralConvertible"
+- "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "Sc"
+- "Ps31UnicodeScalarLiteralConvertible"
+- "Ps19UnsignedIntegerType"
+- "Ps33_BuiltinBooleanLiteralConvertible"
+- "Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- "Ps31_BuiltinFloatLiteralConvertible"
+- "Ps33_BuiltinIntegerLiteralConvertible"
+- "Ps32_BuiltinStringLiteralConvertible"
+- "Ps37_BuiltinUTF16StringLiteralConvertible"
+- "Ps39_BuiltinUnicodeScalarLiteralConvertible"
+- "Ps19_CVarArgAlignedType"
+- "Ps22_CVarArgPassedAsDouble"
+- "Ps28_DisallowMixedSignArithmetic"
+- "Ps14_Incrementable"
+- "Ps22_IntegerArithmeticType"
+- "Ps12_IntegerType"
+- "Ps21_ObjectiveCBridgeable"
+- "Ps22_RandomAccessAmbiguity"
+- "Ps12_Reflectable"
+- "Ps18_SignedIntegerType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/shelton/Desktop/WeatherApplication/Pods/Target Support Files/Fargo/Fargo-umbrella.h"
+- "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Intermediates/Pods.build/Debug-iphoneos/Fargo.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+interface-hash: "1bc20dd41f4f7e8788ec8b29ad8e76c9"
