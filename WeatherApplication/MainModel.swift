@@ -10,11 +10,11 @@ import Foundation
 import Fargo
 
 public struct MainModel {
-    public let temp: String?
-    public let pressure: String?
-    public let humidity: String?
-    public let temp_min : String?
-    public let temp_max : String?
+    public let temp: Float?
+    public let pressure: Float?
+    public let humidity: Float?
+    public let temp_min : Float?
+    public let temp_max : Float?
 }
 
 extension MainModel: Fargo.Decodable {

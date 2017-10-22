@@ -103,16 +103,22 @@ typedef int swift_int4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Wduplicate-method-arg"
 @class UIWindow;
 @class UIApplication;
+@class NSObject;
 
 SWIFT_CLASS("_TtC18WeatherApplication11AppDelegate")
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 @property (nonatomic, strong) UIWindow * _Nullable window;
+- (BOOL)application:(UIApplication * _Nonnull)application didFinishLaunchingWithOptions:(NSDictionary * _Nullable)launchOptions;
 - (void)applicationWillResignActive:(UIApplication * _Nonnull)application;
 - (void)applicationDidEnterBackground:(UIApplication * _Nonnull)application;
 - (void)applicationWillEnterForeground:(UIApplication * _Nonnull)application;
 - (void)applicationDidBecomeActive:(UIApplication * _Nonnull)application;
 - (void)applicationWillTerminate:(UIApplication * _Nonnull)application;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface AppDelegate (SWIFT_EXTENSION(WeatherApplication))
 @end
 
 @class CLLocationManager;
@@ -149,29 +155,47 @@ SWIFT_CLASS("_TtC18WeatherApplication21LoadingViewController")
 
 
 @interface LoadingViewController (SWIFT_EXTENSION(WeatherApplication))
-- (void)startLoading:(BOOL)loading;
-- (void)stopLoading:(NSString * _Nullable)text retryAction:(void (^ _Nullable)(void))retryAction;
 @end
 
 
 @interface LoadingViewController (SWIFT_EXTENSION(WeatherApplication))
+- (void)startLoading:(BOOL)loading;
+- (void)stopLoading:(NSString * _Nullable)text retryAction:(void (^ _Nullable)(void))retryAction;
 @end
 
-@class UITextField;
+@class UILabel;
+@class UIImageView;
 
 SWIFT_CLASS("_TtC18WeatherApplication18MainViewController")
-@interface MainViewController : UIViewController <UITextFieldDelegate>
+@interface MainViewController : UINavigationController <CLLocationManagerDelegate>
+@property (nonatomic, strong) UILabel * _Nonnull dateLabel;
+@property (nonatomic, strong) UILabel * _Nonnull labelMaxTemp;
+@property (nonatomic, strong) UILabel * _Nonnull labelMinTemp;
+@property (nonatomic, strong) UILabel * _Nonnull labelLocale;
+@property (nonatomic, strong) UIImageView * _Nonnull labelImageView;
+@property (nonatomic, strong) CLLocationManager * _Nonnull locationManager;
+@property (nonatomic, copy) NSString * _Nullable locale;
 - (void)viewDidLoad;
-- (BOOL)textFieldShouldReturn:(UITextField * _Nonnull)textField;
-- (void)didReceiveMemoryWarning;
-- (void)updateViewConstraints;
-- (void)textFieldConstraints;
-@property (nonatomic, strong) UITextField * _Null_unspecified textField;
+- (nonnull instancetype)initWithNavigationBarClass:(Class _Nullable)navigationBarClass toolbarClass:(Class _Nullable)toolbarClass OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithRootViewController:(UIViewController * _Nonnull)rootViewController OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UIImageView;
+@class NSError;
+@class CLLocation;
+@class CLPlacemark;
+
+@interface MainViewController (SWIFT_EXTENSION(WeatherApplication))
+- (BOOL)locationStatusCheck:(BOOL)locationactived;
+- (void)locationManager:(CLLocationManager * _Nonnull)manager didFailWithError:(NSError * _Nonnull)error;
+- (void)locationManager:(CLLocationManager * _Nonnull)manager didChangeAuthorizationStatus:(CLAuthorizationStatus)status;
+- (void)locationManager:(CLLocationManager * _Nonnull)manager didUpdateLocations:(NSArray<CLLocation *> * _Nonnull)locations;
+- (void)displayLocationInfo:(CLPlacemark * _Nullable)placemark;
+- (BOOL)hasConnectivity;
+- (void)didPressRefreshButton:(id _Nonnull)sender;
+@end
+
 @class UIButton;
 
 SWIFT_CLASS("_TtC18WeatherApplication6NavBar")

@@ -7,19 +7,19 @@ provides-member:
 - ["C7SnapKit15ConstraintMaker", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Constraint"
-- "ConstraintDescription"
 - "StringLiteralType"
-- "View"
-- "String"
-- "ConstraintDescriptionExtendable"
-- !private "BooleanLiteralType"
-- "Void"
-- "ConstraintAttributes"
+- "ConstraintDescription"
 - "UInt"
+- "Constraint"
+- "ConstraintDescriptionExtendable"
+- "String"
+- "ConstraintAttributes"
+- !private "BooleanLiteralType"
+- "View"
+- "Void"
 - !private "ConcreteConstraint"
-- !private "ConstraintItem"
 - "ConstraintMaker"
+- !private "ConstraintItem"
 depends-member:
 - !private ["Ps9AnyObject", "ConstraintAttributes"]
 - ["Ps9AnyObject", "ConstraintDescription"]

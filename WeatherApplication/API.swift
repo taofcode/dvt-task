@@ -10,9 +10,9 @@ import Foundation
 import Fargo
 
 public struct API{
-
-     static func requestCurrentCityWeather(city: String,key: String,completion:(Result<[DataModel]>)->Void){
-        let URLString = BackEndInfo.baseURLString + "/weather=\(city)&appid="+key
+    
+    static func requestCurrentCityWeather(lat: String,lon:String,key: String,completion:(Result<DataModel>)->Void){
+        let URLString = BackEndInfo.baseURLString + "weather?lat=\(lat)&lon=\(lon)&appid="+key
         Networking.GET(URLString,completion: completion)
     }
 

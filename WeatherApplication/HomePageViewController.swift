@@ -20,17 +20,7 @@ var locationManager = CLLocationManager()
 extension HomePageViewController{
     public override func loadView() {
         
-        let city :String = "Harare";
-        let key : String = BackEndInfo.API_KEY_EIGHT
         
-        API.requestCurrentCityWeather(city, key: key ) { (resultTransaction) -> Void in
-            
-            resultTransaction.success({ (transactionModel) -> Void in
-                
-                
-            })
-            
-        }
     }
     
     public override func viewDidLoad() {

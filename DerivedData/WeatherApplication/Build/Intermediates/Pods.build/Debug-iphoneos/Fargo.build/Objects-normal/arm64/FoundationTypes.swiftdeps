@@ -16,16 +16,16 @@ provides-member:
 - ["Su", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- "JSON"
 - "Bool"
-- "Decodable"
 - !private "StringLiteralType"
+- "Decodable"
+- "Float"
 - "UInt"
 - !private "DecodeError"
-- "Double"
 - "Int"
-- "JSON"
 - "String"
-- "Float"
+- "Double"
 depends-member:
 - !private ["Ps16AbsoluteValuable", "DecodeError"]
 - ["Ps16AbsoluteValuable", "decode"]

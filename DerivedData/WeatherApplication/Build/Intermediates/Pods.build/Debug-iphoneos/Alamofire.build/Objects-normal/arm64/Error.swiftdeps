@@ -12,16 +12,16 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - !private "Dictionary"
-- "Int"
-- "Error"
 - !private "NSLocalizedFailureReasonErrorKey"
-- "String"
 - "FloatLiteralType"
 - "IntegerLiteralType"
 - "=="
 - !private "~="
-- "StringLiteralType"
 - "NSError"
+- "Int"
+- "String"
+- "Error"
+- "StringLiteralType"
 depends-member:
 - !private ["Ps9AnyObject", "init"]
 - !private ["Ps22BidirectionalIndexType", "Distance"]

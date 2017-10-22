@@ -7,35 +7,69 @@ provides-member:
 - ["V18WeatherApplication10CoordModel", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "String"
-- "JSON"
-- "CoordModel"
-- "Fargo"
 - !private "StringLiteralType"
+- "CoordModel"
+- "NSNumber"
+- "Float"
+- "JSON"
+- "String"
+- "Fargo"
 depends-member:
+- !private ["Ps9AnyObject", "stringValue"]
 - !private ["Sa", "deinit"]
+- !private ["Ps25BooleanLiteralConvertible", "stringValue"]
+- !private ["Ps11CVarArgType", "stringValue"]
 - ["V18WeatherApplication10CoordModel", "CoordModel"]
+- ["V18WeatherApplication10CoordModel", "Float"]
 - ["V18WeatherApplication10CoordModel", "JSON"]
+- ["V18WeatherApplication10CoordModel", "NSNumber"]
 - ["V18WeatherApplication10CoordModel", "String"]
 - ["V18WeatherApplication10CoordModel", "decode"]
 - ["V18WeatherApplication10CoordModel", "deinit"]
 - ["V18WeatherApplication10CoordModel", "init"]
 - ["V18WeatherApplication10CoordModel", "lat"]
 - ["V18WeatherApplication10CoordModel", "lon"]
+- ["V18WeatherApplication10CoordModel", "stringFromNumber"]
+- !private ["Ps28CustomDebugStringConvertible", "stringValue"]
+- !private ["Ps23CustomStringConvertible", "stringValue"]
 - !private ["Ps23CustomStringConvertible", "value"]
 - !private ["P5Fargo9Decodable", "CoordModel"]
 - ["P5Fargo9Decodable", "decode"]
 - !private ["P5Fargo9Decodable", "init"]
 - ["P5Fargo9Decodable", ""]
+- !private ["Ps9Equatable", "stringValue"]
+- !private ["Ps23FloatLiteralConvertible", "stringValue"]
+- !private ["Ps8Hashable", "stringValue"]
+- !private ["Ps25IntegerLiteralConvertible", "stringValue"]
 - !private ["O5Fargo4JSON", "value"]
-- !private ["Sq", "deinit"]
+- !private ["PSo8NSCoding", "stringValue"]
+- !private ["PSo9NSCopying", "stringValue"]
+- !private ["CSo8NSNumber", "stringValue"]
+- !private ["CSo8NSObject", "stringValue"]
+- !private ["PSo16NSObjectProtocol", "stringValue"]
+- !private ["PSo14NSSecureCoding", "stringValue"]
+- !private ["CSo7NSValue", "stringValue"]
 depends-nominal:
+- !private "Ps9AnyObject"
 - !private "Sa"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11CVarArgType"
 - "V18WeatherApplication10CoordModel"
+- !private "Ps28CustomDebugStringConvertible"
 - !private "Ps23CustomStringConvertible"
 - "P5Fargo9Decodable"
+- !private "Ps9Equatable"
+- !private "Ps23FloatLiteralConvertible"
+- !private "Ps8Hashable"
+- !private "Ps25IntegerLiteralConvertible"
 - !private "O5Fargo4JSON"
-- !private "Sq"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo8NSNumber"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo7NSValue"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
@@ -44,16 +78,16 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
-- "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm.swiftmodule"
-- "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
-- "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
-- "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/module.modulemap"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
 - "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/Fargo/Fargo.framework/Modules/Fargo.swiftmodule/arm.swiftmodule"
 - "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/Fargo/Fargo.framework/Headers/Fargo-Swift.h"
 - "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/Fargo/Fargo.framework/Headers/Fargo-umbrella.h"
 - "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/Fargo/Fargo.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm.swiftmodule"
+- "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/module.modulemap"
 - "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/MBProgressHUD/MBProgressHUD.framework/Headers/MBProgressHUD.h"
 - "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/MBProgressHUD/MBProgressHUD.framework/Headers/MBProgressHUD-umbrella.h"
 - "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/MBProgressHUD/MBProgressHUD.framework/Modules/module.modulemap"
@@ -76,4 +110,4 @@ depends-external:
 - "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/DCIntrospect-ARC/DCIntrospect_ARC.framework/Headers/DCCrossHairView.h"
 - "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/DCIntrospect-ARC/DCIntrospect_ARC.framework/Headers/DCIntrospect-ARC-umbrella.h"
 - "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/DCIntrospect-ARC/DCIntrospect_ARC.framework/Modules/module.modulemap"
-interface-hash: "3da19012faa7bcfb1e84a11c75ab2994"
+interface-hash: "1b88f7ff6261b9ba424b0f481bd9b6b4"

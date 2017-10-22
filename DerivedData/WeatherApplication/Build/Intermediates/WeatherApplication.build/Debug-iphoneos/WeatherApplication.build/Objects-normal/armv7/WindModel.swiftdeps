@@ -1,41 +1,40 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
-- "WindModel"
+- "CloudModel"
 provides-nominal:
-- "V18WeatherApplication9WindModel"
+- "V18WeatherApplication10CloudModel"
 provides-member:
-- ["V18WeatherApplication9WindModel", ""]
+- ["V18WeatherApplication10CloudModel", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "String"
-- "WindModel"
 - !private "StringLiteralType"
+- "Float"
 - "JSON"
 - "Fargo"
+- "CloudModel"
 depends-member:
 - !private ["Sa", "deinit"]
+- ["V18WeatherApplication10CloudModel", "CloudModel"]
+- ["V18WeatherApplication10CloudModel", "Float"]
+- ["V18WeatherApplication10CloudModel", "JSON"]
+- ["V18WeatherApplication10CloudModel", "all"]
+- ["V18WeatherApplication10CloudModel", "decode"]
+- ["V18WeatherApplication10CloudModel", "deinit"]
+- ["V18WeatherApplication10CloudModel", "init"]
 - !private ["Ps23CustomStringConvertible", "value"]
-- !private ["P5Fargo9Decodable", "WindModel"]
+- !private ["P5Fargo9Decodable", "CloudModel"]
 - ["P5Fargo9Decodable", "decode"]
 - !private ["P5Fargo9Decodable", "init"]
 - ["P5Fargo9Decodable", ""]
 - !private ["O5Fargo4JSON", "value"]
 - !private ["Sq", "deinit"]
-- ["V18WeatherApplication9WindModel", "JSON"]
-- ["V18WeatherApplication9WindModel", "String"]
-- ["V18WeatherApplication9WindModel", "WindModel"]
-- ["V18WeatherApplication9WindModel", "decode"]
-- ["V18WeatherApplication9WindModel", "deg"]
-- ["V18WeatherApplication9WindModel", "deinit"]
-- ["V18WeatherApplication9WindModel", "init"]
-- ["V18WeatherApplication9WindModel", "speed"]
 depends-nominal:
 - !private "Sa"
+- "V18WeatherApplication10CloudModel"
 - !private "Ps23CustomStringConvertible"
 - "P5Fargo9Decodable"
 - !private "O5Fargo4JSON"
 - !private "Sq"
-- "V18WeatherApplication9WindModel"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
@@ -44,16 +43,16 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
-- "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm.swiftmodule"
-- "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
-- "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
-- "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/module.modulemap"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
 - "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/Fargo/Fargo.framework/Modules/Fargo.swiftmodule/arm.swiftmodule"
 - "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/Fargo/Fargo.framework/Headers/Fargo-Swift.h"
 - "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/Fargo/Fargo.framework/Headers/Fargo-umbrella.h"
 - "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/Fargo/Fargo.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm.swiftmodule"
+- "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/module.modulemap"
 - "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/MBProgressHUD/MBProgressHUD.framework/Headers/MBProgressHUD.h"
 - "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/MBProgressHUD/MBProgressHUD.framework/Headers/MBProgressHUD-umbrella.h"
 - "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/MBProgressHUD/MBProgressHUD.framework/Modules/module.modulemap"
@@ -76,4 +75,4 @@ depends-external:
 - "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/DCIntrospect-ARC/DCIntrospect_ARC.framework/Headers/DCCrossHairView.h"
 - "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/DCIntrospect-ARC/DCIntrospect_ARC.framework/Headers/DCIntrospect-ARC-umbrella.h"
 - "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/DCIntrospect-ARC/DCIntrospect_ARC.framework/Modules/module.modulemap"
-interface-hash: "b62b8aa845092af7276859a665857cbf"
+interface-hash: "909916b67299b218f696157708d5aa89"

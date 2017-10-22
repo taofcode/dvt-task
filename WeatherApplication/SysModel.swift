@@ -9,12 +9,12 @@
 import Foundation
 import Fargo
 public struct SysModel {
-    public let type: String?
-    public let id: String?
-    public let message: String?
+    public let type: Float?
+    public let id: Float?
+    public let message: Float?
     public let country : String?
-    public let sunrise : String?
-    public let sunset : String?
+    public let sunrise : Float?
+    public let sunset : Float?
 }
 
 extension SysModel: Fargo.Decodable {

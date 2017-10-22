@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		09248BA41F9CBC41003E32F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09248BA31F9CBC41003E32F8 /* LaunchScreen.storyboard */; };
 		09248BC51F9CBF61003E32F8 /* Theme.json in Resources */ = {isa = PBXBuildFile; fileRef = 09248BC41F9CBF61003E32F8 /* Theme.json */; };
+		09248BC71F9D2A05003E32F8 /* CloudModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09248BC61F9D2A05003E32F8 /* CloudModel.swift */; };
 		09253EC61F9CB3E500BF98E0 /* Theme.json in Resources */ = {isa = PBXBuildFile; fileRef = 09253EC51F9CB3E500BF98E0 /* Theme.json */; };
 		0926B43E1F9B8EC100027F64 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0926B43D1F9B8EC100027F64 /* API.swift */; };
 		0926B4421F9BAECD00027F64 /* BackEndInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0926B4411F9BAECD00027F64 /* BackEndInfo.swift */; };
@@ -43,6 +44,7 @@
 /* Begin PBXFileReference section */
 		09248BA31F9CBC41003E32F8 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09248BC41F9CBF61003E32F8 /* Theme.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Theme.json; path = "../../v-mobile-ios/Targets/CABS/Resources/Theme.json"; sourceTree = "<group>"; };
+		09248BC61F9D2A05003E32F8 /* CloudModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudModel.swift; sourceTree = "<group>"; };
 		09253EC51F9CB3E500BF98E0 /* Theme.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Theme.json; sourceTree = "<group>"; };
 		0926B43D1F9B8EC100027F64 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		0926B4411F9BAECD00027F64 /* BackEndInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackEndInfo.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				0926B45F1F9BCBCB00027F64 /* DataModel.swift */,
 				096224E41F9C68290092982E /* CoordModel.swift */,
 				096224EA1F9C6B640092982E /* WindModel.swift */,
+				09248BC61F9D2A05003E32F8 /* CloudModel.swift */,
 				096224E61F9C69450092982E /* WeatherModel.swift */,
 				096224E81F9C6A340092982E /* MainModel.swift */,
 				096224EC1F9C6BE50092982E /* SysModel.swift */,
@@ -395,6 +398,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0926B4421F9BAECD00027F64 /* BackEndInfo.swift in Sources */,
+				09248BC71F9D2A05003E32F8 /* CloudModel.swift in Sources */,
 				0926B44E1F9BB4F800027F64 /* Request.swift in Sources */,
 				0926B4491F9BB31100027F64 /* TokenModel.swift in Sources */,
 				096224E51F9C68290092982E /* CoordModel.swift in Sources */,

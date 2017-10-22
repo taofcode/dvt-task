@@ -23,6 +23,7 @@ depends-top-level:
 - "NSURLSession"
 - "NSOutputStream"
 - "NSNetService"
+- "Int"
 - "Request"
 - "Void"
 - "NSURLSessionStreamTask"
@@ -30,7 +31,6 @@ depends-top-level:
 - "NSInputStream"
 - "Manager"
 - "String"
-- "Int"
 depends-member:
 - !private ["Ps9AnyObject", "NetService"]
 - !private ["Ps9AnyObject", "Request"]

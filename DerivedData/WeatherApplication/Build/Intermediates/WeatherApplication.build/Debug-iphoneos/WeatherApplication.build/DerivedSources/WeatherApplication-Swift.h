@@ -164,10 +164,17 @@ SWIFT_CLASS("_TtC18WeatherApplication21LoadingViewController")
 @end
 
 @class UILabel;
+@class UIImageView;
 
 SWIFT_CLASS("_TtC18WeatherApplication18MainViewController")
-@interface MainViewController : UINavigationController
-@property (nonatomic, readonly, strong) UILabel * _Nonnull label;
+@interface MainViewController : UINavigationController <CLLocationManagerDelegate>
+@property (nonatomic, strong) UILabel * _Nonnull dateLabel;
+@property (nonatomic, strong) UILabel * _Nonnull labelMaxTemp;
+@property (nonatomic, strong) UILabel * _Nonnull labelMinTemp;
+@property (nonatomic, strong) UILabel * _Nonnull labelLocale;
+@property (nonatomic, strong) UIImageView * _Nonnull labelImageView;
+@property (nonatomic, strong) CLLocationManager * _Nonnull locationManager;
+@property (nonatomic, copy) NSString * _Nullable locale;
 - (void)viewDidLoad;
 - (nonnull instancetype)initWithNavigationBarClass:(Class _Nullable)navigationBarClass toolbarClass:(Class _Nullable)toolbarClass OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithRootViewController:(UIViewController * _Nonnull)rootViewController OBJC_DESIGNATED_INITIALIZER;
@@ -175,12 +182,18 @@ SWIFT_CLASS("_TtC18WeatherApplication18MainViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class NSError;
+@class CLLocation;
 
 @interface MainViewController (SWIFT_EXTENSION(WeatherApplication))
+- (BOOL)locationStatusCheck:(BOOL)locationactived;
+- (void)locationManager:(CLLocationManager * _Nonnull)manager didFailWithError:(NSError * _Nonnull)error;
+- (void)locationManager:(CLLocationManager * _Nonnull)manager didChangeAuthorizationStatus:(CLAuthorizationStatus)status;
+- (void)locationManager:(CLLocationManager * _Nonnull)manager didUpdateLocations:(NSArray<CLLocation *> * _Nonnull)locations;
+- (BOOL)hasConnectivity;
 - (void)didPressRefreshButton:(id _Nonnull)sender;
 @end
 
-@class UIImageView;
 @class UIButton;
 
 SWIFT_CLASS("_TtC18WeatherApplication6NavBar")

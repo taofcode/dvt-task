@@ -1,5 +1,5 @@
 //
-//  WindModel.swift
+//  CloudModel.swift
 //  WeatherApplication
 //
 //  Created by Shelton on 10/22/17.
@@ -9,16 +9,15 @@
 import Foundation
 import Fargo
 
-public struct WindModel {
-    public let speed: String?
-    public let deg: String?
+public struct CloudModel {
+    public let all: Float?
+ 
 }
 
-extension WindModel: Fargo.Decodable {
-    public static func decode(json: JSON) throws -> WindModel {
-        return WindModel(
-            speed:	try json.value("speed"),
-            deg:	try json.value("deg")
+extension CloudModel: Fargo.Decodable {
+    public static func decode(json: JSON) throws -> CloudModel {
+        return CloudModel(
+            all :	try json.value("all")
         )
     }
 }

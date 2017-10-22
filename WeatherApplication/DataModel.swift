@@ -15,14 +15,14 @@ public struct DataModel {
     let weather: [WeatherModel]
     let baseStation : String
     let main : MainModel
-    let visibility : String?
+    let visibility : Float?
      let wind: WindModel
-     let clouds: String
-     let dt : String
+     let clouds: CloudModel
+     let dt : Float
     let sys : SysModel
-    let id : String
-    let name : String
-    let code : String
+    let id : Float?
+    let name : String?
+    let code : Float?
 
    }
 
@@ -35,7 +35,7 @@ extension DataModel: Fargo.Decodable {
         return DataModel(
             coord:	try json.value("coord"),
             weather: try json.value("weather"),
-            baseStation:	try json.value("baseStation"),
+            baseStation:	try json.value("base"),
             main : try json.value("main"),
             visibility : try json.value("visibility"),
             wind : try json.value("wind"),
@@ -44,7 +44,7 @@ extension DataModel: Fargo.Decodable {
             sys : try json.value("sys"),
             id : try json.value("id"),
             name: try json.value("name"),
-            code : try json.value("code")
+            code : try json.value("cod")
             
         )
         

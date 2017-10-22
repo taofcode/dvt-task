@@ -9,12 +9,12 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "NSLayoutConstraint"
-- "Constraint"
-- "=="
 - !private "!=="
-- !private "BooleanLiteralType"
+- "=="
+- "Constraint"
 - "Bool"
 - !private "!="
+- !private "BooleanLiteralType"
 - "LayoutConstraint"
 depends-member:
 - !private ["Ps9AnyObject", "firstAttribute"]

@@ -7,11 +7,11 @@ provides-member:
 - ["O5Fargo11DecodeError", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "String"
+- "DecodeError"
 - !private "IntegerLiteralType"
 - !private "FloatLiteralType"
 - "ErrorType"
-- "DecodeError"
+- "String"
 depends-member:
 - ["O5Fargo11DecodeError", "MissingKey"]
 - ["O5Fargo11DecodeError", "String"]

@@ -10,15 +10,20 @@ import Foundation
 import Fargo
 
 public struct CoordModel {
-    public let lon: String?
-    public let lat: String?
+    public let lon: Float
+    public let lat: Float
 }
 
 extension CoordModel: Fargo.Decodable {
     public static func decode(json: JSON) throws -> CoordModel {
-        return CoordModel(
+          return CoordModel(
             lon:	try json.value("lon"),
             lat:	try json.value("lat")
         )
+    }
+    
+    func stringFromNumber(num:NSNumber) -> String {
+        
+        return num.stringValue
     }
 }

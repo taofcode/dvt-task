@@ -9,7 +9,7 @@
 import Foundation
 import Fargo
 public struct WeatherModel {
-    public let id: String?
+    public let id: Float?
     public let main: String?
     public let description : String?
     public let icon : String?
