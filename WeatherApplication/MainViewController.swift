@@ -8,10 +8,10 @@
 
 import UIKit
 
-class MainViewController: UIViewController ,UITextFieldDelegate{
+final public class MainViewController: UINavigationController{
     let label = UILabel()
     
-    override func viewDidLoad() {
+    override public func viewDidLoad() {
         super.viewDidLoad()
         
         view.backgroundColor = Theme.current.color(.backgroundColor)
@@ -22,4 +22,13 @@ class MainViewController: UIViewController ,UITextFieldDelegate{
         view.addSubview(label)
     }
     
+    
+    
 }
+extension MainViewController{
+
+    func didPressRefreshButton(sender:AnyObject){}
+    
+
+}
+

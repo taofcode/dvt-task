@@ -26,7 +26,7 @@
                   moduleName = "Fargo"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/shelton/Desktop/WeatherApplication/Pods/Fargo/Fargo/Source/Types/FoundationTypes.swift"
-                  timestampString = "530365371.680371"
+                  timestampString = "530367637.384207"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "23"
@@ -41,7 +41,7 @@
                   moduleName = "Fargo"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/shelton/Desktop/WeatherApplication/Pods/Fargo/Fargo/Source/Types/FoundationTypes.swift"
-                  timestampString = "530365371.685165"
+                  timestampString = "530367637.389455"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "22"
@@ -64,38 +64,6 @@
             startingLineNumber = "23"
             endingLineNumber = "23"
             landmarkName = "loadView()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "WeatherApplication/AppDelegate.swift"
-            timestampString = "530363481.70952"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "22"
-            endingLineNumber = "22"
-            landmarkName = "application(application:didFinishLaunchingWithOptions:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "WeatherApplication/MainViewController.swift"
-            timestampString = "530365228.262002"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "18"
-            endingLineNumber = "18"
-            landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

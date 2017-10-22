@@ -7,11 +7,11 @@ provides-member:
 - ["V18WeatherApplication9WindModel", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "JSON"
-- !private "StringLiteralType"
 - "String"
-- "Fargo"
 - "WindModel"
+- !private "StringLiteralType"
+- "JSON"
+- "Fargo"
 depends-member:
 - !private ["Sa", "deinit"]
 - !private ["Ps23CustomStringConvertible", "value"]
@@ -62,4 +62,18 @@ depends-external:
 - "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/SnapKit/SnapKit.framework/Headers/SnapKit-Swift.h"
 - "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/SnapKit/SnapKit.framework/Headers/SnapKit-umbrella.h"
 - "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/SnapKit/SnapKit.framework/Modules/module.modulemap"
+- "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/XCGLogger/XCGLogger.framework/Modules/XCGLogger.swiftmodule/arm.swiftmodule"
+- "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/XCGLogger/XCGLogger.framework/Headers/XCGLogger-Swift.h"
+- "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/XCGLogger/XCGLogger.framework/Headers/XCGLogger.h"
+- "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/XCGLogger/XCGLogger.framework/Headers/XCGLogger-umbrella.h"
+- "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/XCGLogger/XCGLogger.framework/Modules/module.modulemap"
+- "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/DCIntrospect-ARC/DCIntrospect_ARC.framework/Headers/UIView+DCAdditions.h"
+- "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/DCIntrospect-ARC/DCIntrospect_ARC.framework/Headers/DCTextView.h"
+- "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/DCIntrospect-ARC/DCIntrospect_ARC.framework/Headers/DCStatusBarOverlay.h"
+- "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/DCIntrospect-ARC/DCIntrospect_ARC.framework/Headers/DCIntrospectSettings.h"
+- "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/DCIntrospect-ARC/DCIntrospect_ARC.framework/Headers/DCIntrospect.h"
+- "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/DCIntrospect-ARC/DCIntrospect_ARC.framework/Headers/DCFrameView.h"
+- "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/DCIntrospect-ARC/DCIntrospect_ARC.framework/Headers/DCCrossHairView.h"
+- "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/DCIntrospect-ARC/DCIntrospect_ARC.framework/Headers/DCIntrospect-ARC-umbrella.h"
+- "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/DCIntrospect-ARC/DCIntrospect_ARC.framework/Modules/module.modulemap"
 interface-hash: "b62b8aa845092af7276859a665857cbf"

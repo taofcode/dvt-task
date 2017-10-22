@@ -4,18 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
-		<data>
-		bPHd6g4A/NX2Cf0IBPUoQEbQhj0=
-		</data>
-		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
-		<data>
-		n2t8gsDpfE6XkhG31p7IQJRxTxU=
-		</data>
-		<key>Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
-		<data>
-		ZUtV7BC8RUzjQJX8m8Cl7A5TK0Q=
-		</data>
 		<key>Frameworks/Alamofire.framework/Alamofire</key>
 		<data>
 		LND8Xi+h7InxRI5If8pGznTMhtM=
@@ -132,13 +120,17 @@
 		<data>
 		98OacWRkeyzNHjPi/R/4Q8lucyI=
 		</data>
+		<key>LaunchScreen.storyboardc/Info.plist</key>
+		<data>
+		GnMdGFfDuvwAuWJN7FS9ELLozY4=
+		</data>
 		<key>PkgInfo</key>
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
 		</data>
 		<key>Theme.json</key>
 		<data>
-		Z0Z+Rz/IwLevRp4DiFl+VjaGAsU=
+		yaK5C1P/iW1pQHahWGigC2QNrGI=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
@@ -160,39 +152,6 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			bPHd6g4A/NX2Cf0IBPUoQEbQhj0=
-			</data>
-			<key>hash2</key>
-			<data>
-			KW25KYZT8RKnxwwt2+/VB8rWympNV7j8ZSK7orbCR/I=
-			</data>
-		</dict>
-		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			n2t8gsDpfE6XkhG31p7IQJRxTxU=
-			</data>
-			<key>hash2</key>
-			<data>
-			HyVdXMU7Ux4/KalAao30mpWOK/lEPT4gvYN09wf31cg=
-			</data>
-		</dict>
-		<key>Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ZUtV7BC8RUzjQJX8m8Cl7A5TK0Q=
-			</data>
-			<key>hash2</key>
-			<data>
-			eLXLCf9UVjyQ7G+XBjxkcxwKGZIUeQdDiJ17REn68fE=
-			</data>
-		</dict>
 		<key>Frameworks/Alamofire.framework/Alamofire</key>
 		<dict>
 			<key>hash</key>
@@ -501,15 +460,26 @@
 			h7v5DF/doTyt7UyNMQNclGyvuZ2NfRkjr1Nk0MZRK3Q=
 			</data>
 		</dict>
+		<key>LaunchScreen.storyboardc/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			GnMdGFfDuvwAuWJN7FS9ELLozY4=
+			</data>
+			<key>hash2</key>
+			<data>
+			9gq+m2SfIqZdO4RnP+Q5bwx0h1nftPpvwkJZZ8jBiZE=
+			</data>
+		</dict>
 		<key>Theme.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Z0Z+Rz/IwLevRp4DiFl+VjaGAsU=
+			yaK5C1P/iW1pQHahWGigC2QNrGI=
 			</data>
 			<key>hash2</key>
 			<data>
-			pUerZOQxMCpKHi1vRjzfYbV5GDoen3/IUh79ivuRYvA=
+			q+tiO+yzKxIJx0J3gTMm/U6dw4ePNKPzMLJHuXFfhfU=
 			</data>
 		</dict>
 		<key>embedded.mobileprovision</key>

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		09248BA41F9CBC41003E32F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09248BA31F9CBC41003E32F8 /* LaunchScreen.storyboard */; };
+		09248BC51F9CBF61003E32F8 /* Theme.json in Resources */ = {isa = PBXBuildFile; fileRef = 09248BC41F9CBF61003E32F8 /* Theme.json */; };
 		09253EC61F9CB3E500BF98E0 /* Theme.json in Resources */ = {isa = PBXBuildFile; fileRef = 09253EC51F9CB3E500BF98E0 /* Theme.json */; };
 		0926B43E1F9B8EC100027F64 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0926B43D1F9B8EC100027F64 /* API.swift */; };
 		0926B4421F9BAECD00027F64 /* BackEndInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0926B4411F9BAECD00027F64 /* BackEndInfo.swift */; };
@@ -41,6 +42,7 @@
 
 /* Begin PBXFileReference section */
 		09248BA31F9CBC41003E32F8 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		09248BC41F9CBF61003E32F8 /* Theme.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Theme.json; path = "../../v-mobile-ios/Targets/CABS/Resources/Theme.json"; sourceTree = "<group>"; };
 		09253EC51F9CB3E500BF98E0 /* Theme.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Theme.json; sourceTree = "<group>"; };
 		0926B43D1F9B8EC100027F64 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		0926B4411F9BAECD00027F64 /* BackEndInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackEndInfo.swift; sourceTree = "<group>"; };
@@ -158,6 +160,7 @@
 		0944A9EF1F9B5991007116F6 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				09248BC41F9CBF61003E32F8 /* Theme.json */,
 				09ED2B9A1F9932AF00F488B1 /* Assets.xcassets */,
 				09248BA31F9CBC41003E32F8 /* LaunchScreen.storyboard */,
 			);
@@ -314,6 +317,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				09248BA41F9CBC41003E32F8 /* LaunchScreen.storyboard in Resources */,
+				09248BC51F9CBF61003E32F8 /* Theme.json in Resources */,
 				09253EC61F9CB3E500BF98E0 /* Theme.json in Resources */,
 				09ED2B9B1F9932AF00F488B1 /* Assets.xcassets in Resources */,
 			);
