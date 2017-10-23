@@ -7,10 +7,10 @@ provides-member:
 - ["V18WeatherApplication13ErrorResponse", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "StringLiteralType"
-- "String"
-- "ErrorResponse"
 - "JSON"
+- "String"
+- !private "StringLiteralType"
+- "ErrorResponse"
 - "Fargo"
 depends-member:
 - !private ["Sa", "deinit"]

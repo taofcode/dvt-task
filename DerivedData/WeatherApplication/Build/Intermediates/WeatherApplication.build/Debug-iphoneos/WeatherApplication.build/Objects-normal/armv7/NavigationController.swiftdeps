@@ -9,15 +9,15 @@ provides-member:
 provides-dynamic-lookup:
 - "supportedInterfaceOrientations"
 depends-top-level:
-- !private "StringLiteralType"
 - "UIViewController"
-- !private "fatalError"
+- !private "NavBar"
 - "NavigationController"
+- "UIInterfaceOrientationMask"
+- !private "StringLiteralType"
 - "NSCoder"
 - "String"
-- "UIInterfaceOrientationMask"
+- !private "fatalError"
 - "UINavigationController"
-- !private "NavBar"
 - !private "BooleanLiteralType"
 - "NSBundle"
 depends-member:

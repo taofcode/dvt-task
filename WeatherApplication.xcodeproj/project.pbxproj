@@ -35,6 +35,7 @@
 		096224F31F9CA1180092982E /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096224F21F9CA1180092982E /* LoadingViewController.swift */; };
 		096224F51F9CA17C0092982E /* LocalizedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096224F41F9CA17C0092982E /* LocalizedString.swift */; };
 		096225151F9CAAC70092982E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096225141F9CAAC70092982E /* MainViewController.swift */; };
+		09E13AA61F9E8C9E0038BD9D /* NavTitleViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E13AA51F9E8C9E0038BD9D /* NavTitleViewDelegate.swift */; };
 		09ED2B941F9932AF00F488B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09ED2B931F9932AF00F488B1 /* AppDelegate.swift */; };
 		09ED2B9B1F9932AF00F488B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09ED2B9A1F9932AF00F488B1 /* Assets.xcassets */; };
 		227BDACC4847C4B9C583E33D /* Pods_BasePods_WeatherApplication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFC4951DDF06C4702D6A5A1F /* Pods_BasePods_WeatherApplication.framework */; };
@@ -70,6 +71,7 @@
 		096224F21F9CA1180092982E /* LoadingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
 		096224F41F9CA17C0092982E /* LocalizedString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizedString.swift; sourceTree = "<group>"; };
 		096225141F9CAAC70092982E /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		09E13AA51F9E8C9E0038BD9D /* NavTitleViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavTitleViewDelegate.swift; sourceTree = "<group>"; };
 		09ED2B901F9932AF00F488B1 /* WeatherApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09ED2B931F9932AF00F488B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		09ED2B9A1F9932AF00F488B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -207,6 +209,7 @@
 				0944A9F81F9B6089007116F6 /* NavigationController.swift */,
 				093FF6641F9B6472002980F4 /* NavBar.swift */,
 				093FF6661F9B6525002980F4 /* BoostrapUI.swift */,
+				09E13AA51F9E8C9E0038BD9D /* NavTitleViewDelegate.swift */,
 			);
 			name = Navigation;
 			sourceTree = "<group>";
@@ -410,6 +413,7 @@
 				0926B45E1F9BC6EF00027F64 /* CodeResponse.swift in Sources */,
 				0926B4441F9BB23600027F64 /* Networking.swift in Sources */,
 				096224ED1F9C6BE50092982E /* SysModel.swift in Sources */,
+				09E13AA61F9E8C9E0038BD9D /* NavTitleViewDelegate.swift in Sources */,
 				0944A9F91F9B6089007116F6 /* NavigationController.swift in Sources */,
 				096224F31F9CA1180092982E /* LoadingViewController.swift in Sources */,
 				096225151F9CAAC70092982E /* MainViewController.swift in Sources */,

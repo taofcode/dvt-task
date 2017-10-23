@@ -1,6 +1,6 @@
 version: "Apple Swift version 2.3 (swiftlang-800.10.13 clang-800.0.42.1)"
 options: "c12ccb12232d466d1a686c71578cb8b7"
-build_time: [562025182, 358811000]
+build_time: [562108982, 891039000]
 inputs:
   "/Users/shelton/Desktop/WeatherApplication/Pods/Fargo/Fargo/Source/Extensions/Array.swift": [556656030, 0]
   "/Users/shelton/Desktop/WeatherApplication/Pods/Fargo/Fargo/Source/Types/Decodable.swift": [556656030, 0]

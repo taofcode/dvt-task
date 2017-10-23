@@ -7,11 +7,11 @@ provides-member:
 - ["V18WeatherApplication10CloudModel", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "StringLiteralType"
-- "Float"
-- "JSON"
 - "Fargo"
+- !private "StringLiteralType"
+- "JSON"
 - "CloudModel"
+- "Float"
 depends-member:
 - !private ["Sa", "deinit"]
 - ["V18WeatherApplication10CloudModel", "CloudModel"]

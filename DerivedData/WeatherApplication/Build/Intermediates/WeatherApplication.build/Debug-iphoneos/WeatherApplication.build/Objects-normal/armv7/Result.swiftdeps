@@ -7,12 +7,12 @@ provides-member:
 - ["O18WeatherApplication6Result", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "StringLiteralType"
-- "Result"
-- "NSError"
 - "Void"
-- "String"
 - "CustomStringConvertible"
+- "Result"
+- "String"
+- !private "StringLiteralType"
+- "NSError"
 depends-member:
 - !private ["Ps9AnyObject", "init"]
 - !private ["Sb", "deinit"]

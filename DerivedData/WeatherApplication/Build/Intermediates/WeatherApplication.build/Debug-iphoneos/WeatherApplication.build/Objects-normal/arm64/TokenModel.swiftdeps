@@ -8,18 +8,18 @@ provides-member:
 - ["V18WeatherApplication10TokenModel", "encode"]
 provides-dynamic-lookup:
 depends-top-level:
-- "JSON"
 - !private "Dictionary"
-- !private "StringLiteralType"
-- !private "NSTimeInterval"
-- "String"
-- !private "*"
-- "Fargo"
-- "AnyObject"
-- !private "print"
 - "NSDate"
-- "TokenModel"
+- "Fargo"
+- !private "NSTimeInterval"
+- !private "StringLiteralType"
+- "JSON"
 - !private "/"
+- "AnyObject"
+- !private "*"
+- "TokenModel"
+- !private "print"
+- "String"
 depends-member:
 - !private ["Ps9AnyObject", "dateByAddingTimeInterval"]
 - !private ["Ps9AnyObject", "init"]

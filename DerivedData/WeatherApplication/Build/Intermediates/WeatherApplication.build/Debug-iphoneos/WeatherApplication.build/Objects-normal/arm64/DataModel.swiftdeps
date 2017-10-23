@@ -7,19 +7,19 @@ provides-member:
 - ["V18WeatherApplication9DataModel", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "StringLiteralType"
-- "JSON"
-- "Float"
-- "MainModel"
-- "SysModel"
+- !private "print"
 - "CoordModel"
 - "CloudModel"
-- "WindModel"
-- "String"
-- !private "print"
-- "WeatherModel"
-- "Fargo"
 - "DataModel"
+- "Float"
+- "JSON"
+- "WeatherModel"
+- !private "StringLiteralType"
+- "String"
+- "Fargo"
+- "MainModel"
+- "SysModel"
+- "WindModel"
 depends-member:
 - !private ["Sa", "deinit"]
 - !private ["V18WeatherApplication10CloudModel", "deinit"]

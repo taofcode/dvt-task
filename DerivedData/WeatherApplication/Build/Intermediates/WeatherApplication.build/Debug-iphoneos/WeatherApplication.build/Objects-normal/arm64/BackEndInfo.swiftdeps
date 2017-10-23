@@ -7,8 +7,8 @@ provides-member:
 - ["V18WeatherApplication11BackEndInfo", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "BackEndInfo"
 - "StringLiteralType"
+- "BackEndInfo"
 depends-member:
 - ["V18WeatherApplication11BackEndInfo", "API_KEY_MAIN"]
 - ["V18WeatherApplication11BackEndInfo", "baseURLString"]

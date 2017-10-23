@@ -39,21 +39,21 @@ provides-dynamic-lookup:
 - "snp_removeConstraints"
 - "snp_installedLayoutConstraints"
 depends-top-level:
-- "StringLiteralType"
-- "Constraint"
-- !private "installedLayoutConstraintsKey"
 - "String"
+- "StringLiteralType"
+- !private "installedLayoutConstraintsKey"
+- !private "ConstraintAttributes"
 - !private "objc_getAssociatedObject"
-- "ConstraintItem"
-- !private "objc_setAssociatedObject"
 - "UIView"
 - "LayoutConstraint"
+- "ConstraintItem"
 - "Void"
-- !private "ConstraintAttributes"
+- !private "objc_setAssociatedObject"
+- "UInt"
 - !private "objc_AssociationPolicy"
 - "View"
-- "UInt"
 - "ConstraintMaker"
+- "Constraint"
 depends-member:
 - !private ["Ps9AnyObject", "ConstraintAttributes"]
 - !private ["Ps9AnyObject", "ConstraintItem"]

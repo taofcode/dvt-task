@@ -7,14 +7,14 @@ provides-member:
 - ["V18WeatherApplication3API", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "Networking"
-- !private "+"
-- "Result"
+- "DataModel"
 - !private "BackEndInfo"
 - "API"
+- !private "+"
+- !private "Networking"
 - "String"
 - "Void"
-- "DataModel"
+- "Result"
 depends-member:
 - !private ["V18WeatherApplication3API", "BackEndInfo"]
 - ["V18WeatherApplication3API", "DataModel"]

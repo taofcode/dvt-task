@@ -7,14 +7,14 @@ provides-member:
 - ["C18WeatherApplication6NavBar", ""]
 provides-dynamic-lookup:
 - "sizeThatFits"
-- "imageView"
 - "accountButton"
+- "imageView"
 depends-top-level:
-- "NavBar"
-- "UIImageView"
 - "UINavigationBar"
 - "UIButton"
+- "NavBar"
 - "CGSize"
+- "UIImageView"
 depends-member:
 - !private ["Ps9AnyObject", "CGSize"]
 - ["Ps9AnyObject", "UIButton"]

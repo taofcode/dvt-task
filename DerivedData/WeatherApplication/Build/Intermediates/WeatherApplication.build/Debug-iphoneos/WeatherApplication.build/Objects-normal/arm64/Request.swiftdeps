@@ -7,22 +7,22 @@ provides-member:
 - ["C9Alamofire7Request", "responseAPIJSON"]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "Networking"
-- !private "=="
-- !private "JSON"
-- !private "!="
-- !private "ErrorResponse"
 - "Request"
 - !private "??"
-- !private "String"
-- "AnyObject"
-- !private "Int"
 - "NSError"
-- "Void"
+- !private "Int"
+- !private "ErrorResponse"
+- !private "NSLocalizedDescriptionKey"
+- "AnyObject"
+- !private "!="
 - "Dictionary"
 - "Response"
-- !private "NSLocalizedDescriptionKey"
+- "Void"
+- !private "=="
+- !private "Networking"
+- !private "JSON"
 - "ResponseSerializer"
+- !private "String"
 depends-member:
 - !private ["Ps9AnyObject", "APIJSONResponseSerializer"]
 - !private ["Ps9AnyObject", "Int"]

@@ -7,13 +7,13 @@ provides-member:
 - ["V18WeatherApplication10CoordModel", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- "String"
+- "JSON"
+- "Float"
 - !private "StringLiteralType"
+- "Fargo"
 - "CoordModel"
 - "NSNumber"
-- "Float"
-- "JSON"
-- "String"
-- "Fargo"
 depends-member:
 - !private ["Ps9AnyObject", "stringValue"]
 - !private ["Sa", "deinit"]

@@ -5,40 +5,39 @@ provides-nominal:
 - "C18WeatherApplication11AppDelegate"
 provides-member:
 - ["C18WeatherApplication11AppDelegate", ""]
+- ["C18WeatherApplication11AppDelegate", "appBootstrap"]
 provides-dynamic-lookup:
 - "applicationWillEnterForeground"
 - "applicationDidEnterBackground"
 - "application"
-- "applicationWillResignActive"
 - "window"
-- "applicationDidBecomeActive"
+- "applicationWillResignActive"
 - "applicationWillTerminate"
+- "applicationDidBecomeActive"
+- "appBootstrap"
 depends-top-level:
+- "UIWindow"
+- "AppDelegate"
 - !private "MainViewController"
-- !private "??"
-- !private "StringLiteralType"
-- "Bool"
-- "UIApplicationDelegate"
-- !private "UIScreen"
-- "NSObject"
-- !private "bootstrapUI"
-- !private "UIBarButtonItem"
-- "AnyObject"
 - "UIResponder"
 - "UIApplication"
-- !private "!"
 - !private "setupThemeAppearance"
-- !private "UIImage"
+- "Bool"
+- !private "UIViewController"
+- !private "??"
+- !private "bootstrapUI"
+- "NSObject"
+- "AnyObject"
+- !private "UIScreen"
 - !private "BooleanLiteralType"
 - !private "LoadingViewController"
-- "AppDelegate"
-- "UIWindow"
+- "UIApplicationDelegate"
+- !private "!"
 depends-member:
 - !private ["Ps9AnyObject", "LoadingViewController"]
 - !private ["Ps9AnyObject", "MainViewController"]
-- !private ["Ps9AnyObject", "UIBarButtonItem"]
-- !private ["Ps9AnyObject", "UIImage"]
 - !private ["Ps9AnyObject", "UIScreen"]
+- !private ["Ps9AnyObject", "UIViewController"]
 - !private ["Ps9AnyObject", "UIWindow"]
 - ["Ps9AnyObject", "appBootstrap"]
 - ["Ps9AnyObject", "application"]
@@ -55,15 +54,12 @@ depends-member:
 - ["Ps9AnyObject", "applicationWillTerminate"]
 - !private ["Ps9AnyObject", "bootstrapUI"]
 - !private ["Ps9AnyObject", "bounds"]
-- !private ["Ps9AnyObject", "didPressRefreshButton"]
 - ["Ps9AnyObject", "init"]
 - !private ["Ps9AnyObject", "mainScreen"]
 - !private ["Ps9AnyObject", "makeKeyAndVisible"]
-- !private ["Ps9AnyObject", "navigationItem"]
-- !private ["Ps9AnyObject", "rightBarButtonItem"]
 - !private ["Ps9AnyObject", "rootViewController"]
 - !private ["Ps9AnyObject", "setupThemeAppearance"]
-- ["Ps9AnyObject", "showWeather"]
+- ["Ps9AnyObject", "showMenu"]
 - !private ["Ps9AnyObject", "startLoading"]
 - ["Ps9AnyObject", "window"]
 - ["Ps9AnyObject", ""]
@@ -73,11 +69,10 @@ depends-member:
 - !private ["C18WeatherApplication11AppDelegate", "MainViewController"]
 - ["C18WeatherApplication11AppDelegate", "NSObject"]
 - ["C18WeatherApplication11AppDelegate", "UIApplication"]
-- !private ["C18WeatherApplication11AppDelegate", "UIBarButtonItem"]
-- !private ["C18WeatherApplication11AppDelegate", "UIImage"]
 - !private ["C18WeatherApplication11AppDelegate", "UIScreen"]
+- !private ["C18WeatherApplication11AppDelegate", "UIViewController"]
 - ["C18WeatherApplication11AppDelegate", "UIWindow"]
-- !private ["C18WeatherApplication11AppDelegate", "appBootstrap"]
+- ["C18WeatherApplication11AppDelegate", "appBootstrap"]
 - ["C18WeatherApplication11AppDelegate", "application"]
 - ["C18WeatherApplication11AppDelegate", "applicationDidBecomeActive"]
 - ["C18WeatherApplication11AppDelegate", "applicationDidEnterBackground"]
@@ -94,7 +89,7 @@ depends-member:
 - ["C18WeatherApplication11AppDelegate", "deinit"]
 - ["C18WeatherApplication11AppDelegate", "init"]
 - !private ["C18WeatherApplication11AppDelegate", "setupThemeAppearance"]
-- !private ["C18WeatherApplication11AppDelegate", "showWeather"]
+- !private ["C18WeatherApplication11AppDelegate", "showMenu"]
 - ["C18WeatherApplication11AppDelegate", "window"]
 - !private ["Sb", "_getBuiltinLogicValue"]
 - !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
@@ -102,14 +97,11 @@ depends-member:
 - !private ["PSo15CALayerDelegate", "init"]
 - !private ["PSo15CALayerDelegate", "makeKeyAndVisible"]
 - !private ["PSo15CALayerDelegate", "rootViewController"]
-- !private ["PSo25CLLocationManagerDelegate", "didPressRefreshButton"]
 - !private ["PSo25CLLocationManagerDelegate", "init"]
-- !private ["PSo25CLLocationManagerDelegate", "navigationItem"]
 - !private ["Ps11CVarArgType", "LoadingViewController"]
 - !private ["Ps11CVarArgType", "MainViewController"]
-- !private ["Ps11CVarArgType", "UIBarButtonItem"]
-- !private ["Ps11CVarArgType", "UIImage"]
 - !private ["Ps11CVarArgType", "UIScreen"]
+- !private ["Ps11CVarArgType", "UIViewController"]
 - !private ["Ps11CVarArgType", "UIWindow"]
 - ["Ps11CVarArgType", "appBootstrap"]
 - ["Ps11CVarArgType", "application"]
@@ -126,23 +118,19 @@ depends-member:
 - ["Ps11CVarArgType", "applicationWillTerminate"]
 - !private ["Ps11CVarArgType", "bootstrapUI"]
 - !private ["Ps11CVarArgType", "bounds"]
-- !private ["Ps11CVarArgType", "didPressRefreshButton"]
 - ["Ps11CVarArgType", "init"]
 - !private ["Ps11CVarArgType", "mainScreen"]
 - !private ["Ps11CVarArgType", "makeKeyAndVisible"]
-- !private ["Ps11CVarArgType", "navigationItem"]
-- !private ["Ps11CVarArgType", "rightBarButtonItem"]
 - !private ["Ps11CVarArgType", "rootViewController"]
 - !private ["Ps11CVarArgType", "setupThemeAppearance"]
-- ["Ps11CVarArgType", "showWeather"]
+- ["Ps11CVarArgType", "showMenu"]
 - !private ["Ps11CVarArgType", "startLoading"]
 - ["Ps11CVarArgType", "window"]
 - ["Ps11CVarArgType", ""]
 - !private ["Ps28CustomDebugStringConvertible", "LoadingViewController"]
 - !private ["Ps28CustomDebugStringConvertible", "MainViewController"]
-- !private ["Ps28CustomDebugStringConvertible", "UIBarButtonItem"]
-- !private ["Ps28CustomDebugStringConvertible", "UIImage"]
 - !private ["Ps28CustomDebugStringConvertible", "UIScreen"]
+- !private ["Ps28CustomDebugStringConvertible", "UIViewController"]
 - !private ["Ps28CustomDebugStringConvertible", "UIWindow"]
 - ["Ps28CustomDebugStringConvertible", "appBootstrap"]
 - ["Ps28CustomDebugStringConvertible", "application"]
@@ -159,23 +147,19 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "applicationWillTerminate"]
 - !private ["Ps28CustomDebugStringConvertible", "bootstrapUI"]
 - !private ["Ps28CustomDebugStringConvertible", "bounds"]
-- !private ["Ps28CustomDebugStringConvertible", "didPressRefreshButton"]
 - ["Ps28CustomDebugStringConvertible", "init"]
 - !private ["Ps28CustomDebugStringConvertible", "mainScreen"]
 - !private ["Ps28CustomDebugStringConvertible", "makeKeyAndVisible"]
-- !private ["Ps28CustomDebugStringConvertible", "navigationItem"]
-- !private ["Ps28CustomDebugStringConvertible", "rightBarButtonItem"]
 - !private ["Ps28CustomDebugStringConvertible", "rootViewController"]
 - !private ["Ps28CustomDebugStringConvertible", "setupThemeAppearance"]
-- ["Ps28CustomDebugStringConvertible", "showWeather"]
+- ["Ps28CustomDebugStringConvertible", "showMenu"]
 - !private ["Ps28CustomDebugStringConvertible", "startLoading"]
 - ["Ps28CustomDebugStringConvertible", "window"]
 - ["Ps28CustomDebugStringConvertible", ""]
 - !private ["Ps23CustomStringConvertible", "LoadingViewController"]
 - !private ["Ps23CustomStringConvertible", "MainViewController"]
-- !private ["Ps23CustomStringConvertible", "UIBarButtonItem"]
-- !private ["Ps23CustomStringConvertible", "UIImage"]
 - !private ["Ps23CustomStringConvertible", "UIScreen"]
+- !private ["Ps23CustomStringConvertible", "UIViewController"]
 - !private ["Ps23CustomStringConvertible", "UIWindow"]
 - !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
 - ["Ps23CustomStringConvertible", "appBootstrap"]
@@ -193,25 +177,20 @@ depends-member:
 - ["Ps23CustomStringConvertible", "applicationWillTerminate"]
 - !private ["Ps23CustomStringConvertible", "bootstrapUI"]
 - !private ["Ps23CustomStringConvertible", "bounds"]
-- !private ["Ps23CustomStringConvertible", "didPressRefreshButton"]
 - ["Ps23CustomStringConvertible", "init"]
 - !private ["Ps23CustomStringConvertible", "mainScreen"]
 - !private ["Ps23CustomStringConvertible", "makeKeyAndVisible"]
-- !private ["Ps23CustomStringConvertible", "navigationItem"]
-- !private ["Ps23CustomStringConvertible", "rightBarButtonItem"]
 - !private ["Ps23CustomStringConvertible", "rootViewController"]
 - !private ["Ps23CustomStringConvertible", "setupThemeAppearance"]
-- ["Ps23CustomStringConvertible", "showWeather"]
+- ["Ps23CustomStringConvertible", "showMenu"]
 - !private ["Ps23CustomStringConvertible", "startLoading"]
 - ["Ps23CustomStringConvertible", "window"]
 - ["Ps23CustomStringConvertible", ""]
 - !private ["P5Fargo9Decodable", "_getBuiltinLogicValue"]
 - !private ["Ps9Equatable", "LoadingViewController"]
 - !private ["Ps9Equatable", "MainViewController"]
-- !private ["Ps9Equatable", "Plain"]
-- !private ["Ps9Equatable", "UIBarButtonItem"]
-- !private ["Ps9Equatable", "UIImage"]
 - !private ["Ps9Equatable", "UIScreen"]
+- !private ["Ps9Equatable", "UIViewController"]
 - !private ["Ps9Equatable", "UIWindow"]
 - !private ["Ps9Equatable", "_getBuiltinLogicValue"]
 - ["Ps9Equatable", "appBootstrap"]
@@ -229,24 +208,19 @@ depends-member:
 - ["Ps9Equatable", "applicationWillTerminate"]
 - !private ["Ps9Equatable", "bootstrapUI"]
 - !private ["Ps9Equatable", "bounds"]
-- !private ["Ps9Equatable", "didPressRefreshButton"]
 - ["Ps9Equatable", "init"]
 - !private ["Ps9Equatable", "mainScreen"]
 - !private ["Ps9Equatable", "makeKeyAndVisible"]
-- !private ["Ps9Equatable", "navigationItem"]
-- !private ["Ps9Equatable", "rightBarButtonItem"]
 - !private ["Ps9Equatable", "rootViewController"]
 - !private ["Ps9Equatable", "setupThemeAppearance"]
-- ["Ps9Equatable", "showWeather"]
+- ["Ps9Equatable", "showMenu"]
 - !private ["Ps9Equatable", "startLoading"]
 - ["Ps9Equatable", "window"]
 - ["Ps9Equatable", ""]
 - !private ["Ps8Hashable", "LoadingViewController"]
 - !private ["Ps8Hashable", "MainViewController"]
-- !private ["Ps8Hashable", "Plain"]
-- !private ["Ps8Hashable", "UIBarButtonItem"]
-- !private ["Ps8Hashable", "UIImage"]
 - !private ["Ps8Hashable", "UIScreen"]
+- !private ["Ps8Hashable", "UIViewController"]
 - !private ["Ps8Hashable", "UIWindow"]
 - !private ["Ps8Hashable", "_getBuiltinLogicValue"]
 - ["Ps8Hashable", "appBootstrap"]
@@ -264,34 +238,23 @@ depends-member:
 - ["Ps8Hashable", "applicationWillTerminate"]
 - !private ["Ps8Hashable", "bootstrapUI"]
 - !private ["Ps8Hashable", "bounds"]
-- !private ["Ps8Hashable", "didPressRefreshButton"]
 - ["Ps8Hashable", "init"]
 - !private ["Ps8Hashable", "mainScreen"]
 - !private ["Ps8Hashable", "makeKeyAndVisible"]
-- !private ["Ps8Hashable", "navigationItem"]
-- !private ["Ps8Hashable", "rightBarButtonItem"]
 - !private ["Ps8Hashable", "rootViewController"]
 - !private ["Ps8Hashable", "setupThemeAppearance"]
-- ["Ps8Hashable", "showWeather"]
+- ["Ps8Hashable", "showMenu"]
 - !private ["Ps8Hashable", "startLoading"]
 - ["Ps8Hashable", "window"]
 - ["Ps8Hashable", ""]
 - !private ["C18WeatherApplication21LoadingViewController", "init"]
 - !private ["C18WeatherApplication21LoadingViewController", "startLoading"]
-- !private ["C18WeatherApplication18MainViewController", "deinit"]
-- !private ["C18WeatherApplication18MainViewController", "didPressRefreshButton"]
 - !private ["C18WeatherApplication18MainViewController", "init"]
-- !private ["C18WeatherApplication18MainViewController", "navigationItem"]
-- !private ["PSo8NSCoding", "didPressRefreshButton"]
 - !private ["PSo8NSCoding", "init"]
 - !private ["PSo8NSCoding", "makeKeyAndVisible"]
-- !private ["PSo8NSCoding", "navigationItem"]
-- !private ["PSo8NSCoding", "rightBarButtonItem"]
 - !private ["PSo8NSCoding", "rootViewController"]
 - !private ["PSo8NSCoding", "startLoading"]
-- !private ["PSo26NSExtensionRequestHandling", "didPressRefreshButton"]
 - !private ["PSo26NSExtensionRequestHandling", "init"]
-- !private ["PSo26NSExtensionRequestHandling", "navigationItem"]
 - !private ["PSo26NSExtensionRequestHandling", "startLoading"]
 - ["CSo8NSObject", "AnyObject"]
 - ["CSo8NSObject", "Bool"]
@@ -299,9 +262,8 @@ depends-member:
 - !private ["CSo8NSObject", "MainViewController"]
 - ["CSo8NSObject", "NSObject"]
 - ["CSo8NSObject", "UIApplication"]
-- !private ["CSo8NSObject", "UIBarButtonItem"]
-- !private ["CSo8NSObject", "UIImage"]
 - !private ["CSo8NSObject", "UIScreen"]
+- !private ["CSo8NSObject", "UIViewController"]
 - ["CSo8NSObject", "UIWindow"]
 - ["CSo8NSObject", "appBootstrap"]
 - ["CSo8NSObject", "application"]
@@ -318,22 +280,18 @@ depends-member:
 - ["CSo8NSObject", "applicationWillTerminate"]
 - !private ["CSo8NSObject", "bootstrapUI"]
 - !private ["CSo8NSObject", "bounds"]
-- !private ["CSo8NSObject", "didPressRefreshButton"]
 - ["CSo8NSObject", "init"]
 - !private ["CSo8NSObject", "mainScreen"]
 - !private ["CSo8NSObject", "makeKeyAndVisible"]
-- !private ["CSo8NSObject", "navigationItem"]
-- !private ["CSo8NSObject", "rightBarButtonItem"]
 - !private ["CSo8NSObject", "rootViewController"]
 - !private ["CSo8NSObject", "setupThemeAppearance"]
-- ["CSo8NSObject", "showWeather"]
+- ["CSo8NSObject", "showMenu"]
 - !private ["CSo8NSObject", "startLoading"]
 - ["CSo8NSObject", "window"]
 - !private ["PSo16NSObjectProtocol", "LoadingViewController"]
 - !private ["PSo16NSObjectProtocol", "MainViewController"]
-- !private ["PSo16NSObjectProtocol", "UIBarButtonItem"]
-- !private ["PSo16NSObjectProtocol", "UIImage"]
 - !private ["PSo16NSObjectProtocol", "UIScreen"]
+- !private ["PSo16NSObjectProtocol", "UIViewController"]
 - !private ["PSo16NSObjectProtocol", "UIWindow"]
 - ["PSo16NSObjectProtocol", "appBootstrap"]
 - ["PSo16NSObjectProtocol", "application"]
@@ -350,39 +308,32 @@ depends-member:
 - ["PSo16NSObjectProtocol", "applicationWillTerminate"]
 - !private ["PSo16NSObjectProtocol", "bootstrapUI"]
 - !private ["PSo16NSObjectProtocol", "bounds"]
-- !private ["PSo16NSObjectProtocol", "didPressRefreshButton"]
 - ["PSo16NSObjectProtocol", "init"]
 - !private ["PSo16NSObjectProtocol", "mainScreen"]
 - !private ["PSo16NSObjectProtocol", "makeKeyAndVisible"]
-- !private ["PSo16NSObjectProtocol", "navigationItem"]
-- !private ["PSo16NSObjectProtocol", "rightBarButtonItem"]
 - !private ["PSo16NSObjectProtocol", "rootViewController"]
 - !private ["PSo16NSObjectProtocol", "setupThemeAppearance"]
-- ["PSo16NSObjectProtocol", "showWeather"]
+- ["PSo16NSObjectProtocol", "showMenu"]
 - !private ["PSo16NSObjectProtocol", "startLoading"]
 - ["PSo16NSObjectProtocol", "window"]
 - ["PSo16NSObjectProtocol", ""]
-- !private ["PSo14NSSecureCoding", "init"]
 - !private ["Sq", "deinit"]
-- !private ["Ps16RawRepresentable", "Plain"]
 - !private ["PSo29UIAccessibilityIdentification", "init"]
 - !private ["PSo29UIAccessibilityIdentification", "makeKeyAndVisible"]
 - !private ["PSo29UIAccessibilityIdentification", "rootViewController"]
 - !private ["PSo12UIAppearance", "init"]
 - !private ["PSo12UIAppearance", "makeKeyAndVisible"]
 - !private ["PSo12UIAppearance", "rootViewController"]
-- !private ["PSo21UIAppearanceContainer", "didPressRefreshButton"]
 - !private ["PSo21UIAppearanceContainer", "init"]
 - !private ["PSo21UIAppearanceContainer", "makeKeyAndVisible"]
-- !private ["PSo21UIAppearanceContainer", "navigationItem"]
 - !private ["PSo21UIAppearanceContainer", "rootViewController"]
 - !private ["PSo21UIAppearanceContainer", "startLoading"]
 - !private ["PSo21UIApplicationDelegate", "LoadingViewController"]
 - !private ["PSo21UIApplicationDelegate", "MainViewController"]
-- !private ["PSo21UIApplicationDelegate", "UIBarButtonItem"]
-- !private ["PSo21UIApplicationDelegate", "UIImage"]
 - !private ["PSo21UIApplicationDelegate", "UIScreen"]
+- !private ["PSo21UIApplicationDelegate", "UIViewController"]
 - !private ["PSo21UIApplicationDelegate", "UIWindow"]
+- !private ["PSo21UIApplicationDelegate", "appBootstrap"]
 - ["PSo21UIApplicationDelegate", "application"]
 - ["PSo21UIApplicationDelegate", "applicationDidBecomeActive"]
 - ["PSo21UIApplicationDelegate", "applicationDidEnterBackground"]
@@ -397,15 +348,10 @@ depends-member:
 - ["PSo21UIApplicationDelegate", "applicationWillTerminate"]
 - !private ["PSo21UIApplicationDelegate", "bootstrapUI"]
 - !private ["PSo21UIApplicationDelegate", "setupThemeAppearance"]
-- !private ["PSo21UIApplicationDelegate", "showWeather"]
+- !private ["PSo21UIApplicationDelegate", "showMenu"]
 - ["PSo21UIApplicationDelegate", "window"]
 - ["PSo21UIApplicationDelegate", ""]
-- !private ["CSo15UIBarButtonItem", "init"]
-- !private ["OSC20UIBarButtonItemStyle", "Plain"]
-- !private ["CSo9UIBarItem", "init"]
-- !private ["PSo18UIContentContainer", "didPressRefreshButton"]
 - !private ["PSo18UIContentContainer", "init"]
-- !private ["PSo18UIContentContainer", "navigationItem"]
 - !private ["PSo18UIContentContainer", "startLoading"]
 - !private ["PSo17UICoordinateSpace", "init"]
 - !private ["PSo17UICoordinateSpace", "makeKeyAndVisible"]
@@ -413,29 +359,21 @@ depends-member:
 - !private ["PSo13UIDynamicItem", "init"]
 - !private ["PSo13UIDynamicItem", "makeKeyAndVisible"]
 - !private ["PSo13UIDynamicItem", "rootViewController"]
-- !private ["PSo18UIFocusEnvironment", "didPressRefreshButton"]
 - !private ["PSo18UIFocusEnvironment", "init"]
 - !private ["PSo18UIFocusEnvironment", "makeKeyAndVisible"]
-- !private ["PSo18UIFocusEnvironment", "navigationItem"]
 - !private ["PSo18UIFocusEnvironment", "rootViewController"]
 - !private ["PSo18UIFocusEnvironment", "startLoading"]
 - !private ["PSo11UIFocusItem", "init"]
 - !private ["PSo11UIFocusItem", "makeKeyAndVisible"]
 - !private ["PSo11UIFocusItem", "rootViewController"]
-- !private ["CSo7UIImage", "init"]
-- !private ["CSo22UINavigationController", "didPressRefreshButton"]
-- !private ["CSo22UINavigationController", "init"]
-- !private ["CSo22UINavigationController", "navigationItem"]
-- !private ["CSo16UINavigationItem", "rightBarButtonItem"]
 - ["CSo11UIResponder", "AnyObject"]
 - ["CSo11UIResponder", "Bool"]
 - !private ["CSo11UIResponder", "LoadingViewController"]
 - !private ["CSo11UIResponder", "MainViewController"]
 - ["CSo11UIResponder", "NSObject"]
 - ["CSo11UIResponder", "UIApplication"]
-- !private ["CSo11UIResponder", "UIBarButtonItem"]
-- !private ["CSo11UIResponder", "UIImage"]
 - !private ["CSo11UIResponder", "UIScreen"]
+- !private ["CSo11UIResponder", "UIViewController"]
 - ["CSo11UIResponder", "UIWindow"]
 - ["CSo11UIResponder", "appBootstrap"]
 - ["CSo11UIResponder", "application"]
@@ -451,21 +389,18 @@ depends-member:
 - ["CSo11UIResponder", "applicationWillResignActive"]
 - ["CSo11UIResponder", "applicationWillTerminate"]
 - !private ["CSo11UIResponder", "bootstrapUI"]
-- !private ["CSo11UIResponder", "didPressRefreshButton"]
 - ["CSo11UIResponder", "init"]
 - !private ["CSo11UIResponder", "makeKeyAndVisible"]
-- !private ["CSo11UIResponder", "navigationItem"]
 - !private ["CSo11UIResponder", "rootViewController"]
 - !private ["CSo11UIResponder", "setupThemeAppearance"]
-- ["CSo11UIResponder", "showWeather"]
+- ["CSo11UIResponder", "showMenu"]
 - !private ["CSo11UIResponder", "startLoading"]
 - ["CSo11UIResponder", "window"]
 - ["CSo11UIResponder", ""]
 - !private ["PSo30UIResponderStandardEditActions", "LoadingViewController"]
 - !private ["PSo30UIResponderStandardEditActions", "MainViewController"]
-- !private ["PSo30UIResponderStandardEditActions", "UIBarButtonItem"]
-- !private ["PSo30UIResponderStandardEditActions", "UIImage"]
 - !private ["PSo30UIResponderStandardEditActions", "UIScreen"]
+- !private ["PSo30UIResponderStandardEditActions", "UIViewController"]
 - !private ["PSo30UIResponderStandardEditActions", "UIWindow"]
 - ["PSo30UIResponderStandardEditActions", "appBootstrap"]
 - ["PSo30UIResponderStandardEditActions", "application"]
@@ -481,42 +416,33 @@ depends-member:
 - ["PSo30UIResponderStandardEditActions", "applicationWillResignActive"]
 - ["PSo30UIResponderStandardEditActions", "applicationWillTerminate"]
 - !private ["PSo30UIResponderStandardEditActions", "bootstrapUI"]
-- !private ["PSo30UIResponderStandardEditActions", "didPressRefreshButton"]
 - ["PSo30UIResponderStandardEditActions", "init"]
 - !private ["PSo30UIResponderStandardEditActions", "makeKeyAndVisible"]
-- !private ["PSo30UIResponderStandardEditActions", "navigationItem"]
 - !private ["PSo30UIResponderStandardEditActions", "rootViewController"]
 - !private ["PSo30UIResponderStandardEditActions", "setupThemeAppearance"]
-- ["PSo30UIResponderStandardEditActions", "showWeather"]
+- ["PSo30UIResponderStandardEditActions", "showMenu"]
 - !private ["PSo30UIResponderStandardEditActions", "startLoading"]
 - ["PSo30UIResponderStandardEditActions", "window"]
 - ["PSo30UIResponderStandardEditActions", ""]
 - !private ["CSo8UIScreen", "bounds"]
 - !private ["CSo8UIScreen", "mainScreen"]
-- !private ["PSo16UIStateRestoring", "didPressRefreshButton"]
 - !private ["PSo16UIStateRestoring", "init"]
-- !private ["PSo16UIStateRestoring", "navigationItem"]
 - !private ["PSo16UIStateRestoring", "startLoading"]
 - !private ["PSo18UITraitEnvironment", "bounds"]
-- !private ["PSo18UITraitEnvironment", "didPressRefreshButton"]
 - !private ["PSo18UITraitEnvironment", "init"]
 - !private ["PSo18UITraitEnvironment", "mainScreen"]
 - !private ["PSo18UITraitEnvironment", "makeKeyAndVisible"]
-- !private ["PSo18UITraitEnvironment", "navigationItem"]
 - !private ["PSo18UITraitEnvironment", "rootViewController"]
 - !private ["PSo18UITraitEnvironment", "startLoading"]
 - !private ["CSo6UIView", "init"]
 - !private ["CSo6UIView", "makeKeyAndVisible"]
 - !private ["CSo6UIView", "rootViewController"]
-- !private ["CSo16UIViewController", "didPressRefreshButton"]
 - !private ["CSo16UIViewController", "init"]
-- !private ["CSo16UIViewController", "navigationItem"]
 - !private ["CSo16UIViewController", "startLoading"]
 - !private ["CSo8UIWindow", "init"]
 - !private ["CSo8UIWindow", "makeKeyAndVisible"]
 - !private ["CSo8UIWindow", "rootViewController"]
 - !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
-- !private ["Ps24_ImageLiteralConvertible", "init"]
 - !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
 - !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
 - !private ["Ps12_Reflectable", "init"]
@@ -542,24 +468,16 @@ depends-nominal:
 - !private "PSo26NSExtensionRequestHandling"
 - "CSo8NSObject"
 - "PSo16NSObjectProtocol"
-- !private "PSo14NSSecureCoding"
 - !private "Sq"
-- !private "Ps16RawRepresentable"
 - !private "PSo29UIAccessibilityIdentification"
 - !private "PSo12UIAppearance"
 - !private "PSo21UIAppearanceContainer"
 - "PSo21UIApplicationDelegate"
-- !private "CSo15UIBarButtonItem"
-- !private "OSC20UIBarButtonItemStyle"
-- !private "CSo9UIBarItem"
 - !private "PSo18UIContentContainer"
 - !private "PSo17UICoordinateSpace"
 - !private "PSo13UIDynamicItem"
 - !private "PSo18UIFocusEnvironment"
 - !private "PSo11UIFocusItem"
-- !private "CSo7UIImage"
-- !private "CSo22UINavigationController"
-- !private "CSo16UINavigationItem"
 - "CSo11UIResponder"
 - "PSo30UIResponderStandardEditActions"
 - !private "CSo8UIScreen"
@@ -569,7 +487,6 @@ depends-nominal:
 - !private "CSo16UIViewController"
 - !private "CSo8UIWindow"
 - !private "Ps33_BuiltinBooleanLiteralConvertible"
-- !private "Ps24_ImageLiteralConvertible"
 - !private "Ps21_ObjectiveCBridgeable"
 - !private "Ps12_Reflectable"
 depends-dynamic-lookup:
@@ -612,4 +529,4 @@ depends-external:
 - "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/DCIntrospect-ARC/DCIntrospect_ARC.framework/Headers/DCCrossHairView.h"
 - "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/DCIntrospect-ARC/DCIntrospect_ARC.framework/Headers/DCIntrospect-ARC-umbrella.h"
 - "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/DCIntrospect-ARC/DCIntrospect_ARC.framework/Modules/module.modulemap"
-interface-hash: "5582e5bbc99c0a49d9fced87375ca831"
+interface-hash: "bb5acca9b7905f498798afcd38912f3e"

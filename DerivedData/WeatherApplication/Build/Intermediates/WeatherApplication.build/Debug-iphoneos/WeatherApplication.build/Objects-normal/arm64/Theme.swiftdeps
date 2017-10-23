@@ -12,24 +12,24 @@ provides-member:
 - ["V18WeatherApplication5Theme", "color"]
 provides-dynamic-lookup:
 depends-top-level:
+- !private "~="
+- "=="
+- !private "UINavigationBar"
+- "String"
+- "JSON"
+- !private "NSForegroundColorAttributeName"
+- "UIColor"
+- !private "NSData"
+- "StringLiteralType"
+- "Fargo"
 - !private "NSJSONSerialization"
 - !private "NSBundle"
-- "StringLiteralType"
-- !private "NSData"
-- !private "DecodeError"
-- "Fargo"
-- !private "NSForegroundColorAttributeName"
-- "Dictionary"
-- "=="
-- !private "~="
 - !private "NSJSONReadingOptions"
+- "Dictionary"
 - "setupThemeAppearance"
-- !private "UINavigationBar"
-- !private "BooleanLiteralType"
 - "Theme"
-- "UIColor"
-- "JSON"
-- "String"
+- !private "BooleanLiteralType"
+- !private "DecodeError"
 depends-member:
 - !private ["Ps9AnyObject", "JSONObjectWithData"]
 - !private ["Ps9AnyObject", "appearance"]

@@ -5,14 +5,14 @@ provides-nominal:
 provides-member:
 provides-dynamic-lookup:
 depends-top-level:
-- "StringLiteralType"
-- !private "HomePageViewController"
-- "String"
-- !private "NSBundle"
-- !private ">"
 - "LS"
-- !private "NSLocalizedString"
+- !private "NSBundle"
 - !private "!="
+- !private "HomePageViewController"
+- "StringLiteralType"
+- "String"
+- !private "NSLocalizedString"
+- !private ">"
 depends-member:
 - !private ["Ps9AnyObject", "characters"]
 - !private ["Ps9AnyObject", "classForCoder"]

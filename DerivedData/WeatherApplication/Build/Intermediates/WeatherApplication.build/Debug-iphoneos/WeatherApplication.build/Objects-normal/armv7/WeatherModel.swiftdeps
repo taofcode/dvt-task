@@ -7,12 +7,12 @@ provides-member:
 - ["V18WeatherApplication12WeatherModel", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "StringLiteralType"
 - "WeatherModel"
-- "Fargo"
 - "String"
-- "JSON"
+- "Fargo"
+- !private "StringLiteralType"
 - "Float"
+- "JSON"
 depends-member:
 - !private ["Sa", "deinit"]
 - !private ["Ps23CustomStringConvertible", "value"]

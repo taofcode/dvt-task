@@ -7,8 +7,8 @@ provides-member:
 - ["P5Fargo9Decodable", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Decodable"
 - "JSON"
+- "Decodable"
 depends-member:
 - ["P5Fargo9Decodable", "JSON"]
 - ["P5Fargo9Decodable", "decode"]

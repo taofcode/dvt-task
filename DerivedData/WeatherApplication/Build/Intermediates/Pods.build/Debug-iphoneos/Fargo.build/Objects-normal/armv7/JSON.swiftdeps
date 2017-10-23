@@ -22,22 +22,22 @@ provides-member:
 - ["O5Fargo4JSON", "value"]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "StringLiteralType"
-- !private "??"
-- "AnyObject"
-- "JSON"
-- !private "guardNull"
 - "Decodable"
-- !private "DecodeError"
+- "AnyObject"
 - !private "Dictionary"
-- "NSNumber"
-- "CustomStringConvertible"
-- !private "JSONForKey"
+- !private "StringLiteralType"
 - !private "optionalJSONForKeys"
+- !private "JSONForKey"
 - !private "UnicodeScalarType"
-- "Swift"
+- !private "guardNull"
+- "NSNumber"
 - !private "Optional"
+- "JSON"
 - !private "optionalJSONForKey"
+- !private "??"
+- "Swift"
+- "CustomStringConvertible"
+- !private "DecodeError"
 depends-member:
 - !private ["Ps9AnyObject", "init"]
 - !private ["Sa", "Generator"]

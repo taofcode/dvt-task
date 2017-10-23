@@ -5,10 +5,10 @@ provides-nominal:
 provides-member:
 provides-dynamic-lookup:
 depends-top-level:
+- !private "fatalError"
+- "bootstrapUI"
 - !private "StringLiteralType"
 - !private "UIApplication"
-- "bootstrapUI"
-- !private "fatalError"
 - !private "NavigationController"
 - "UIViewController"
 depends-member:

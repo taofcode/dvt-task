@@ -25,17 +25,28 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.mainScreen().bounds)
         let mainViewController = MainViewController()
         
-        // Set the root view controller of the app's window
-        window!.rootViewController = mainViewController
+//        // Set the root view controller of the app's window
+//        window!.rootViewController = mainViewController
+//             // Make the window visible
+//        window!.makeKeyAndVisible()
+//        let navigationBarAppearace = UINavigationBar.appearance()
+//    
+//        navigationBarAppearace.tintColor = UIColor(hex: 0xffffff)
+//     //   navigationBarAppearace.barTintColor = UIColor(hex: 0x034517)
+//        
+//        // change navigation item title color
+//        navigationBarAppearace.titleTextAttributes = [NSForegroundColorAttributeName:UIColor.whiteColor()]
+//       
+ 
         
-        // Make the window visible
-        window!.makeKeyAndVisible()
+        // Main window
+        window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        window?.rootViewController = UIViewController() // just a placeholder to avoid system errors
+        window?.makeKeyAndVisible()
         
         // Bootstrap
-        //appBootstrap()
- 
-        
- 
+        appBootstrap()
+
         
         #if (arch(i386) || arch(x86_64)) && os(iOS)
             DCIntrospect.sharedIntrospector().start()
@@ -66,36 +77,32 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 }
-
-
-
-// MARK: - Bootstrap
+/// MARK: - Bootstrap
 
 extension AppDelegate {
     
-    private func appBootstrap() {
+    func appBootstrap() {
         
         let loadingViewController = (window?.rootViewController as? LoadingViewController) ?? LoadingViewController()
         loadingViewController.startLoading()
         if !(window?.rootViewController is LoadingViewController) {
             window?.rootViewController = loadingViewController
         }
-        
-showWeather()
+                showMenu()
     }
-    private func showWeather() {
+    
  
-
-        let menuViewController =  MainViewController()
-                    let logoutButton = UIBarButtonItem(image: UIImage.init(named: "logout-btn"), style: .Plain, target: menuViewController, action: #selector(MainViewController.didPressRefreshButton(_:)))
-                    menuViewController.navigationItem.rightBarButtonItem = logoutButton
-                    bootstrapUI(menuViewController)
-                    //                    bootstrapUI()
-        
+    
+    private func showMenu() {
+        let menuViewController = MainViewController()
+      
+        bootstrapUI(menuViewController)
     }
-    
-    
 }
+
+
+
+
 
 
 

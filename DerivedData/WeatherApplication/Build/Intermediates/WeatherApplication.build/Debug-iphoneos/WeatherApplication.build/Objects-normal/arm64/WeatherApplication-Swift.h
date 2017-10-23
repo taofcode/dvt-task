@@ -119,6 +119,7 @@ SWIFT_CLASS("_TtC18WeatherApplication11AppDelegate")
 
 
 @interface AppDelegate (SWIFT_EXTENSION(WeatherApplication))
+- (void)appBootstrap;
 @end
 
 @class CLLocationManager;
@@ -163,36 +164,37 @@ SWIFT_CLASS("_TtC18WeatherApplication21LoadingViewController")
 - (void)stopLoading:(NSString * _Nullable)text retryAction:(void (^ _Nullable)(void))retryAction;
 @end
 
+@class UITextField;
 @class UILabel;
 @class UIImageView;
 
 SWIFT_CLASS("_TtC18WeatherApplication18MainViewController")
-@interface MainViewController : UINavigationController <CLLocationManagerDelegate>
-@property (nonatomic, strong) UILabel * _Nonnull dateLabel;
+@interface MainViewController : UIViewController <CLLocationManagerDelegate>
+@property (nonatomic, strong) UITextField * _Nonnull dateLabel;
 @property (nonatomic, strong) UILabel * _Nonnull labelMaxTemp;
 @property (nonatomic, strong) UILabel * _Nonnull labelMinTemp;
 @property (nonatomic, strong) UILabel * _Nonnull labelLocale;
-@property (nonatomic, strong) UIImageView * _Nonnull labelImageView;
+@property (nonatomic, strong) UIImageView * _Nonnull imageView;
 @property (nonatomic, strong) CLLocationManager * _Nonnull locationManager;
 @property (nonatomic, copy) NSString * _Nullable locale;
+@property (nonatomic, readonly, copy) NSString * _Nonnull key;
+- (void)loadView;
 - (void)viewDidLoad;
-- (nonnull instancetype)initWithNavigationBarClass:(Class _Nullable)navigationBarClass toolbarClass:(Class _Nullable)toolbarClass OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)initWithRootViewController:(UIViewController * _Nonnull)rootViewController OBJC_DESIGNATED_INITIALIZER;
+- (void)requestWeather;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 @class NSError;
 @class CLLocation;
-@class CLPlacemark;
 
 @interface MainViewController (SWIFT_EXTENSION(WeatherApplication))
 - (BOOL)locationStatusCheck:(BOOL)locationactived;
 - (void)locationManager:(CLLocationManager * _Nonnull)manager didFailWithError:(NSError * _Nonnull)error;
 - (void)locationManager:(CLLocationManager * _Nonnull)manager didChangeAuthorizationStatus:(CLAuthorizationStatus)status;
 - (void)locationManager:(CLLocationManager * _Nonnull)manager didUpdateLocations:(NSArray<CLLocation *> * _Nonnull)locations;
-- (void)displayLocationInfo:(CLPlacemark * _Nullable)placemark;
 - (BOOL)hasConnectivity;
+- (void)didPressCloseButton:(id _Nonnull)sender;
 - (void)didPressRefreshButton:(id _Nonnull)sender;
 @end
 
@@ -205,6 +207,29 @@ SWIFT_CLASS("_TtC18WeatherApplication6NavBar")
 - (CGSize)sizeThatFits:(CGSize)size;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC18WeatherApplication12NavTitleView")
+@interface NavTitleView : UIView
+@property (nonatomic, strong) UILabel * _Nonnull refreshLabel;
+@property (nonatomic, strong) UILabel * _Nonnull titleLabel;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UITouch;
+@class UIEvent;
+
+@interface NavTitleView (SWIFT_EXTENSION(WeatherApplication))
+- (void)touchesBegan:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
+- (void)touchesCancelled:(NSSet<UITouch *> * _Nullable)touches withEvent:(UIEvent * _Nullable)event;
+- (void)touchesEnded:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
+@end
+
+
+@interface NavTitleView (SWIFT_EXTENSION(WeatherApplication))
++ (BOOL)requiresConstraintBasedLayout;
 @end
 
 

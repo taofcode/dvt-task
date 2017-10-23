@@ -7,14 +7,14 @@ provides-member:
 - ["V18WeatherApplication3API", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Result"
-- "API"
+- "String"
 - !private "Networking"
+- "Result"
+- !private "+"
 - !private "BackEndInfo"
 - "Void"
+- "API"
 - "DataModel"
-- !private "+"
-- "String"
 depends-member:
 - !private ["V18WeatherApplication3API", "BackEndInfo"]
 - ["V18WeatherApplication3API", "DataModel"]
@@ -162,4 +162,4 @@ depends-external:
 - "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/DCIntrospect-ARC/DCIntrospect_ARC.framework/Headers/DCCrossHairView.h"
 - "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/DCIntrospect-ARC/DCIntrospect_ARC.framework/Headers/DCIntrospect-ARC-umbrella.h"
 - "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/DCIntrospect-ARC/DCIntrospect_ARC.framework/Modules/module.modulemap"
-interface-hash: "21c0dd8ff36878154d9586ddcd931693"
+interface-hash: "f681dc600d6a291bd74ed822ab8740c4"

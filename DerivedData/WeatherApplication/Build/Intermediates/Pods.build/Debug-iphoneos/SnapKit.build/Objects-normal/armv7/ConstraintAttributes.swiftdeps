@@ -10,16 +10,16 @@ provides-member:
 - ["V7SnapKit20ConstraintAttributes", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "=="
-- "ConstraintAttributes"
-- "+="
-- !private "!="
-- "NSLayoutAttribute"
-- "BooleanType"
 - "OptionSetType"
-- "UInt"
+- !private "!="
 - "Bool"
+- "=="
+- "UInt"
 - "-="
+- "+="
+- "BooleanType"
+- "NSLayoutAttribute"
+- "ConstraintAttributes"
 depends-member:
 - !private ["Sa", "Generator"]
 - !private ["Sa", "Index"]

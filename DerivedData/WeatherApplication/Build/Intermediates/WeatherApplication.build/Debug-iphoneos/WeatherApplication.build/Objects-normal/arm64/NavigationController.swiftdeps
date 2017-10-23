@@ -9,17 +9,17 @@ provides-member:
 provides-dynamic-lookup:
 - "supportedInterfaceOrientations"
 depends-top-level:
-- !private "fatalError"
+- "NSCoder"
+- "UIViewController"
 - "UIInterfaceOrientationMask"
 - "String"
-- "UIViewController"
-- "NSCoder"
+- !private "NavBar"
+- !private "fatalError"
+- "NavigationController"
 - !private "StringLiteralType"
-- "UINavigationController"
 - "NSBundle"
 - !private "BooleanLiteralType"
-- !private "NavBar"
-- "NavigationController"
+- "UINavigationController"
 depends-member:
 - !private ["Ps9AnyObject", "NavBar"]
 - !private ["Ps9AnyObject", "fatalError"]

@@ -7,11 +7,11 @@ provides-member:
 - ["V18WeatherApplication12CodeResponse", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "JSON"
-- "String"
-- "CodeResponse"
-- "Fargo"
 - !private "StringLiteralType"
+- "CodeResponse"
+- "String"
+- "Fargo"
+- "JSON"
 depends-member:
 - !private ["Sa", "deinit"]
 - ["V18WeatherApplication12CodeResponse", "CodeResponse"]

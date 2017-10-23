@@ -6,13 +6,13 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "LS"
-- !private "!="
-- "String"
-- !private "NSBundle"
 - !private "HomePageViewController"
-- !private ">"
+- "String"
+- !private "!="
 - "StringLiteralType"
 - !private "NSLocalizedString"
+- !private "NSBundle"
+- !private ">"
 depends-member:
 - !private ["Ps9AnyObject", "characters"]
 - !private ["Ps9AnyObject", "classForCoder"]

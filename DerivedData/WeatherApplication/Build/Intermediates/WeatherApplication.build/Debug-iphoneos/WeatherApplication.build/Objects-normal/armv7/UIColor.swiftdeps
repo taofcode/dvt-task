@@ -8,18 +8,18 @@ provides-member:
 - ["CSo7UIColor", "init"]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "StringLiteralType"
-- !private "&"
 - !private "/"
 - !private "<="
+- !private ">>"
 - !private "CGFloat"
-- "Int"
 - !private "&&"
-- !private "assert"
+- "Int"
+- "UIColor"
+- !private "StringLiteralType"
 - "String"
 - !private ">="
-- "UIColor"
-- !private ">>"
+- !private "assert"
+- !private "&"
 depends-member:
 - !private ["Ps16AbsoluteValuable", "init"]
 - !private ["Ps9AnyObject", "CGFloat"]

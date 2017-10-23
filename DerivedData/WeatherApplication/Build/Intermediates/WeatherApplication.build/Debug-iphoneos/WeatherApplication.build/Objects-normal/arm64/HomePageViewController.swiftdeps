@@ -13,40 +13,34 @@ provides-member:
 - ["C18WeatherApplication22HomePageViewController", "viewDidLoad"]
 - ["C18WeatherApplication22HomePageViewController", "locationStatusCheck"]
 provides-dynamic-lookup:
-- "loadView"
+- "viewDidLoad"
 - "locationManager"
 - "locationStatusCheck"
-- "viewDidLoad"
+- "loadView"
 depends-top-level:
-- !private "API"
-- !private "BackEndInfo"
-- "UIViewController"
-- "CLLocationManagerDelegate"
-- "CLLocation"
-- "locationManager"
-- !private "!="
-- !private "UIApplication"
-- !private "String"
-- !private "NSLog"
-- !private "Int"
+- "CLAuthorizationStatus"
 - "NSError"
-- !private "StringLiteralType"
-- "CLLocationManager"
-- "hasConnectivity"
-- !private "NSURL"
-- "Bool"
+- "HomePageViewController"
 - !private "UIAlertController"
 - !private "Void"
-- "BooleanLiteralType"
+- "CLLocation"
 - !private "UIAlertAction"
+- "CLLocationManager"
 - !private "CLBeaconRegion"
+- !private "!="
+- !private "StringLiteralType"
 - !private "Reachability"
-- "HomePageViewController"
-- "CLAuthorizationStatus"
+- "Bool"
+- "locationManager"
+- !private "Int"
+- "CLLocationManagerDelegate"
+- !private "UIApplication"
+- !private "NSURL"
+- "UIViewController"
+- "BooleanLiteralType"
+- !private "NSLog"
+- "hasConnectivity"
 depends-member:
-- !private ["V18WeatherApplication3API", "requestCurrentCityWeather"]
-- !private ["Ps9AnyObject", "API"]
-- !private ["Ps9AnyObject", "BackEndInfo"]
 - !private ["Ps9AnyObject", "CLBeaconRegion"]
 - ["Ps9AnyObject", "CLLocationManager"]
 - !private ["Ps9AnyObject", "NSURL"]
@@ -88,7 +82,6 @@ depends-member:
 - !private ["Ps23ArrayLiteralConvertible", "last"]
 - !private ["Vs10ArraySlice", "Generator"]
 - !private ["Vs10ArraySlice", "Index"]
-- !private ["V18WeatherApplication11BackEndInfo", "API_KEY_MAIN"]
 - !private ["Ps22BidirectionalIndexType", "Distance"]
 - !private ["Ps22BidirectionalIndexType", "IntegerLiteralType"]
 - !private ["Ps21BitwiseOperationsType", "Distance"]
@@ -107,8 +100,6 @@ depends-member:
 - !private ["CSo17CLLocationManager", "requestWhenInUseAuthorization"]
 - !private ["CSo17CLLocationManager", "respondsToSelector"]
 - !private ["CSo17CLLocationManager", "startUpdatingLocation"]
-- !private ["PSo25CLLocationManagerDelegate", "API"]
-- !private ["PSo25CLLocationManagerDelegate", "BackEndInfo"]
 - !private ["PSo25CLLocationManagerDelegate", "CLBeaconRegion"]
 - ["PSo25CLLocationManagerDelegate", "CLLocationManager"]
 - !private ["PSo25CLLocationManagerDelegate", "NSURL"]
@@ -122,8 +113,6 @@ depends-member:
 - !private ["PSo25CLLocationManagerDelegate", "presentViewController"]
 - !private ["PSo25CLLocationManagerDelegate", "viewWillAppear"]
 - ["PSo25CLLocationManagerDelegate", ""]
-- !private ["Ps11CVarArgType", "API"]
-- !private ["Ps11CVarArgType", "BackEndInfo"]
 - !private ["Ps11CVarArgType", "CLBeaconRegion"]
 - ["Ps11CVarArgType", "CLLocationManager"]
 - !private ["Ps11CVarArgType", "Distance"]
@@ -162,8 +151,6 @@ depends-member:
 - !private ["Ps14CollectionType", "last"]
 - !private ["Ps10Comparable", "Distance"]
 - !private ["Ps10Comparable", "IntegerLiteralType"]
-- !private ["Ps28CustomDebugStringConvertible", "API"]
-- !private ["Ps28CustomDebugStringConvertible", "BackEndInfo"]
 - !private ["Ps28CustomDebugStringConvertible", "CLBeaconRegion"]
 - ["Ps28CustomDebugStringConvertible", "CLLocationManager"]
 - !private ["Ps28CustomDebugStringConvertible", "Generator"]
@@ -199,8 +186,6 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
 - !private ["Ps28CustomDebugStringConvertible", "viewWillAppear"]
 - ["Ps28CustomDebugStringConvertible", ""]
-- !private ["Ps23CustomStringConvertible", "API"]
-- !private ["Ps23CustomStringConvertible", "BackEndInfo"]
 - !private ["Ps23CustomStringConvertible", "CLBeaconRegion"]
 - ["Ps23CustomStringConvertible", "CLLocationManager"]
 - !private ["Ps23CustomStringConvertible", "Distance"]
@@ -236,16 +221,13 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "respondsToSelector"]
 - !private ["Ps23CustomStringConvertible", "sharedApplication"]
 - !private ["Ps23CustomStringConvertible", "startUpdatingLocation"]
-- !private ["Ps23CustomStringConvertible", "success"]
 - ["Ps23CustomStringConvertible", "viewDidLoad"]
 - !private ["Ps23CustomStringConvertible", "viewWillAppear"]
 - ["Ps23CustomStringConvertible", ""]
 - !private ["P5Fargo9Decodable", "Distance"]
 - !private ["P5Fargo9Decodable", "IntegerLiteralType"]
 - !private ["P5Fargo9Decodable", "_getBuiltinLogicValue"]
-- !private ["Ps9Equatable", "API"]
 - !private ["Ps9Equatable", "ActionSheet"]
-- !private ["Ps9Equatable", "BackEndInfo"]
 - !private ["Ps9Equatable", "CLBeaconRegion"]
 - ["Ps9Equatable", "CLLocationManager"]
 - !private ["Ps9Equatable", "Cancel"]
@@ -287,9 +269,7 @@ depends-member:
 - !private ["Ps16ForwardIndexType", "Distance"]
 - !private ["Ps16ForwardIndexType", "IntegerLiteralType"]
 - !private ["Ps13GeneratorType", "Element"]
-- !private ["Ps8Hashable", "API"]
 - !private ["Ps8Hashable", "ActionSheet"]
-- !private ["Ps8Hashable", "BackEndInfo"]
 - !private ["Ps8Hashable", "CLBeaconRegion"]
 - ["Ps8Hashable", "CLLocationManager"]
 - !private ["Ps8Hashable", "Cancel"]
@@ -328,13 +308,10 @@ depends-member:
 - ["Ps8Hashable", "viewDidLoad"]
 - !private ["Ps8Hashable", "viewWillAppear"]
 - ["Ps8Hashable", ""]
-- !private ["C18WeatherApplication22HomePageViewController", "API"]
-- !private ["C18WeatherApplication22HomePageViewController", "BackEndInfo"]
 - ["C18WeatherApplication22HomePageViewController", "Bool"]
 - !private ["C18WeatherApplication22HomePageViewController", "CLBeaconRegion"]
 - ["C18WeatherApplication22HomePageViewController", "CLLocationManager"]
 - !private ["C18WeatherApplication22HomePageViewController", "NSURL"]
-- !private ["C18WeatherApplication22HomePageViewController", "String"]
 - !private ["C18WeatherApplication22HomePageViewController", "UIAlertAction"]
 - !private ["C18WeatherApplication22HomePageViewController", "UIAlertController"]
 - !private ["C18WeatherApplication22HomePageViewController", "UIApplication"]
@@ -381,8 +358,6 @@ depends-member:
 - !private ["Ps16MutableSliceable", "SubSequence"]
 - !private ["Ps16MutableSliceable", "_Element"]
 - !private ["Ps16MutableSliceable", "last"]
-- !private ["PSo8NSCoding", "API"]
-- !private ["PSo8NSCoding", "BackEndInfo"]
 - !private ["PSo8NSCoding", "CLBeaconRegion"]
 - ["PSo8NSCoding", "CLLocationManager"]
 - !private ["PSo8NSCoding", "NSURL"]
@@ -402,8 +377,6 @@ depends-member:
 - !private ["PSo8NSCoding", "viewWillAppear"]
 - ["PSo8NSCoding", ""]
 - !private ["PSo9NSCopying", "init"]
-- !private ["PSo26NSExtensionRequestHandling", "API"]
-- !private ["PSo26NSExtensionRequestHandling", "BackEndInfo"]
 - !private ["PSo26NSExtensionRequestHandling", "CLBeaconRegion"]
 - ["PSo26NSExtensionRequestHandling", "CLLocationManager"]
 - !private ["PSo26NSExtensionRequestHandling", "NSURL"]
@@ -422,13 +395,10 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
 - !private ["PSo26NSExtensionRequestHandling", "viewWillAppear"]
 - ["PSo26NSExtensionRequestHandling", ""]
-- !private ["CSo8NSObject", "API"]
-- !private ["CSo8NSObject", "BackEndInfo"]
 - ["CSo8NSObject", "Bool"]
 - !private ["CSo8NSObject", "CLBeaconRegion"]
 - ["CSo8NSObject", "CLLocationManager"]
 - !private ["CSo8NSObject", "NSURL"]
-- !private ["CSo8NSObject", "String"]
 - !private ["CSo8NSObject", "UIAlertAction"]
 - !private ["CSo8NSObject", "UIAlertController"]
 - !private ["CSo8NSObject", "UIApplication"]
@@ -455,8 +425,6 @@ depends-member:
 - !private ["CSo8NSObject", "startUpdatingLocation"]
 - ["CSo8NSObject", "viewDidLoad"]
 - !private ["CSo8NSObject", "viewWillAppear"]
-- !private ["PSo16NSObjectProtocol", "API"]
-- !private ["PSo16NSObjectProtocol", "BackEndInfo"]
 - !private ["PSo16NSObjectProtocol", "CLBeaconRegion"]
 - ["PSo16NSObjectProtocol", "CLLocationManager"]
 - !private ["PSo16NSObjectProtocol", "NSURL"]
@@ -508,7 +476,6 @@ depends-member:
 - ["Ps16RawRepresentable", "Restricted"]
 - !private ["C18WeatherApplication12Reachability", "currentReachabilityStatus"]
 - !private ["C18WeatherApplication12Reachability", "reachabilityForInternetConnection"]
-- !private ["O18WeatherApplication6Result", "success"]
 - !private ["Ps12SequenceType", "Element"]
 - !private ["Ps12SequenceType", "Generator"]
 - !private ["Ps12SequenceType", "Index"]
@@ -527,8 +494,6 @@ depends-member:
 - !private ["CSo17UIAlertController", "addAction"]
 - !private ["CSo17UIAlertController", "init"]
 - !private ["OSC22UIAlertControllerStyle", "ActionSheet"]
-- !private ["PSo21UIAppearanceContainer", "API"]
-- !private ["PSo21UIAppearanceContainer", "BackEndInfo"]
 - !private ["PSo21UIAppearanceContainer", "CLBeaconRegion"]
 - ["PSo21UIAppearanceContainer", "CLLocationManager"]
 - !private ["PSo21UIAppearanceContainer", "NSURL"]
@@ -549,8 +514,6 @@ depends-member:
 - ["PSo21UIAppearanceContainer", ""]
 - !private ["CSo13UIApplication", "openURL"]
 - !private ["CSo13UIApplication", "sharedApplication"]
-- !private ["PSo18UIContentContainer", "API"]
-- !private ["PSo18UIContentContainer", "BackEndInfo"]
 - !private ["PSo18UIContentContainer", "CLBeaconRegion"]
 - ["PSo18UIContentContainer", "CLLocationManager"]
 - !private ["PSo18UIContentContainer", "NSURL"]
@@ -569,8 +532,6 @@ depends-member:
 - ["PSo18UIContentContainer", "viewDidLoad"]
 - !private ["PSo18UIContentContainer", "viewWillAppear"]
 - ["PSo18UIContentContainer", ""]
-- !private ["PSo18UIFocusEnvironment", "API"]
-- !private ["PSo18UIFocusEnvironment", "BackEndInfo"]
 - !private ["PSo18UIFocusEnvironment", "CLBeaconRegion"]
 - ["PSo18UIFocusEnvironment", "CLLocationManager"]
 - !private ["PSo18UIFocusEnvironment", "NSURL"]
@@ -589,13 +550,10 @@ depends-member:
 - ["PSo18UIFocusEnvironment", "viewDidLoad"]
 - !private ["PSo18UIFocusEnvironment", "viewWillAppear"]
 - ["PSo18UIFocusEnvironment", ""]
-- !private ["CSo11UIResponder", "API"]
-- !private ["CSo11UIResponder", "BackEndInfo"]
 - ["CSo11UIResponder", "Bool"]
 - !private ["CSo11UIResponder", "CLBeaconRegion"]
 - ["CSo11UIResponder", "CLLocationManager"]
 - !private ["CSo11UIResponder", "NSURL"]
-- !private ["CSo11UIResponder", "String"]
 - !private ["CSo11UIResponder", "UIAlertAction"]
 - !private ["CSo11UIResponder", "UIAlertController"]
 - !private ["CSo11UIResponder", "UIApplication"]
@@ -613,8 +571,6 @@ depends-member:
 - !private ["CSo11UIResponder", "sharedApplication"]
 - ["CSo11UIResponder", "viewDidLoad"]
 - !private ["CSo11UIResponder", "viewWillAppear"]
-- !private ["PSo30UIResponderStandardEditActions", "API"]
-- !private ["PSo30UIResponderStandardEditActions", "BackEndInfo"]
 - !private ["PSo30UIResponderStandardEditActions", "CLBeaconRegion"]
 - ["PSo30UIResponderStandardEditActions", "CLLocationManager"]
 - !private ["PSo30UIResponderStandardEditActions", "NSURL"]
@@ -635,8 +591,6 @@ depends-member:
 - ["PSo30UIResponderStandardEditActions", "viewDidLoad"]
 - !private ["PSo30UIResponderStandardEditActions", "viewWillAppear"]
 - ["PSo30UIResponderStandardEditActions", ""]
-- !private ["PSo16UIStateRestoring", "API"]
-- !private ["PSo16UIStateRestoring", "BackEndInfo"]
 - !private ["PSo16UIStateRestoring", "CLBeaconRegion"]
 - ["PSo16UIStateRestoring", "CLLocationManager"]
 - !private ["PSo16UIStateRestoring", "NSURL"]
@@ -655,8 +609,6 @@ depends-member:
 - ["PSo16UIStateRestoring", "viewDidLoad"]
 - !private ["PSo16UIStateRestoring", "viewWillAppear"]
 - ["PSo16UIStateRestoring", ""]
-- !private ["PSo18UITraitEnvironment", "API"]
-- !private ["PSo18UITraitEnvironment", "BackEndInfo"]
 - !private ["PSo18UITraitEnvironment", "CLBeaconRegion"]
 - ["PSo18UITraitEnvironment", "CLLocationManager"]
 - !private ["PSo18UITraitEnvironment", "NSURL"]
@@ -675,13 +627,10 @@ depends-member:
 - ["PSo18UITraitEnvironment", "viewDidLoad"]
 - !private ["PSo18UITraitEnvironment", "viewWillAppear"]
 - ["PSo18UITraitEnvironment", ""]
-- !private ["CSo16UIViewController", "API"]
-- !private ["CSo16UIViewController", "BackEndInfo"]
 - ["CSo16UIViewController", "Bool"]
 - !private ["CSo16UIViewController", "CLBeaconRegion"]
 - ["CSo16UIViewController", "CLLocationManager"]
 - !private ["CSo16UIViewController", "NSURL"]
-- !private ["CSo16UIViewController", "String"]
 - !private ["CSo16UIViewController", "UIAlertAction"]
 - !private ["CSo16UIViewController", "UIAlertController"]
 - !private ["CSo16UIViewController", "UIApplication"]
@@ -742,12 +691,10 @@ depends-member:
 - !private ["Ps18_SignedIntegerType", "Distance"]
 - !private ["Ps18_SignedIntegerType", "IntegerLiteralType"]
 depends-nominal:
-- !private "V18WeatherApplication3API"
 - "Ps9AnyObject"
 - !private "Sa"
 - !private "Ps23ArrayLiteralConvertible"
 - !private "Vs10ArraySlice"
-- !private "V18WeatherApplication11BackEndInfo"
 - !private "Ps22BidirectionalIndexType"
 - !private "Ps21BitwiseOperationsType"
 - !private "Sb"
@@ -791,7 +738,6 @@ depends-nominal:
 - !private "Ps30RangeReplaceableCollectionType"
 - "Ps16RawRepresentable"
 - !private "C18WeatherApplication12Reachability"
-- !private "O18WeatherApplication6Result"
 - !private "Ps12SequenceType"
 - !private "Ps17SignedIntegerType"
 - !private "Ps16SignedNumberType"
