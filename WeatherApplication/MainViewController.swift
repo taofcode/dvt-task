@@ -54,8 +54,9 @@ final public class MainViewController: UIViewController, CLLocationManagerDelega
                  labelMaxTemp.textAlignment = .Center
                 view.addSubview(labelMaxTemp)
         
-               labelLocale.textColor = Theme.current.color(.textFieldBorderColor)
-                labelLocale.font = UIFont.boldSystemFontOfSize(12)
+               labelLocale.textColor = Theme.current.color(.textSubColor)
+                labelLocale.numberOfLines = 1
+                labelLocale.font = UIFont.systemFontOfSize(12)
         
                 view.addSubview(labelLocale)
         
@@ -68,22 +69,37 @@ final public class MainViewController: UIViewController, CLLocationManagerDelega
         
         
     }
-    
+    public override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(true)
+        
+        navigationItem.backBarButtonItem?.tintColor = Theme.current.color(.textColor)
+        let stopButton = UIBarButtonItem(image: UIImage(named: "close"), style: .Plain, target: self, action: #selector(MainViewController.didPressCloseButton(_:)))
+        navigationItem.rightBarButtonItem?.tintColor = UIColor.whiteColor()
+        navigationItem.rightBarButtonItem = stopButton
+        let refreshButton = UIBarButtonItem(image: UIImage(named: "refresh"), style: .Plain, target: self, action: #selector(MainViewController.didPressRefreshButton(_:)))
+        navigationItem.leftBarButtonItem = refreshButton
+        self.navigationItem.title = "Weather"
+        
+
+    }
     override public func viewDidLoad() {
         
         super.viewDidLoad()
         
+       
+        
+        let gradientLayer = CAGradientLayer()
+            gradientLayer.frame = self.navigationController!.navigationBar.bounds
+        let primaryColor = UIColor.blackColor().CGColor as CGColorRef
+        let secondaryColor = UIColor.grayColor().CGColor as CGColorRef
+        gradientLayer.colors = [primaryColor, secondaryColor]
+        gradientLayer.locations = [0.0, 1.8,]
+    
+        self.navigationController!.navigationBar.layer.addSublayer(gradientLayer)
+        
         view.backgroundColor = Theme.current.color(.backgroundColor)
         
         
-        self.navigationItem.title = "Weather"
-    
-        
-        
-        let stopButton = UIBarButtonItem(title: "Close", style: .Plain, target: self, action: #selector(MainViewController.didPressCloseButton(_:)))
-        navigationItem.rightBarButtonItem = stopButton
-        let refreshButton = UIBarButtonItem(title: "Refresh", style: .Plain, target: self, action: #selector(MainViewController.didPressRefreshButton(_:)))
-        navigationItem.leftBarButtonItem = refreshButton
         if hasConnectivity() == true {
             
             requestWeather()
@@ -92,23 +108,14 @@ final public class MainViewController: UIViewController, CLLocationManagerDelega
             
         else{
             
-            let alertController = UIAlertController(title:"Weather", message: "It appears your internet connection is not available at the moment. Please check your connection and try again", preferredStyle: .ActionSheet)
-            
-            let cancelButton = UIAlertAction(title: "OK", style: .Cancel, handler: nil)
-            alertController.addAction(cancelButton)
-            let popOver = alertController.popoverPresentationController
-            popOver?.sourceView = self.view
-            popOver?.sourceRect = CGRect(x: self.view.bounds.midX, y: self.view.bounds.midY, width: 0, height: 0)
-            popOver?.permittedArrowDirections = UIPopoverArrowDirection.Down
-            self.presentViewController(alertController, animated: true, completion: nil)
-            
-            return
+   showInternetMessage()
         }
         
     }
         func requestWeather() {
             let hud = MBProgressHUD.showHUDAddedTo(self.view, animated: true)
-            if(locationManager.location != nil){
+            if(hasConnectivity()){
+                
         API.requestCurrentCityWeather((locationManager.location?.coordinate.latitude.description)!,lon: (locationManager.location?.coordinate.longitude.description)!, key: key ) { (resultTransaction) -> Void in
             resultTransaction.success({ (transactionModel) -> Void in
                 
@@ -139,65 +146,20 @@ final public class MainViewController: UIViewController, CLLocationManagerDelega
             }).failure({ (error) -> Void in
                 
                 
-                
-                let errorAlert = UIAlertController(title: "Error", message: error.localizedDescription, preferredStyle: .Alert)
-                
-                errorAlert.addAction(UIAlertAction(title: "Ok", style: .Default, handler: nil))
-                
-                let popOver = errorAlert.popoverPresentationController
-                
-                popOver?.sourceView = self.view
-                
-                popOver?.sourceRect = CGRect(x: self.view.bounds.midX, y: self.view.bounds.midY, width: 0, height: 0)
-                
-                popOver?.permittedArrowDirections = UIPopoverArrowDirection.Down
-                
-                
-                
-                self.presentViewController(errorAlert, animated: true, completion: nil)
-                
+               self.showCustomError(error.localizedDescription)
             })
             
             
             
             
             
-        }
+                }
             hud.hide(true)
             }
             else{
             
              hud.hide(true)
-                let alertController = UIAlertController(title:"Cool Weather", message: "It appears your location service is turned off for this app. Please activate to continue", preferredStyle: .ActionSheet)
-                
-                let acceptButton = UIAlertAction(title: "Activate Location Service", style: .Default, handler: {(action) -> Void in
-                    
-                    if let url = NSURL(string:"App-Prefs:root=Privacy&path=LOCATION") {
-                        
-                        UIApplication.sharedApplication().openURL(url)
-                           exit(0)
-                        
-                        
-                    }
-                    
-                })
-                
-                let cancelButton = UIAlertAction(title: "Go Back", style: .Cancel, handler:  {(action) -> Void in
-                    
-                    exit(0)
-                    
-                })
-                alertController.addAction(acceptButton)
-                
-                alertController.addAction(cancelButton)
-                
-                let popOver = alertController.popoverPresentationController
-                
-                popOver?.sourceView = self.view
-                
-                popOver?.sourceRect = CGRect(x: self.view.bounds.midX, y: self.view.bounds.midY, width: 0, height: 0)
-                popOver?.permittedArrowDirections = UIPopoverArrowDirection.Down
-                self.presentViewController(alertController, animated: true, completion: nil)
+                showInternetMessage()
                 
 
 
@@ -343,39 +305,8 @@ extension MainViewController{
             
         else {
             
-            let alertController = UIAlertController(title:"Cool Weather", message: "It appears your location service is turned off for this app. Please activate to continue", preferredStyle: .ActionSheet)
-            
-            let acceptButton = UIAlertAction(title: "Activate Location Service", style: .Default, handler: {(action) -> Void in
-                
-                if let url = NSURL(string:"App-Prefs:root=Privacy&path=LOCATION") {
-                    
-                    UIApplication.sharedApplication().openURL(url)
-                    
-                    
-                    
-                }
-                
-            })
-            
-            let cancelButton = UIAlertAction(title: "Go Back", style: .Cancel, handler:  {(action) -> Void in
-                
-            exit(0)
-                
-            })
-            
-            alertController.addAction(acceptButton)
-            
-            alertController.addAction(cancelButton)
-            
-            let popOver = alertController.popoverPresentationController
-            
-            popOver?.sourceView = self.view
-            
-            popOver?.sourceRect = CGRect(x: self.view.bounds.midX, y: self.view.bounds.midY, width: 0, height: 0)
-            popOver?.permittedArrowDirections = UIPopoverArrowDirection.Down
-            self.presentViewController(alertController, animated: true, completion: nil)
-            
-            return false
+            showlocationMessage()
+                      return false
             
         }
         
@@ -387,7 +318,7 @@ extension MainViewController{
     
     public func locationManager(manager: CLLocationManager, didFailWithError error: NSError) {
         
-        NSLog("Error to update location :%@",error)
+       showCustomError(error.localizedDescription)
         
     }
     
@@ -403,7 +334,7 @@ extension MainViewController{
             
         case .Denied:
             
-            NSLog("do some error handling")
+           showlocationMessage()
             
             break
             
@@ -441,6 +372,8 @@ extension MainViewController{
             
             // Handle error
             
+            showInternetMessage()
+            
             return false
             
         }
@@ -448,6 +381,81 @@ extension MainViewController{
         
         
         
+        
+    }
+    
+    func showInternetMessage()  {
+        
+        let alertController = UIAlertController(title:"Weather", message: "It appears your internet connection is not available at the moment. Please check your connection and try again", preferredStyle: .ActionSheet)
+        
+        let cancelButton = UIAlertAction(title: "OK", style: .Cancel, handler:{(action) -> Void in
+            
+          exit(0)
+        })
+
+        alertController.addAction(cancelButton)
+        let popOver = alertController.popoverPresentationController
+        popOver?.sourceView = self.view
+        popOver?.sourceRect = CGRect(x: self.view.bounds.midX, y: self.view.bounds.midY, width: 0, height: 0)
+        popOver?.permittedArrowDirections = UIPopoverArrowDirection.Down
+        self.presentViewController(alertController, animated: true, completion: nil)
+        
+    }
+    
+    func showlocationMessage(){
+        let alertController = UIAlertController(title:"Cool Weather", message: "It appears your location service is turned off for this app. Please activate to continue", preferredStyle: .ActionSheet)
+        
+        let acceptButton = UIAlertAction(title: "Activate Location Service", style: .Default, handler: {(action) -> Void in
+            
+            if let url = NSURL(string:"App-Prefs:root=Privacy&path=LOCATION") {
+                
+                UIApplication.sharedApplication().openURL(url)
+                
+                
+                
+            }
+            
+        })
+        
+        let cancelButton = UIAlertAction(title: "Go Back", style: .Cancel, handler:  {(action) -> Void in
+            
+            exit(0)
+            
+        })
+        
+        alertController.addAction(acceptButton)
+        
+        alertController.addAction(cancelButton)
+        
+        let popOver = alertController.popoverPresentationController
+        
+        popOver?.sourceView = self.view
+        
+        popOver?.sourceRect = CGRect(x: self.view.bounds.midX, y: self.view.bounds.midY, width: 0, height: 0)
+        popOver?.permittedArrowDirections = UIPopoverArrowDirection.Down
+        self.presentViewController(alertController, animated: true, completion: nil)
+        
+
+    }
+    
+    func showCustomError(error:String) {
+        
+        let errorAlert = UIAlertController(title: "Error", message: error, preferredStyle: .Alert)
+        
+        errorAlert.addAction(UIAlertAction(title: "Ok", style: .Default, handler: nil))
+        
+        let popOver = errorAlert.popoverPresentationController
+        
+        popOver?.sourceView = self.view
+        
+        popOver?.sourceRect = CGRect(x: self.view.bounds.midX, y: self.view.bounds.midY, width: 0, height: 0)
+        
+        popOver?.permittedArrowDirections = UIPopoverArrowDirection.Down
+        
+        
+        
+        self.presentViewController(errorAlert, animated: true, completion: nil)
+
         
     }
     func didPressCloseButton(sender:AnyObject){

@@ -1,21 +1,16 @@
 {
     "colors": {
-        "navBarColor": "080808",
-        "navBarTintColor": "080808",
+        "navBarColor": "0000000",
+        "navBarTintColor": "ffffff",
         "titleheader": "ffffff",
-        "backgroundColor": "101010",
-        "buttonBackgroundColor": "101010",
+        "backgroundColor": "181818",
+        "buttonBackgroundColor": "181818",
         "buttonTextColor": "ffffff",
-        "buttonBackgroundColorSecondary": "101010",
         "buttonTextColorSecondary": "ffffff",
-        "connectTextColor":"105089",
-        "textColor": "484848",
-        "textColorLanding": "a1a2a3",
-        "textFieldBorderColor": "585858",
+        "textColor": "ffffff",
+        "textColorLanding": "ffffff",
         "menuItemColor": "fffffff",
-        "menuItemSubColor": "ffffff",
-        "textSubColor": "ffffff",
-        "sliderColor": "31d63c",
+        "textSubColor": "A9A9A9"
         
     }
 }

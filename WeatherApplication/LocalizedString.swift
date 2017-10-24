@@ -13,7 +13,7 @@ public func LS(key: String, comment: String = "") -> String {
     if mainBundleString != key {
         return mainBundleString
     } else {
-        let uiString = NSBundle(forClass: HomePageViewController.classForCoder()).localizedStringForKey(key, value: "", table: nil)
+        let uiString = NSBundle(forClass: MainViewController.classForCoder()).localizedStringForKey(key, value: "", table: nil)
         guard uiString.characters.count > 0 else {
             return mainBundleString
         }

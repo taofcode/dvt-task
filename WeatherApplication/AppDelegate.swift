@@ -43,7 +43,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.mainScreen().bounds)
         window?.rootViewController = UIViewController() // just a placeholder to avoid system errors
         window?.makeKeyAndVisible()
-        
+        let textAttributes = [NSForegroundColorAttributeName:UIColor.whiteColor()]
+        UINavigationBar.appearance().titleTextAttributes = textAttributes
         // Bootstrap
         appBootstrap()
 

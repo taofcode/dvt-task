@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		09248BA41F9CBC41003E32F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09248BA31F9CBC41003E32F8 /* LaunchScreen.storyboard */; };
-		09248BC51F9CBF61003E32F8 /* Theme.json in Resources */ = {isa = PBXBuildFile; fileRef = 09248BC41F9CBF61003E32F8 /* Theme.json */; };
 		09248BC71F9D2A05003E32F8 /* CloudModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09248BC61F9D2A05003E32F8 /* CloudModel.swift */; };
 		09253EC61F9CB3E500BF98E0 /* Theme.json in Resources */ = {isa = PBXBuildFile; fileRef = 09253EC51F9CB3E500BF98E0 /* Theme.json */; };
 		0926B43E1F9B8EC100027F64 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0926B43D1F9B8EC100027F64 /* API.swift */; };
@@ -23,7 +22,6 @@
 		093FF6631F9B63E7002980F4 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093FF6621F9B63E7002980F4 /* Reachability.swift */; };
 		093FF6651F9B6472002980F4 /* NavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093FF6641F9B6472002980F4 /* NavBar.swift */; };
 		093FF6671F9B6525002980F4 /* BoostrapUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093FF6661F9B6525002980F4 /* BoostrapUI.swift */; };
-		0944A9F61F9B5B7C007116F6 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0944A9F51F9B5B7C007116F6 /* HomePageViewController.swift */; };
 		0944A9F91F9B6089007116F6 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0944A9F81F9B6089007116F6 /* NavigationController.swift */; };
 		096224E51F9C68290092982E /* CoordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096224E41F9C68290092982E /* CoordModel.swift */; };
 		096224E71F9C69450092982E /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096224E61F9C69450092982E /* WeatherModel.swift */; };
@@ -44,7 +42,6 @@
 
 /* Begin PBXFileReference section */
 		09248BA31F9CBC41003E32F8 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		09248BC41F9CBF61003E32F8 /* Theme.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Theme.json; path = "../../v-mobile-ios/Targets/CABS/Resources/Theme.json"; sourceTree = "<group>"; };
 		09248BC61F9D2A05003E32F8 /* CloudModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudModel.swift; sourceTree = "<group>"; };
 		09253EC51F9CB3E500BF98E0 /* Theme.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Theme.json; sourceTree = "<group>"; };
 		0926B43D1F9B8EC100027F64 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
@@ -59,7 +56,6 @@
 		093FF6621F9B63E7002980F4 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		093FF6641F9B6472002980F4 /* NavBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavBar.swift; sourceTree = "<group>"; };
 		093FF6661F9B6525002980F4 /* BoostrapUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoostrapUI.swift; sourceTree = "<group>"; };
-		0944A9F51F9B5B7C007116F6 /* HomePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 		0944A9F81F9B6089007116F6 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		096224E41F9C68290092982E /* CoordModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoordModel.swift; sourceTree = "<group>"; };
 		096224E61F9C69450092982E /* WeatherModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
@@ -165,7 +161,6 @@
 		0944A9EF1F9B5991007116F6 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				09248BC41F9CBF61003E32F8 /* Theme.json */,
 				09ED2B9A1F9932AF00F488B1 /* Assets.xcassets */,
 				09248BA31F9CBC41003E32F8 /* LaunchScreen.storyboard */,
 			);
@@ -175,7 +170,6 @@
 		0944A9F01F9B59BE007116F6 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				0944A9F51F9B5B7C007116F6 /* HomePageViewController.swift */,
 				096224F21F9CA1180092982E /* LoadingViewController.swift */,
 			);
 			name = UI;
@@ -323,7 +317,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				09248BA41F9CBC41003E32F8 /* LaunchScreen.storyboard in Resources */,
-				09248BC51F9CBF61003E32F8 /* Theme.json in Resources */,
 				09253EC61F9CB3E500BF98E0 /* Theme.json in Resources */,
 				09ED2B9B1F9932AF00F488B1 /* Assets.xcassets in Resources */,
 			);
@@ -409,7 +402,6 @@
 				0926B4601F9BCBCB00027F64 /* DataModel.swift in Sources */,
 				096224EF1F9C879A0092982E /* Theme.swift in Sources */,
 				096224F11F9C99C90092982E /* UIColor.swift in Sources */,
-				0944A9F61F9B5B7C007116F6 /* HomePageViewController.swift in Sources */,
 				0926B45E1F9BC6EF00027F64 /* CodeResponse.swift in Sources */,
 				0926B4441F9BB23600027F64 /* Networking.swift in Sources */,
 				096224ED1F9C6BE50092982E /* SysModel.swift in Sources */,
