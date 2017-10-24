@@ -28,21 +28,15 @@ final public class MainViewController: UIViewController, CLLocationManagerDelega
     var labelLocale = UILabel()
     
     var imageView  =  UIImageView()
+    var image = UIImage()
     
     var locationManager = CLLocationManager()
-    
     var  locale : String?
     
     let key : String = BackEndInfo.API_KEY_MAIN
     public override func loadView() {
         
         super.loadView()
-         self.navigationItem.title = "Weather"
-        let stopButton = UIBarButtonItem(title: "Close", style: .Plain, target: self, action: #selector(MainViewController.didPressCloseButton(_:)))
-        navigationItem.rightBarButtonItem = stopButton
-        let refreshButton = UIBarButtonItem(title: "Refresh", style: .Plain, target: self, action: #selector(MainViewController.didPressRefreshButton(_:)))
-         navigationItem.leftBarButtonItem = refreshButton
-    
         
             dateLabel.textColor = Theme.current.color(.buttonTextColorSecondary)
             dateLabel.font = .systemFontOfSize(17)
@@ -55,17 +49,17 @@ final public class MainViewController: UIViewController, CLLocationManagerDelega
         
         view.addSubview(labelMinTemp)
         
+         labelMaxTemp.font = UIFont(name:"HelveticaNeue-Bold", size: 16.0)
                 labelMaxTemp.textColor = Theme.current.color(.buttonTextColorSecondary)
                  labelMaxTemp.textAlignment = .Center
                 view.addSubview(labelMaxTemp)
         
-               labelLocale.textColor = Theme.current.color(.textColorLanding)
-        
-                labelLocale.font = .systemFontOfSize(15.0)
+               labelLocale.textColor = Theme.current.color(.textFieldBorderColor)
+                labelLocale.font = UIFont.boldSystemFontOfSize(12)
         
                 view.addSubview(labelLocale)
         
-                imageView.frame = CGRect(x: 0, y: 0, width: 150, height: 350)
+                imageView.frame = CGRect(x: 0, y: 0, width: 80, height: 80)
         
                 view.addSubview(imageView)
         
@@ -79,8 +73,17 @@ final public class MainViewController: UIViewController, CLLocationManagerDelega
         
         super.viewDidLoad()
         
-        
         view.backgroundColor = Theme.current.color(.backgroundColor)
+        
+        
+        self.navigationItem.title = "Weather"
+    
+        
+        
+        let stopButton = UIBarButtonItem(title: "Close", style: .Plain, target: self, action: #selector(MainViewController.didPressCloseButton(_:)))
+        navigationItem.rightBarButtonItem = stopButton
+        let refreshButton = UIBarButtonItem(title: "Refresh", style: .Plain, target: self, action: #selector(MainViewController.didPressRefreshButton(_:)))
+        navigationItem.leftBarButtonItem = refreshButton
         if hasConnectivity() == true {
             
             requestWeather()
@@ -127,9 +130,9 @@ final public class MainViewController: UIViewController, CLLocationManagerDelega
                 
                 let country =   currentLocale.localizedStringForCountryCode(transactionModel.sys.country!)
                 
-                self.labelLocale.text = "\(transactionModel.name!),"+country!
+                self.labelLocale.text = " \(transactionModel.name!), "+country!
                 
-                self.imageView.image =  UIImage(named: transactionModel.weather[0].icon!)
+                self.imageView.image = self.resizeImage(UIImage(named: transactionModel.weather[0].icon!)!,newWidth: 70.00)
                 
                 
                 
@@ -211,16 +214,26 @@ extension MainViewController{
     struct Layout {
         
         static let spacing = 60
+        static let spacingMargin = 75
+        static let padding = 5
+    }
+
+
+    
+    func resizeImage(image: UIImage, newWidth: CGFloat) -> UIImage {
         
+        let scale = newWidth / image.size.width
+        let newHeight = image.size.height * scale
+        UIGraphicsBeginImageContext(CGSizeMake(newWidth, newHeight))
+        image.drawInRect(CGRectMake(0, 0, newWidth, newHeight))
+        let newImage = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+        
+        return newImage!
     }
     
     
-    
     private func setupLayoutConstraints() {
-        
-        
-        
-        
         
         dateLabel.snp_makeConstraints { (make) -> Void in
             
@@ -229,10 +242,6 @@ extension MainViewController{
             make.top.equalTo(view).offset(Layout.spacing)
             
         }
-        
-        
-        
-        
         
         imageView.snp_makeConstraints { (make) -> Void in
             
@@ -266,7 +275,7 @@ extension MainViewController{
             
             make.left.equalTo(view).offset(Layout.spacing)
             
-            make.top.equalTo(labelMaxTemp.snp_bottom).offset(Layout.spacing/2)
+            make.top.equalTo(labelMaxTemp.snp_bottom).offset(Layout.padding)
             
         }
         
@@ -276,7 +285,7 @@ extension MainViewController{
             
             make.centerX.equalTo(view)
             
-            make.left.equalTo(view).offset(Layout.spacing)
+            make.left.equalTo(view).offset(Layout.spacingMargin)
             
             make.top.equalTo(labelMinTemp.snp_bottom).offset(Layout.spacing/2)
             

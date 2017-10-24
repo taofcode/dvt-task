@@ -167,6 +167,8 @@ SWIFT_CLASS("_TtC18WeatherApplication21LoadingViewController")
 @class UITextField;
 @class UILabel;
 @class UIImageView;
+@class UIImage;
+@class NavBar;
 
 SWIFT_CLASS("_TtC18WeatherApplication18MainViewController")
 @interface MainViewController : UIViewController <CLLocationManagerDelegate>
@@ -175,7 +177,9 @@ SWIFT_CLASS("_TtC18WeatherApplication18MainViewController")
 @property (nonatomic, strong) UILabel * _Nonnull labelMinTemp;
 @property (nonatomic, strong) UILabel * _Nonnull labelLocale;
 @property (nonatomic, strong) UIImageView * _Nonnull imageView;
+@property (nonatomic, strong) UIImage * _Nonnull image;
 @property (nonatomic, strong) CLLocationManager * _Nonnull locationManager;
+@property (nonatomic, strong) NavBar * _Nonnull navigationBar;
 @property (nonatomic, copy) NSString * _Nullable locale;
 @property (nonatomic, readonly, copy) NSString * _Nonnull key;
 - (void)loadView;
@@ -189,6 +193,7 @@ SWIFT_CLASS("_TtC18WeatherApplication18MainViewController")
 @class CLLocation;
 
 @interface MainViewController (SWIFT_EXTENSION(WeatherApplication))
+- (UIImage * _Nonnull)resizeImage:(UIImage * _Nonnull)image newWidth:(CGFloat)newWidth;
 - (BOOL)locationStatusCheck:(BOOL)locationactived;
 - (void)locationManager:(CLLocationManager * _Nonnull)manager didFailWithError:(NSError * _Nonnull)error;
 - (void)locationManager:(CLLocationManager * _Nonnull)manager didChangeAuthorizationStatus:(CLAuthorizationStatus)status;

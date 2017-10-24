@@ -7,19 +7,18 @@ provides-member:
 - ["V18WeatherApplication9DataModel", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "print"
-- "CoordModel"
-- "CloudModel"
-- "DataModel"
-- "Float"
-- "JSON"
-- "WeatherModel"
 - !private "StringLiteralType"
-- "String"
-- "Fargo"
-- "MainModel"
 - "SysModel"
+- "String"
+- "WeatherModel"
+- "Float"
+- "CoordModel"
+- "DataModel"
+- "CloudModel"
 - "WindModel"
+- "Fargo"
+- "JSON"
+- "MainModel"
 depends-member:
 - !private ["Sa", "deinit"]
 - !private ["V18WeatherApplication10CloudModel", "deinit"]
@@ -46,7 +45,6 @@ depends-member:
 - ["V18WeatherApplication9DataModel", "init"]
 - ["V18WeatherApplication9DataModel", "main"]
 - ["V18WeatherApplication9DataModel", "name"]
-- !private ["V18WeatherApplication9DataModel", "print"]
 - ["V18WeatherApplication9DataModel", "sys"]
 - ["V18WeatherApplication9DataModel", "visibility"]
 - ["V18WeatherApplication9DataModel", "weather"]
@@ -54,7 +52,6 @@ depends-member:
 - !private ["P5Fargo9Decodable", "DataModel"]
 - ["P5Fargo9Decodable", "decode"]
 - !private ["P5Fargo9Decodable", "init"]
-- !private ["P5Fargo9Decodable", "print"]
 - ["P5Fargo9Decodable", ""]
 - !private ["O5Fargo4JSON", "value"]
 - !private ["V18WeatherApplication9MainModel", "deinit"]

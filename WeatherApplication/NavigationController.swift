@@ -22,6 +22,7 @@ final public class NavigationController: UINavigationController {
     required public init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
+    
 }
 
 // MARK: - Rotation support
@@ -30,5 +31,6 @@ extension NavigationController {
     override public func supportedInterfaceOrientations() -> UIInterfaceOrientationMask {
         return .Portrait
     }
+    
 }
 

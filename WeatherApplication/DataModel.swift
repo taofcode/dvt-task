@@ -30,9 +30,7 @@ public struct DataModel {
 
 extension DataModel: Fargo.Decodable {
     public static func decode(json: JSON) throws -> DataModel {
-        
-        print(json)
-        return DataModel(
+             return DataModel(
             coord:	try json.value("coord"),
             weather: try json.value("weather"),
             baseStation:	try json.value("base"),

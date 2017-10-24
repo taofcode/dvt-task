@@ -1,6 +1,6 @@
 version: "Apple Swift version 2.3 (swiftlang-800.10.13 clang-800.0.42.1)"
 options: "d0cecb23d87810517d696292689f882c"
-build_time: [562111633, 210552000]
+build_time: [562180495, 37557000]
 inputs:
   "/Users/shelton/Desktop/WeatherApplication/WeatherApplication/BackEndInfo.swift": [562012499, 0]
   "/Users/shelton/Desktop/WeatherApplication/WeatherApplication/CloudModel.swift": [562016004, 0]
@@ -8,7 +8,7 @@ inputs:
   "/Users/shelton/Desktop/WeatherApplication/WeatherApplication/TokenModel.swift": [561920330, 0]
   "/Users/shelton/Desktop/WeatherApplication/WeatherApplication/CoordModel.swift": [562015207, 0]
   "/Users/shelton/Desktop/WeatherApplication/WeatherApplication/NavBar.swift": [562105713, 0]
-  "/Users/shelton/Desktop/WeatherApplication/WeatherApplication/DataModel.swift": [562016351, 0]
+  "/Users/shelton/Desktop/WeatherApplication/WeatherApplication/DataModel.swift": [562113881, 0]
   "/Users/shelton/Desktop/WeatherApplication/WeatherApplication/Theme.swift": [561979711, 0]
   "/Users/shelton/Desktop/WeatherApplication/WeatherApplication/UIColor.swift": [561979699, 0]
   "/Users/shelton/Desktop/WeatherApplication/WeatherApplication/HomePageViewController.swift": [562025530, 0]
@@ -16,9 +16,10 @@ inputs:
   "/Users/shelton/Desktop/WeatherApplication/WeatherApplication/Networking.swift": [561926347, 0]
   "/Users/shelton/Desktop/WeatherApplication/WeatherApplication/SysModel.swift": [562015631, 0]
   "/Users/shelton/Desktop/WeatherApplication/WeatherApplication/NavTitleViewDelegate.swift": [562107150, 0]
-  "/Users/shelton/Desktop/WeatherApplication/WeatherApplication/NavigationController.swift": [561899753, 0]
+  "/Users/shelton/Desktop/WeatherApplication/WeatherApplication/NavigationController.swift": [562142093, 0]
+  "/Users/shelton/Desktop/WeatherApplication/WeatherApplication/CAGradientLayer.swift": [9223372036854775807, 0]
   "/Users/shelton/Desktop/WeatherApplication/WeatherApplication/LoadingViewController.swift": [561981053, 0]
-  "/Users/shelton/Desktop/WeatherApplication/WeatherApplication/MainViewController.swift": [562111574, 0]
+  "/Users/shelton/Desktop/WeatherApplication/WeatherApplication/MainViewController.swift": [562142093, 0]
   "/Users/shelton/Desktop/WeatherApplication/WeatherApplication/LocalizedString.swift": [561981108, 0]
   "/Users/shelton/Desktop/WeatherApplication/WeatherApplication/WindModel.swift": [562016140, 0]
   "/Users/shelton/Desktop/WeatherApplication/WeatherApplication/BoostrapUI.swift": [561900149, 0]

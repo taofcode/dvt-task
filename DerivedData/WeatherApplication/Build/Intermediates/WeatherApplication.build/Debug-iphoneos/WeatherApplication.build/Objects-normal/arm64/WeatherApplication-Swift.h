@@ -93,8 +93,9 @@ typedef int swift_int4  __attribute__((__ext_vector_type__(4)));
 #endif
 #if defined(__has_feature) && __has_feature(modules)
 @import UIKit;
-@import CoreLocation;
+@import QuartzCore;
 @import CoreGraphics;
+@import CoreLocation;
 @import ObjectiveC;
 @import SystemConfiguration;
 #endif
@@ -120,6 +121,11 @@ SWIFT_CLASS("_TtC18WeatherApplication11AppDelegate")
 
 @interface AppDelegate (SWIFT_EXTENSION(WeatherApplication))
 - (void)appBootstrap;
+@end
+
+
+@interface CAGradientLayer (SWIFT_EXTENSION(WeatherApplication))
++ (CAGradientLayer * _Nonnull)gradientLayerForBounds:(CGRect)bounds;
 @end
 
 @class CLLocationManager;
@@ -156,17 +162,19 @@ SWIFT_CLASS("_TtC18WeatherApplication21LoadingViewController")
 
 
 @interface LoadingViewController (SWIFT_EXTENSION(WeatherApplication))
+- (void)startLoading:(BOOL)loading;
+- (void)stopLoading:(NSString * _Nullable)text retryAction:(void (^ _Nullable)(void))retryAction;
 @end
 
 
 @interface LoadingViewController (SWIFT_EXTENSION(WeatherApplication))
-- (void)startLoading:(BOOL)loading;
-- (void)stopLoading:(NSString * _Nullable)text retryAction:(void (^ _Nullable)(void))retryAction;
 @end
 
 @class UITextField;
 @class UILabel;
 @class UIImageView;
+@class UIImage;
+@class NavBar;
 
 SWIFT_CLASS("_TtC18WeatherApplication18MainViewController")
 @interface MainViewController : UIViewController <CLLocationManagerDelegate>
@@ -175,7 +183,9 @@ SWIFT_CLASS("_TtC18WeatherApplication18MainViewController")
 @property (nonatomic, strong) UILabel * _Nonnull labelMinTemp;
 @property (nonatomic, strong) UILabel * _Nonnull labelLocale;
 @property (nonatomic, strong) UIImageView * _Nonnull imageView;
+@property (nonatomic, strong) UIImage * _Nonnull image;
 @property (nonatomic, strong) CLLocationManager * _Nonnull locationManager;
+@property (nonatomic, strong) NavBar * _Nonnull navigationBar;
 @property (nonatomic, copy) NSString * _Nullable locale;
 @property (nonatomic, readonly, copy) NSString * _Nonnull key;
 - (void)loadView;
@@ -189,6 +199,7 @@ SWIFT_CLASS("_TtC18WeatherApplication18MainViewController")
 @class CLLocation;
 
 @interface MainViewController (SWIFT_EXTENSION(WeatherApplication))
+- (UIImage * _Nonnull)resizeImage:(UIImage * _Nonnull)image newWidth:(CGFloat)newWidth;
 - (BOOL)locationStatusCheck:(BOOL)locationactived;
 - (void)locationManager:(CLLocationManager * _Nonnull)manager didFailWithError:(NSError * _Nonnull)error;
 - (void)locationManager:(CLLocationManager * _Nonnull)manager didChangeAuthorizationStatus:(CLAuthorizationStatus)status;

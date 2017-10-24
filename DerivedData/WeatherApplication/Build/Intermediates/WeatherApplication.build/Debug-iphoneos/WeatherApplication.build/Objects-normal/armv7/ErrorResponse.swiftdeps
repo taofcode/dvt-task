@@ -7,11 +7,11 @@ provides-member:
 - ["V18WeatherApplication13ErrorResponse", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "JSON"
+- "Fargo"
 - "String"
 - !private "StringLiteralType"
 - "ErrorResponse"
-- "Fargo"
+- "JSON"
 depends-member:
 - !private ["Sa", "deinit"]
 - !private ["Ps23CustomStringConvertible", "value"]

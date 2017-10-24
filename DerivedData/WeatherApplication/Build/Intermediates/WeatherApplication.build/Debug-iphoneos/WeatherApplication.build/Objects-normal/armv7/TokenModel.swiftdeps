@@ -9,17 +9,17 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - !private "*"
-- "TokenModel"
 - !private "print"
-- "String"
-- "Fargo"
 - "JSON"
-- "AnyObject"
-- !private "/"
-- !private "StringLiteralType"
-- !private "NSTimeInterval"
 - !private "Dictionary"
 - "NSDate"
+- "TokenModel"
+- !private "/"
+- "AnyObject"
+- !private "StringLiteralType"
+- "String"
+- !private "NSTimeInterval"
+- "Fargo"
 depends-member:
 - !private ["Ps9AnyObject", "dateByAddingTimeInterval"]
 - !private ["Ps9AnyObject", "init"]

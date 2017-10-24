@@ -5,12 +5,12 @@ provides-nominal:
 provides-member:
 provides-dynamic-lookup:
 depends-top-level:
+- "UIViewController"
 - !private "fatalError"
 - "bootstrapUI"
-- !private "StringLiteralType"
 - !private "UIApplication"
+- !private "StringLiteralType"
 - !private "NavigationController"
-- "UIViewController"
 depends-member:
 - !private ["Ps9AnyObject", "init"]
 - !private ["Ps9AnyObject", "keyWindow"]
