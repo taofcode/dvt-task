@@ -17,38 +17,6 @@
             endingLineNumber = "22"
             landmarkName = "decode(j:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "static (extension in Fargo):Swift.Bool.decode (Fargo.JSON) throws -&gt; Swift.Bool"
-                  moduleName = "Fargo"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/shelton/Desktop/WeatherApplication/Pods/Fargo/Fargo/Source/Types/FoundationTypes.swift"
-                  timestampString = "530567644.926104"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "23"
-                  endingLineNumber = "23"
-                  offsetFromSymbolStart = "56">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "protocol witness for static Fargo.Decodable.decode (Fargo.JSON) throws -&gt; A in conformance Swift.Bool : Fargo.Decodable in Fargo"
-                  moduleName = "Fargo"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/shelton/Desktop/WeatherApplication/Pods/Fargo/Fargo/Source/Types/FoundationTypes.swift"
-                  timestampString = "530567644.931098"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "22"
-                  endingLineNumber = "22"
-                  offsetFromSymbolStart = "32">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -81,22 +49,6 @@
             endingLineNumber = "18"
             landmarkName = "API"
             landmarkType = "14">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "WeatherApplication/MainViewController.swift"
-            timestampString = "530567508.551233"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "117"
-            endingLineNumber = "117"
-            landmarkName = "requestWeather()"
-            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

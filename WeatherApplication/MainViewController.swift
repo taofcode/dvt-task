@@ -46,10 +46,9 @@ final public class MainViewController: UIViewController, CLLocationManagerDelega
         labelMinTemp.textColor = Theme.current.color(.buttonTextColorSecondary)
         labelMinTemp.textAlignment = .Center
         labelMinTemp.font = .systemFontOfSize(15.0)
-        
         view.addSubview(labelMinTemp)
         
-         labelMaxTemp.font = UIFont(name:"HelveticaNeue-Bold", size: 16.0)
+                labelMaxTemp.font = .boldSystemFontOfSize(12)
                 labelMaxTemp.textColor = Theme.current.color(.buttonTextColorSecondary)
                  labelMaxTemp.textAlignment = .Center
                 view.addSubview(labelMaxTemp)
@@ -115,47 +114,55 @@ final public class MainViewController: UIViewController, CLLocationManagerDelega
         func requestWeather() {
             let hud = MBProgressHUD.showHUDAddedTo(self.view, animated: true)
             if(hasConnectivity()){
+                if(locationManager.location != nil){
                 
-        API.requestCurrentCityWeather((locationManager.location?.coordinate.latitude.description)!,lon: (locationManager.location?.coordinate.longitude.description)!, key: key ) { (resultTransaction) -> Void in
-            resultTransaction.success({ (transactionModel) -> Void in
+                    API.requestCurrentCityWeather((locationManager.location?.coordinate.latitude.description)!,lon: (locationManager.location?.coordinate.longitude.description)!, key: key ) { (resultTransaction) -> Void in
+                        resultTransaction.success({ (transactionModel) -> Void in
+                            
+                            let date = NSDate()
+                            
+                            let formatter = NSDateFormatter()
+                            
+                            formatter.dateFormat = "dd MMMM yyyy"
+                            
+                            let currentDate = formatter.stringFromDate(date)
+                            
+                            self.dateLabel.text = "TODAY, " + currentDate
+                            
+                            self.labelMaxTemp.text =  String(format: "max %.0f\u{00B0}\u{0043}", transactionModel.main.temp_max! - 273.15 )
+                            
+                            self.labelMinTemp.text = String(format: "min %.0f\u{00B0}\u{0043}", transactionModel.main.temp_min!  - 273.15 )
+                            
+                            let currentLocale = NSLocale.currentLocale()
+                            
+                            let country =   currentLocale.localizedStringForCountryCode(transactionModel.sys.country!)
+                            
+                            self.labelLocale.text = " \(transactionModel.name!), "+country!
+                            
+                            self.imageView.image = self.resizeImage(UIImage(named: transactionModel.weather[0].icon!)!,newWidth: 70.00)
+                            
+                            
+                            
+                        }).failure({ (error) -> Void in
+                            
+                            
+                            self.showCustomError(error.localizedDescription)
+                        })
+                        
+                        
+                        
+                        
+                        
+                    }
                 
-                let date = NSDate()
+                }else{
+                showlocationMessage()
                 
-                let formatter = NSDateFormatter()
-                
-                formatter.dateFormat = "dd MMMM yyyy"
-                
-                let currentDate = formatter.stringFromDate(date)
-                
-                self.dateLabel.text = "TODAY, " + currentDate
-                
-                self.labelMaxTemp.text =  String(format: "max %.0f\u{00B0}\u{0043}", transactionModel.main.temp_max! - 273.15 )
-                
-                self.labelMinTemp.text = String(format: "min %.0f\u{00B0}\u{0043}", transactionModel.main.temp_min!  - 273.15 )
-                
-                let currentLocale = NSLocale.currentLocale()
-                
-                let country =   currentLocale.localizedStringForCountryCode(transactionModel.sys.country!)
-                
-                self.labelLocale.text = " \(transactionModel.name!), "+country!
-                
-                self.imageView.image = self.resizeImage(UIImage(named: transactionModel.weather[0].icon!)!,newWidth: 70.00)
-                
-                
-                
-            }).failure({ (error) -> Void in
-                
-                
-               self.showCustomError(error.localizedDescription)
-            })
-            
-            
-            
-            
-            
                 }
+    
             hud.hide(true)
             }
+            
             else{
             
              hud.hide(true)
