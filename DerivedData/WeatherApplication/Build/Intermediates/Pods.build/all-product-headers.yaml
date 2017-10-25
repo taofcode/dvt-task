@@ -4,235 +4,235 @@
   'roots': [
     {
       'type': 'directory',
-      'name': "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers",
+      'name': "/Users/shelton/Documents/GitHub/work/DerivedData/WeatherApplication/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "Alamofire-Swift.h",
-          'external-contents': "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+          'external-contents': "/Users/shelton/Documents/GitHub/work/DerivedData/WeatherApplication/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
         },
         {
           'type': 'file',
           'name': "Alamofire-umbrella.h",
-          'external-contents': "/Users/shelton/Desktop/WeatherApplication/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+          'external-contents': "/Users/shelton/Documents/GitHub/work/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules",
+      'name': "/Users/shelton/Documents/GitHub/work/DerivedData/WeatherApplication/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Intermediates/Pods.build/Debug-iphoneos/Alamofire.build/module.modulemap"
+          'external-contents': "/Users/shelton/Documents/GitHub/work/DerivedData/WeatherApplication/Build/Intermediates/Pods.build/Debug-iphonesimulator/Alamofire.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/DCIntrospect-ARC/DCIntrospect_ARC.framework/Headers",
+      'name': "/Users/shelton/Documents/GitHub/work/DerivedData/WeatherApplication/Build/Products/Debug-iphonesimulator/DCIntrospect-ARC/DCIntrospect_ARC.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "DCCrossHairView.h",
-          'external-contents': "/Users/shelton/Desktop/WeatherApplication/Pods/DCIntrospect-ARC/DCIntrospect-ARC/DCCrossHairView.h"
+          'external-contents': "/Users/shelton/Documents/GitHub/work/Pods/DCIntrospect-ARC/DCIntrospect-ARC/DCCrossHairView.h"
         },
         {
           'type': 'file',
           'name': "DCFrameView.h",
-          'external-contents': "/Users/shelton/Desktop/WeatherApplication/Pods/DCIntrospect-ARC/DCIntrospect-ARC/DCFrameView.h"
+          'external-contents': "/Users/shelton/Documents/GitHub/work/Pods/DCIntrospect-ARC/DCIntrospect-ARC/DCFrameView.h"
         },
         {
           'type': 'file',
           'name': "DCIntrospect-ARC-umbrella.h",
-          'external-contents': "/Users/shelton/Desktop/WeatherApplication/Pods/Target Support Files/DCIntrospect-ARC/DCIntrospect-ARC-umbrella.h"
+          'external-contents': "/Users/shelton/Documents/GitHub/work/Pods/Target Support Files/DCIntrospect-ARC/DCIntrospect-ARC-umbrella.h"
         },
         {
           'type': 'file',
           'name': "DCIntrospect.h",
-          'external-contents': "/Users/shelton/Desktop/WeatherApplication/Pods/DCIntrospect-ARC/DCIntrospect-ARC/DCIntrospect.h"
+          'external-contents': "/Users/shelton/Documents/GitHub/work/Pods/DCIntrospect-ARC/DCIntrospect-ARC/DCIntrospect.h"
         },
         {
           'type': 'file',
           'name': "DCIntrospectSettings.h",
-          'external-contents': "/Users/shelton/Desktop/WeatherApplication/Pods/DCIntrospect-ARC/DCIntrospect-ARC/DCIntrospectSettings.h"
+          'external-contents': "/Users/shelton/Documents/GitHub/work/Pods/DCIntrospect-ARC/DCIntrospect-ARC/DCIntrospectSettings.h"
         },
         {
           'type': 'file',
           'name': "DCIntrospect_ARC-Swift.h",
-          'external-contents': "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/DCIntrospect-ARC/DCIntrospect_ARC.framework/Headers/DCIntrospect_ARC-Swift.h"
+          'external-contents': "/Users/shelton/Documents/GitHub/work/DerivedData/WeatherApplication/Build/Products/Debug-iphonesimulator/DCIntrospect-ARC/DCIntrospect_ARC.framework/Headers/DCIntrospect_ARC-Swift.h"
         },
         {
           'type': 'file',
           'name': "DCStatusBarOverlay.h",
-          'external-contents': "/Users/shelton/Desktop/WeatherApplication/Pods/DCIntrospect-ARC/DCIntrospect-ARC/DCStatusBarOverlay.h"
+          'external-contents': "/Users/shelton/Documents/GitHub/work/Pods/DCIntrospect-ARC/DCIntrospect-ARC/DCStatusBarOverlay.h"
         },
         {
           'type': 'file',
           'name': "DCTextView.h",
-          'external-contents': "/Users/shelton/Desktop/WeatherApplication/Pods/DCIntrospect-ARC/DCIntrospect-ARC/DCTextView.h"
+          'external-contents': "/Users/shelton/Documents/GitHub/work/Pods/DCIntrospect-ARC/DCIntrospect-ARC/DCTextView.h"
         },
         {
           'type': 'file',
           'name': "UIView+DCAdditions.h",
-          'external-contents': "/Users/shelton/Desktop/WeatherApplication/Pods/DCIntrospect-ARC/DCIntrospect-ARC/UIView+DCAdditions.h"
+          'external-contents': "/Users/shelton/Documents/GitHub/work/Pods/DCIntrospect-ARC/DCIntrospect-ARC/UIView+DCAdditions.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/DCIntrospect-ARC/DCIntrospect_ARC.framework/Modules",
+      'name': "/Users/shelton/Documents/GitHub/work/DerivedData/WeatherApplication/Build/Products/Debug-iphonesimulator/DCIntrospect-ARC/DCIntrospect_ARC.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Intermediates/Pods.build/Debug-iphoneos/DCIntrospect-ARC.build/module.modulemap"
+          'external-contents': "/Users/shelton/Documents/GitHub/work/DerivedData/WeatherApplication/Build/Intermediates/Pods.build/Debug-iphonesimulator/DCIntrospect-ARC.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/Fargo/Fargo.framework/Headers",
+      'name': "/Users/shelton/Documents/GitHub/work/DerivedData/WeatherApplication/Build/Products/Debug-iphonesimulator/Fargo/Fargo.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "Fargo-Swift.h",
-          'external-contents': "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/Fargo/Fargo.framework/Headers/Fargo-Swift.h"
+          'external-contents': "/Users/shelton/Documents/GitHub/work/DerivedData/WeatherApplication/Build/Products/Debug-iphonesimulator/Fargo/Fargo.framework/Headers/Fargo-Swift.h"
         },
         {
           'type': 'file',
           'name': "Fargo-umbrella.h",
-          'external-contents': "/Users/shelton/Desktop/WeatherApplication/Pods/Target Support Files/Fargo/Fargo-umbrella.h"
+          'external-contents': "/Users/shelton/Documents/GitHub/work/Pods/Target Support Files/Fargo/Fargo-umbrella.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/Fargo/Fargo.framework/Modules",
+      'name': "/Users/shelton/Documents/GitHub/work/DerivedData/WeatherApplication/Build/Products/Debug-iphonesimulator/Fargo/Fargo.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Intermediates/Pods.build/Debug-iphoneos/Fargo.build/module.modulemap"
+          'external-contents': "/Users/shelton/Documents/GitHub/work/DerivedData/WeatherApplication/Build/Intermediates/Pods.build/Debug-iphonesimulator/Fargo.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/MBProgressHUD/MBProgressHUD.framework/Headers",
+      'name': "/Users/shelton/Documents/GitHub/work/DerivedData/WeatherApplication/Build/Products/Debug-iphonesimulator/MBProgressHUD/MBProgressHUD.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "MBProgressHUD-Swift.h",
-          'external-contents': "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/MBProgressHUD/MBProgressHUD.framework/Headers/MBProgressHUD-Swift.h"
+          'external-contents': "/Users/shelton/Documents/GitHub/work/DerivedData/WeatherApplication/Build/Products/Debug-iphonesimulator/MBProgressHUD/MBProgressHUD.framework/Headers/MBProgressHUD-Swift.h"
         },
         {
           'type': 'file',
           'name': "MBProgressHUD-umbrella.h",
-          'external-contents': "/Users/shelton/Desktop/WeatherApplication/Pods/Target Support Files/MBProgressHUD/MBProgressHUD-umbrella.h"
+          'external-contents': "/Users/shelton/Documents/GitHub/work/Pods/Target Support Files/MBProgressHUD/MBProgressHUD-umbrella.h"
         },
         {
           'type': 'file',
           'name': "MBProgressHUD.h",
-          'external-contents': "/Users/shelton/Desktop/WeatherApplication/Pods/MBProgressHUD/MBProgressHUD.h"
+          'external-contents': "/Users/shelton/Documents/GitHub/work/Pods/MBProgressHUD/MBProgressHUD.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/MBProgressHUD/MBProgressHUD.framework/Modules",
+      'name': "/Users/shelton/Documents/GitHub/work/DerivedData/WeatherApplication/Build/Products/Debug-iphonesimulator/MBProgressHUD/MBProgressHUD.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Intermediates/Pods.build/Debug-iphoneos/MBProgressHUD.build/module.modulemap"
+          'external-contents': "/Users/shelton/Documents/GitHub/work/DerivedData/WeatherApplication/Build/Intermediates/Pods.build/Debug-iphonesimulator/MBProgressHUD.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/Pods_BasePods_WeatherApplication.framework/Headers",
+      'name': "/Users/shelton/Documents/GitHub/work/DerivedData/WeatherApplication/Build/Products/Debug-iphonesimulator/Pods_BasePods_WeatherApplication.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "Pods-BasePods-WeatherApplication-umbrella.h",
-          'external-contents': "/Users/shelton/Desktop/WeatherApplication/Pods/Target Support Files/Pods-BasePods-WeatherApplication/Pods-BasePods-WeatherApplication-umbrella.h"
+          'external-contents': "/Users/shelton/Documents/GitHub/work/Pods/Target Support Files/Pods-BasePods-WeatherApplication/Pods-BasePods-WeatherApplication-umbrella.h"
         },
         {
           'type': 'file',
           'name': "Pods_BasePods_WeatherApplication-Swift.h",
-          'external-contents': "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/Pods_BasePods_WeatherApplication.framework/Headers/Pods_BasePods_WeatherApplication-Swift.h"
+          'external-contents': "/Users/shelton/Documents/GitHub/work/DerivedData/WeatherApplication/Build/Products/Debug-iphonesimulator/Pods_BasePods_WeatherApplication.framework/Headers/Pods_BasePods_WeatherApplication-Swift.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/Pods_BasePods_WeatherApplication.framework/Modules",
+      'name': "/Users/shelton/Documents/GitHub/work/DerivedData/WeatherApplication/Build/Products/Debug-iphonesimulator/Pods_BasePods_WeatherApplication.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-BasePods-WeatherApplication.build/module.modulemap"
+          'external-contents': "/Users/shelton/Documents/GitHub/work/DerivedData/WeatherApplication/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BasePods-WeatherApplication.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/SnapKit/SnapKit.framework/Headers",
+      'name': "/Users/shelton/Documents/GitHub/work/DerivedData/WeatherApplication/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "SnapKit-Swift.h",
-          'external-contents': "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/SnapKit/SnapKit.framework/Headers/SnapKit-Swift.h"
+          'external-contents': "/Users/shelton/Documents/GitHub/work/DerivedData/WeatherApplication/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Headers/SnapKit-Swift.h"
         },
         {
           'type': 'file',
           'name': "SnapKit-umbrella.h",
-          'external-contents': "/Users/shelton/Desktop/WeatherApplication/Pods/Target Support Files/SnapKit/SnapKit-umbrella.h"
+          'external-contents': "/Users/shelton/Documents/GitHub/work/Pods/Target Support Files/SnapKit/SnapKit-umbrella.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/SnapKit/SnapKit.framework/Modules",
+      'name': "/Users/shelton/Documents/GitHub/work/DerivedData/WeatherApplication/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Intermediates/Pods.build/Debug-iphoneos/SnapKit.build/module.modulemap"
+          'external-contents': "/Users/shelton/Documents/GitHub/work/DerivedData/WeatherApplication/Build/Intermediates/Pods.build/Debug-iphonesimulator/SnapKit.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/XCGLogger/XCGLogger.framework/Headers",
+      'name': "/Users/shelton/Documents/GitHub/work/DerivedData/WeatherApplication/Build/Products/Debug-iphonesimulator/XCGLogger/XCGLogger.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "XCGLogger-Swift.h",
-          'external-contents': "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/XCGLogger/XCGLogger.framework/Headers/XCGLogger-Swift.h"
+          'external-contents': "/Users/shelton/Documents/GitHub/work/DerivedData/WeatherApplication/Build/Products/Debug-iphonesimulator/XCGLogger/XCGLogger.framework/Headers/XCGLogger-Swift.h"
         },
         {
           'type': 'file',
           'name': "XCGLogger-umbrella.h",
-          'external-contents': "/Users/shelton/Desktop/WeatherApplication/Pods/Target Support Files/XCGLogger/XCGLogger-umbrella.h"
+          'external-contents': "/Users/shelton/Documents/GitHub/work/Pods/Target Support Files/XCGLogger/XCGLogger-umbrella.h"
         },
         {
           'type': 'file',
           'name': "XCGLogger.h",
-          'external-contents': "/Users/shelton/Desktop/WeatherApplication/Pods/XCGLogger/XCGLogger/Library/XCGLogger/XCGLogger.h"
+          'external-contents': "/Users/shelton/Documents/GitHub/work/Pods/XCGLogger/XCGLogger/Library/XCGLogger/XCGLogger.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Products/Debug-iphoneos/XCGLogger/XCGLogger.framework/Modules",
+      'name': "/Users/shelton/Documents/GitHub/work/DerivedData/WeatherApplication/Build/Products/Debug-iphonesimulator/XCGLogger/XCGLogger.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/shelton/Desktop/WeatherApplication/DerivedData/WeatherApplication/Build/Intermediates/Pods.build/Debug-iphoneos/XCGLogger.build/module.modulemap"
+          'external-contents': "/Users/shelton/Documents/GitHub/work/DerivedData/WeatherApplication/Build/Intermediates/Pods.build/Debug-iphonesimulator/XCGLogger.build/module.modulemap"
         }
       ]
     }
